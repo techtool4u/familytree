@@ -1,0 +1,31 @@
+name: CI
+
+# Type-check, lint and build on every push and pull request.
+# The single-file app (Kindred.html) is attached to each run as a download.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Type-check
+        run: npx tsc -b
+      - name: Lint
+        run: npm run lint
+      - name: Build (PWA)
+        run: npm run build
+      - name: Build (single file)
+        run: npm run build:single
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Kindred-single-file
+          path: dist-single/index.html

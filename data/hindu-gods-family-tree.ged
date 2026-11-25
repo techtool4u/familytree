@@ -1,0 +1,3156 @@
+0 HEAD
+1 SOUR KINDRED
+2 NAME Kindred Family Tree
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 DATE 30 OCT 2026
+1 NOTE Family tree of the major Hindu deities and the epic dynasties (Solar/Ikshvaku, Lunar/Kuru, Yadava), focus Krishna. Mythological genealogy: no dates. Persons named “··· … ···” are placeholders for omit
+2 CONC ted generations. See hindu-gods-family-tree-sources.md.
+0 @BRAHMA@ INDI
+1 NAME Brahma //
+2 GIVN Brahma
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE The Creator; head of the lineage recited by Vasishtha (1.70.19–20).
+1 SOUR @S37@
+1 FAMS @F1@
+1 FAMS @F3@
+0 @MARICHI@ INDI
+1 NAME Marichi //
+2 GIVN Marichi
+1 SEX M
+1 NOTE Tags: Sage
+1 NOTE Son of Brahma (1.70.20).
+1 SOUR @S37@
+1 FAMC @F3@
+1 FAMS @F2@
+1 FAMS @F9@
+0 @KASHYAPA@ INDI
+1 NAME Kashyapa //
+2 GIVN Kashyapa
+1 SEX M
+1 NOTE Tags: Sage
+1 NOTE Son of Marichi (1.70.20).
+1 SOUR @S37@
+1 FAMC @F9@
+1 FAMS @F4@
+1 FAMS @F5@
+1 FAMS @F6@
+1 FAMS @F7@
+1 FAMS @F8@
+0 @VIVASVAN@ INDI
+1 NAME Vivasvan (Surya) //
+2 GIVN Vivasvan (Surya)
+1 SEX M
+1 NOTE Tags: Deity, Aditya
+1 NOTE The Sun god, son of Kashyapa (1.70.20). The dynasty is called Suryavamsha (Solar dynasty) after him.
+1 SOUR @S37@
+1 SOUR @S3@
+1 FAMC @F4@
+1 FAMS @F10@
+1 FAMS @F11@
+1 FAMS @F12@
+1 FAMS @F94@
+0 @MANU@ INDI
+1 NAME Vaivasvata Manu //
+2 GIVN Vaivasvata Manu
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty
+1 NOTE Son of the Sun (1.70.20); progenitor of mankind.
+1 SOUR @S37@
+1 FAMC @F12@
+1 FAMS @F13@
+0 @IKSHVAKU@ INDI
+1 NAME Ikshvaku //
+2 GIVN Ikshvaku
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Manu and first king of Ayodhya (1.70.21). The dynasty is named after him.
+1 SOUR @S37@
+1 FAMC @F13@
+1 FAMS @F14@
+0 @KUKSHI@ INDI
+1 NAME Kukshi //
+2 GIVN Kukshi
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Ikshvaku (1.70.22).
+1 SOUR @S37@
+1 FAMC @F14@
+1 FAMS @F15@
+0 @VIKUKSHI@ INDI
+1 NAME Vikukshi //
+2 GIVN Vikukshi
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Kukshi (1.70.22).
+1 SOUR @S37@
+1 FAMC @F15@
+1 FAMS @F16@
+0 @BANA@ INDI
+1 NAME Bana //
+2 GIVN Bana
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Vikukshi (1.70.23).
+1 SOUR @S37@
+1 FAMC @F16@
+1 FAMS @F17@
+0 @ANARANYA@ INDI
+1 NAME Anaranya //
+2 GIVN Anaranya
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Bana (1.70.23).
+1 SOUR @S37@
+1 FAMC @F17@
+1 FAMS @F18@
+0 @PRITHU@ INDI
+1 NAME Prithu //
+2 GIVN Prithu
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Anaranya (1.70.24).
+1 SOUR @S37@
+1 FAMC @F18@
+1 FAMS @F19@
+0 @TRISHANKU@ INDI
+1 NAME Trishanku //
+2 GIVN Trishanku
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Prithu (1.70.24).
+1 SOUR @S37@
+1 FAMC @F19@
+1 FAMS @F20@
+0 @DHUNDHUMARA@ INDI
+1 NAME Dhundhumara //
+2 GIVN Dhundhumara
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Trishanku (1.70.24).
+1 SOUR @S37@
+1 FAMC @F20@
+1 FAMS @F21@
+0 @YUVANASHVA@ INDI
+1 NAME Yuvanashva //
+2 GIVN Yuvanashva
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Dhundhumara (1.70.25).
+1 SOUR @S37@
+1 FAMC @F21@
+1 FAMS @F22@
+0 @MANDHATA@ INDI
+1 NAME Mandhata //
+2 GIVN Mandhata
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Yuvanashva (1.70.25).
+1 SOUR @S37@
+1 FAMC @F22@
+1 FAMS @F23@
+0 @SUSANDHI@ INDI
+1 NAME Susandhi //
+2 GIVN Susandhi
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Mandhata (1.70.26).
+1 SOUR @S37@
+1 FAMC @F23@
+1 FAMS @F24@
+0 @DHRUVASANDHI@ INDI
+1 NAME Dhruvasandhi //
+2 GIVN Dhruvasandhi
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Elder son of Susandhi (1.70.26); the line continues through him.
+1 SOUR @S37@
+1 FAMC @F24@
+1 FAMS @F25@
+0 @PRASENAJIT@ INDI
+1 NAME Prasenajit //
+2 GIVN Prasenajit
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty
+1 NOTE Second son of Susandhi (1.70.26).
+1 SOUR @S37@
+1 FAMC @F24@
+0 @BHARATA1@ INDI
+1 NAME Bharata (son of Dhruvasandhi) //
+2 GIVN Bharata (son of Dhruvasandhi)
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Dhruvasandhi (1.70.27). Not the same person as Rama’s brother Bharata.
+1 SOUR @S37@
+1 FAMC @F25@
+1 FAMS @F26@
+0 @ASITA@ INDI
+1 NAME Asita //
+2 GIVN Asita
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Bharata (1.70.27). Lost his kingdom and died while both his queens were pregnant (1.70.28–30). One queen is named Kalindi, but readings differ on which queen bore Sagara, so no mother is record
+2 CONC ed here.
+1 SOUR @S37@
+1 FAMC @F26@
+1 FAMS @F29@
+0 @SAGARA@ INDI
+1 NAME Sagara //
+2 GIVN Sagara
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Born “with poison” (sa-gara), hence his name (1.70.37), blessed by sage Chyavana. Queens: Keshini of Vidarbha and Sumati, sister of Garuda (1.38.3–4). Sumati bore 60,000 sons (1.38.17).
+1 SOUR @S37@
+1 SOUR @S35@
+1 FAMC @F29@
+1 FAMS @F27@
+1 FAMS @F28@
+0 @KESHINI@ INDI
+1 NAME Keshini //
+2 GIVN Keshini
+1 SEX F
+1 BIRT
+2 PLAC Vidarbha
+1 NOTE Tags: Queen
+1 NOTE Elder queen of Sagara, daughter of the king of Vidarbha (1.38.3); mother of Asamanja (1.38.16).
+1 SOUR @S35@
+1 FAMS @F27@
+0 @SUMATI_S@ INDI
+1 NAME Sumati //
+2 GIVN Sumati
+1 SEX F
+1 NOTE Tags: Queen
+1 NOTE Younger queen of Sagara, daughter of Arishtanemi and sister of Garuda (1.38.4). Mother of 60,000 sons (1.38.17).
+1 SOUR @S35@
+1 SOUR @S6@
+1 FAMC @F7@
+1 FAMS @F28@
+0 @ASAMANJA@ INDI
+1 NAME Asamanja //
+2 GIVN Asamanja
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty
+1 NOTE Son of Sagara and Keshini (1.38.16; 1.70.38).
+1 SOUR @S37@
+1 SOUR @S35@
+1 FAMC @F27@
+1 FAMS @F30@
+0 @AMSHUMAN@ INDI
+1 NAME Amshuman //
+2 GIVN Amshuman
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Asamanja (1.38.22–23; 1.70.38).
+1 SOUR @S37@
+1 SOUR @S35@
+1 FAMC @F30@
+1 FAMS @F31@
+0 @DILIPA@ INDI
+1 NAME Dilipa //
+2 GIVN Dilipa
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Amshuman (1.70.38).
+1 SOUR @S37@
+1 FAMC @F31@
+1 FAMS @F32@
+0 @BHAGIRATHA@ INDI
+1 NAME Bhagiratha //
+2 GIVN Bhagiratha
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Dilipa (1.70.38); brought the Ganga down to earth.
+1 SOUR @S37@
+1 FAMC @F32@
+1 FAMS @F33@
+0 @KAKUTSTHA@ INDI
+1 NAME Kakutstha //
+2 GIVN Kakutstha
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Bhagiratha (1.70.39). Rama is often called “Kakutstha” after him (2.110.27).
+1 SOUR @S37@
+1 SOUR @S41@
+1 FAMC @F33@
+1 FAMS @F34@
+0 @RAGHU@ INDI
+1 NAME Raghu //
+2 GIVN Raghu
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Kakutstha (1.70.39). The “Raghavas” / Raghuvamsha are named after him (2.110.27).
+1 SOUR @S37@
+1 SOUR @S41@
+1 FAMC @F34@
+1 FAMS @F35@
+0 @PRAVRIDDHA@ INDI
+1 NAME Pravriddha (Kalmashapada) //
+2 GIVN Pravriddha (Kalmashapada)
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Raghu (1.70.39); also called Purushadaka, Kalmashapada and Saudasa (2.110.28).
+1 SOUR @S37@
+1 SOUR @S41@
+1 FAMC @F35@
+1 FAMS @F36@
+0 @SHANKHANA@ INDI
+1 NAME Shankhana //
+2 GIVN Shankhana
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Pravriddha (1.70.40).
+1 SOUR @S37@
+1 FAMC @F36@
+1 FAMS @F37@
+0 @SUDARSHANA@ INDI
+1 NAME Sudarshana //
+2 GIVN Sudarshana
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Shankhana (1.70.40).
+1 SOUR @S37@
+1 FAMC @F37@
+1 FAMS @F38@
+0 @AGNIVARNA@ INDI
+1 NAME Agnivarna //
+2 GIVN Agnivarna
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Sudarshana (1.70.40).
+1 SOUR @S37@
+1 FAMC @F38@
+1 FAMS @F39@
+0 @SHIGHRAGA@ INDI
+1 NAME Shighraga //
+2 GIVN Shighraga
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Agnivarna (1.70.41).
+1 SOUR @S37@
+1 FAMC @F39@
+1 FAMS @F40@
+0 @MARU@ INDI
+1 NAME Maru //
+2 GIVN Maru
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Shighraga (1.70.41).
+1 SOUR @S37@
+1 FAMC @F40@
+1 FAMS @F41@
+0 @PRASHUSHRUKA@ INDI
+1 NAME Prashushruka //
+2 GIVN Prashushruka
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Maru (1.70.41).
+1 SOUR @S37@
+1 FAMC @F41@
+1 FAMS @F42@
+0 @AMBARISHA@ INDI
+1 NAME Ambarisha //
+2 GIVN Ambarisha
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Prashushruka (1.70.41).
+1 SOUR @S37@
+1 FAMC @F42@
+1 FAMS @F43@
+0 @NAHUSHA@ INDI
+1 NAME Nahusha //
+2 GIVN Nahusha
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Ambarisha (1.70.42).
+1 SOUR @S37@
+1 SOUR @S41@
+1 FAMC @F43@
+1 FAMS @F44@
+0 @YAYATI@ INDI
+1 NAME Yayati //
+2 GIVN Yayati
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King, Variant
+1 NOTE Son of Nahusha in Bala Kanda 1.70.42. NOTE: Ayodhya Kanda 2.110.32 omits Yayati and makes Nabhaga the direct son of Nahusha.
+1 SOUR @S37@
+1 SOUR @S41@
+1 FAMC @F44@
+1 FAMS @F45@
+0 @NABHAGA@ INDI
+1 NAME Nabhaga //
+2 GIVN Nabhaga
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Yayati (1.70.42); son of Nahusha in 2.110.32.
+1 SOUR @S37@
+1 SOUR @S41@
+1 FAMC @F45@
+1 FAMS @F47@
+0 @AJA@ INDI
+1 NAME Aja //
+2 GIVN Aja
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE Son of Nabhaga (1.70.43; 2.110.33). In Kalidasa’s Raghuvamsha, Aja is instead the son of Raghu and married Indumati of Vidarbha.
+1 SOUR @S37@
+1 SOUR @S41@
+1 SOUR @S50@
+1 FAMC @F47@
+1 FAMS @F46@
+0 @SUVRATA@ INDI
+1 NAME Suvrata //
+2 GIVN Suvrata
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty
+1 NOTE Named as Aja’s brother in Ayodhya Kanda 2.110.33.
+1 SOUR @S41@
+1 FAMC @F47@
+0 @INDUMATI@ INDI
+1 NAME Indumati //
+2 GIVN Indumati
+1 SEX F
+1 BIRT
+2 PLAC Vidarbha
+1 NOTE Tags: Queen, Later tradition
+1 NOTE Princess of Vidarbha who chose Aja at her svayamvara (Raghuvamsha, cantos 5–8). She is not named in Valmiki’s text.
+1 SOUR @S50@
+1 FAMS @F46@
+0 @DASHARATHA@ INDI
+1 NAME Dasharatha //
+2 GIVN Dasharatha
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE Tags: Ikshvaku dynasty, King
+1 NOTE King of Kosala at Ayodhya, son of Aja (1.70.43). Mother Indumati per Raghuvamsha.
+1 SOUR @S37@
+1 SOUR @S41@
+1 SOUR @S50@
+1 FAMC @F46@
+1 FAMS @F48@
+1 FAMS @F49@
+1 FAMS @F50@
+0 @KAUSALYA@ INDI
+1 NAME Kausalya //
+2 GIVN Kausalya
+1 SEX F
+1 BIRT
+2 PLAC Kosala
+1 NOTE Tags: Queen
+1 NOTE Chief queen of Dasharatha; mother of Rama (1.18.10).
+1 SOUR @S34@
+1 FAMS @F48@
+0 @KAIKEYI@ INDI
+1 NAME Kaikeyi //
+2 GIVN Kaikeyi
+1 SEX F
+1 BIRT
+2 PLAC Kekaya
+1 NOTE Tags: Queen
+1 NOTE Queen of Dasharatha from Kekaya; mother of Bharata (1.18.13).
+1 SOUR @S34@
+1 SOUR @S48@
+1 FAMC @F51@
+1 FAMS @F49@
+0 @SUMITRA@ INDI
+1 NAME Sumitra //
+2 GIVN Sumitra
+1 SEX F
+1 NOTE Tags: Queen
+1 NOTE Queen of Dasharatha; mother of the twins Lakshmana and Shatrughna (1.18.14).
+1 SOUR @S34@
+1 FAMS @F50@
+0 @ASHVAPATI@ INDI
+1 NAME Ashvapati //
+2 GIVN Ashvapati
+1 SEX M
+1 BIRT
+2 PLAC Kekaya
+1 NOTE Tags: King
+1 NOTE King of Kekaya; father of Kaikeyi.
+1 SOUR @S48@
+1 FAMS @F51@
+0 @YUDHAJIT@ INDI
+1 NAME Yudhajit //
+2 GIVN Yudhajit
+1 SEX M
+1 BIRT
+2 PLAC Kekaya
+1 NOTE Tags: Prince
+1 NOTE Prince of Kekaya, Kaikeyi’s brother and Bharata’s maternal uncle.
+1 SOUR @S48@
+1 FAMC @F51@
+0 @SHANTA@ INDI
+1 NAME Shanta //
+2 GIVN Shanta
+1 SEX F
+1 NOTE Tags: Princess, Disputed
+1 NOTE DISPUTED: northern recensions and later literature make her Dasharatha’s daughter, adopted by King Romapada of Anga. Other scholars treat this as a later addition. Married the sage Rishyashringa, who 
+2 CONC performed the putrakameshti sacrifice for Dasharatha.
+1 SOUR @S47@
+1 FAMC @F48@
+1 FAMS @F52@
+0 @RISHYASHRINGA@ INDI
+1 NAME Rishyashringa //
+2 GIVN Rishyashringa
+1 SEX M
+1 NOTE Tags: Sage
+1 NOTE Sage, husband of Shanta; led the sacrifice that led to the birth of the four princes.
+1 SOUR @S47@
+1 FAMS @F52@
+0 @RAMA@ INDI
+1 NAME Rama //
+2 GIVN Rama
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE Tags: Ikshvaku dynasty, King, Avatar of Vishnu, Deity
+1 NOTE Eldest son of Dasharatha, born to Kausalya on Chaitra Navami (1.18.8–11). Seventh avatar of Vishnu.
+1 SOUR @S34@
+1 SOUR @S37@
+1 SOUR @S41@
+1 SOUR @S15@
+1 FAMC @F48@
+1 FAMS @F53@
+0 @BHARATA@ INDI
+1 NAME Bharata //
+2 GIVN Bharata
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE Tags: Ikshvaku dynasty, Prince
+1 NOTE Son of Dasharatha and Kaikeyi, born the day after Rama (1.18.13–15).
+1 SOUR @S34@
+1 FAMC @F49@
+1 FAMS @F54@
+0 @LAKSHMANA@ INDI
+1 NAME Lakshmana //
+2 GIVN Lakshmana
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE Tags: Ikshvaku dynasty, Prince
+1 NOTE Son of Sumitra, elder of the twins (1.18.14–15); Rama’s constant companion.
+1 SOUR @S34@
+1 SOUR @S37@
+1 FAMC @F50@
+1 FAMS @F55@
+0 @SHATRUGHNA@ INDI
+1 NAME Shatrughna //
+2 GIVN Shatrughna
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE Tags: Ikshvaku dynasty, Prince
+1 NOTE Younger twin, son of Sumitra (1.18.14, 1.18.32).
+1 SOUR @S34@
+1 FAMC @F50@
+1 FAMS @F56@
+0 @NIMI@ INDI
+1 NAME Nimi //
+2 GIVN Nimi
+1 SEX M
+1 BIRT
+2 PLAC Mithila
+1 NOTE Tags: Videha dynasty, King
+1 NOTE Founder of the Videha line of Mithila (1.71.3).
+1 SOUR @S38@
+1 FAMS @F57@
+0 @MITHI@ INDI
+1 NAME Mithi //
+2 GIVN Mithi
+1 SEX M
+1 BIRT
+2 PLAC Mithila
+1 NOTE Tags: Videha dynasty, King
+1 NOTE Son of Nimi (1.71.4); Mithila is named after him.
+1 SOUR @S38@
+1 FAMC @F57@
+1 FAMS @F58@
+0 @JANAKA1@ INDI
+1 NAME Janaka I //
+2 GIVN Janaka I
+1 SEX M
+1 BIRT
+2 PLAC Mithila
+1 NOTE Tags: Videha dynasty, King
+1 NOTE Son of Mithi and the first “Janaka” (1.71.4). Later kings took the title Janaka.
+1 SOUR @S38@
+1 FAMC @F58@
+1 FAMS @F59@
+0 @UDAVASU@ INDI
+1 NAME Udavasu //
+2 GIVN Udavasu
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.4
+1 SOUR @S38@
+1 FAMC @F59@
+1 FAMS @F60@
+0 @NANDIVARDHANA@ INDI
+1 NAME Nandivardhana //
+2 GIVN Nandivardhana
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.5
+1 SOUR @S38@
+1 FAMC @F60@
+1 FAMS @F61@
+0 @SUKETU@ INDI
+1 NAME Suketu //
+2 GIVN Suketu
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.5
+1 SOUR @S38@
+1 FAMC @F61@
+1 FAMS @F62@
+0 @DEVARATA@ INDI
+1 NAME Devarata //
+2 GIVN Devarata
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.6. Shiva’s bow was entrusted to him.
+1 SOUR @S38@
+1 FAMC @F62@
+1 FAMS @F63@
+0 @BRIHADRATHA@ INDI
+1 NAME Brihadratha //
+2 GIVN Brihadratha
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.6
+1 SOUR @S38@
+1 FAMC @F63@
+1 FAMS @F64@
+0 @MAHAVIRA@ INDI
+1 NAME Mahavira //
+2 GIVN Mahavira
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.7
+1 SOUR @S38@
+1 FAMC @F64@
+1 FAMS @F65@
+0 @SUDHRITI@ INDI
+1 NAME Sudhriti //
+2 GIVN Sudhriti
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.7
+1 SOUR @S38@
+1 FAMC @F65@
+1 FAMS @F66@
+0 @DHRISHTAKETU@ INDI
+1 NAME Dhrishtaketu //
+2 GIVN Dhrishtaketu
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.8
+1 SOUR @S38@
+1 FAMC @F66@
+1 FAMS @F67@
+0 @HARYASHVA@ INDI
+1 NAME Haryashva //
+2 GIVN Haryashva
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.8
+1 SOUR @S38@
+1 FAMC @F67@
+1 FAMS @F68@
+0 @MARU_V@ INDI
+1 NAME Maru (of Videha) //
+2 GIVN Maru (of Videha)
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.9. Not the same person as Maru of the Ikshvaku line.
+1 SOUR @S38@
+1 FAMC @F68@
+1 FAMS @F69@
+0 @PRATINDHAKA@ INDI
+1 NAME Pratindhaka //
+2 GIVN Pratindhaka
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.9
+1 SOUR @S38@
+1 FAMC @F69@
+1 FAMS @F70@
+0 @KIRTIRATHA@ INDI
+1 NAME Kirtiratha //
+2 GIVN Kirtiratha
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.9
+1 SOUR @S38@
+1 FAMC @F70@
+1 FAMS @F71@
+0 @DEVAMIDHA@ INDI
+1 NAME Devamidha //
+2 GIVN Devamidha
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.10
+1 SOUR @S38@
+1 FAMC @F71@
+1 FAMS @F72@
+0 @VIBUDHA@ INDI
+1 NAME Vibudha //
+2 GIVN Vibudha
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.10
+1 SOUR @S38@
+1 FAMC @F72@
+1 FAMS @F73@
+0 @MAHIDHRAKA@ INDI
+1 NAME Mahidhraka //
+2 GIVN Mahidhraka
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.10
+1 SOUR @S38@
+1 FAMC @F73@
+1 FAMS @F74@
+0 @KIRTIRATA@ INDI
+1 NAME Kirtirata //
+2 GIVN Kirtirata
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.11
+1 SOUR @S38@
+1 FAMC @F74@
+1 FAMS @F75@
+0 @MAHAROMA@ INDI
+1 NAME Maharoma //
+2 GIVN Maharoma
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.11
+1 SOUR @S38@
+1 FAMC @F75@
+1 FAMS @F76@
+0 @SWARNAROMA@ INDI
+1 NAME Swarnaroma //
+2 GIVN Swarnaroma
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.12
+1 SOUR @S38@
+1 FAMC @F76@
+1 FAMS @F77@
+0 @HRASVAROMA@ INDI
+1 NAME Hrasvaroma //
+2 GIVN Hrasvaroma
+1 SEX M
+1 NOTE Tags: Videha dynasty, King
+1 NOTE 1.71.12. Father of Janaka and Kushadhvaja (1.71.13).
+1 SOUR @S38@
+1 FAMC @F77@
+1 FAMS @F79@
+0 @JANAKA@ INDI
+1 NAME Janaka (Siradhvaja) //
+2 GIVN Janaka (Siradhvaja)
+1 SEX M
+1 BIRT
+2 PLAC Mithila
+1 NOTE Tags: Videha dynasty, King
+1 NOTE King of Videha at Mithila, elder son of Hrasvaroma (1.71.13). Valmiki calls him only “Janaka”; the personal name Siradhvaja comes from Puranic tradition.
+1 SOUR @S38@
+1 SOUR @S36@
+1 FAMC @F79@
+1 FAMS @F78@
+0 @SUNAYANA@ INDI
+1 NAME Sunayana //
+2 GIVN Sunayana
+1 SEX F
+1 BIRT
+2 PLAC Mithila
+1 NOTE Tags: Queen, Later tradition
+1 NOTE Queen of Janaka per later tradition. She is not named in Valmiki’s Bala Kanda.
+1 SOUR @S49@
+1 FAMS @F78@
+0 @KUSHADHVAJA@ INDI
+1 NAME Kushadhvaja //
+2 GIVN Kushadhvaja
+1 SEX M
+1 BIRT
+2 PLAC Sankashya
+1 NOTE Tags: Videha dynasty, King
+1 NOTE Younger brother of Janaka (1.71.13), king of Sankashya; father of Mandavi and Shrutakirti (1.72.5–11).
+1 SOUR @S38@
+1 SOUR @S39@
+1 FAMC @F79@
+1 FAMS @F80@
+0 @SITA@ INDI
+1 NAME Sita //
+2 GIVN Sita
+1 SEX F
+1 BIRT
+2 PLAC Mithila
+1 NOTE Tags: Videha dynasty, Avatar of Lakshmi, Adopted
+1 NOTE “Non-uterine” (ayonija) birth: Janaka found her in the furrow while ploughing a ritual field and raised her as his daughter (1.66.13–15). Hence she is called Bhumija, daughter of the Earth. Married Ra
+2 CONC ma (1.73.26–27). Parents are recorded as her adoptive parents.
+1 SOUR @S36@
+1 SOUR @S38@
+1 SOUR @S40@
+1 SOUR @S17@
+1 FAMC @F78@
+1 FAMS @F53@
+0 @URMILA@ INDI
+1 NAME Urmila //
+2 GIVN Urmila
+1 SEX F
+1 BIRT
+2 PLAC Mithila
+1 NOTE Tags: Videha dynasty, Princess
+1 NOTE Daughter of Janaka, given to Lakshmana (1.71.20–21; 1.73.30–31).
+1 SOUR @S38@
+1 SOUR @S40@
+1 FAMC @F78@
+1 FAMS @F55@
+0 @MANDAVI@ INDI
+1 NAME Mandavi //
+2 GIVN Mandavi
+1 SEX F
+1 NOTE Tags: Videha dynasty, Princess
+1 NOTE Daughter of Kushadhvaja (1.72.11), married to Bharata (1.73.31–32).
+1 SOUR @S39@
+1 SOUR @S40@
+1 FAMC @F80@
+1 FAMS @F54@
+0 @SHRUTAKIRTI@ INDI
+1 NAME Shrutakirti //
+2 GIVN Shrutakirti
+1 SEX F
+1 NOTE Tags: Videha dynasty, Princess
+1 NOTE Daughter of Kushadhvaja (1.72.11), married to Shatrughna (1.73.32–33).
+1 SOUR @S39@
+1 SOUR @S40@
+1 FAMC @F80@
+1 FAMS @F56@
+0 @KUSHA@ INDI
+1 NAME Kusha //
+2 GIVN Kusha
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King, Uttara Kanda
+1 NOTE Elder twin son of Rama and Sita, born at Valmiki’s hermitage (Uttara Kanda). Ruled southern Kosala from Kushasthali/Kushavati.
+1 SOUR @S45@
+1 FAMC @F53@
+1 FAMS @F81@
+0 @LAVA@ INDI
+1 NAME Lava //
+2 GIVN Lava
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King, Uttara Kanda
+1 NOTE Younger twin son of Rama and Sita (Uttara Kanda). Ruled northern Kosala from Shravasti; traditionally linked with founding Lavapuri (Lahore).
+1 SOUR @S46@
+1 FAMC @F53@
+1 FAMS @F82@
+0 @KUMUDVATI@ INDI
+1 NAME Kumudvati //
+2 GIVN Kumudvati
+1 SEX F
+1 NOTE Tags: Naga, Later tradition
+1 NOTE Wife of Kusha, daughter of the Naga chief Kumuda (Raghuvamsha, canto 16). The Ananda Ramayana calls her Champika.
+1 SOUR @S45@
+1 FAMS @F81@
+0 @SUMATI_L@ INDI
+1 NAME Sumati //
+2 GIVN Sumati
+1 SEX F
+1 NOTE Tags: Later tradition
+1 NOTE Wife of Lava according to the Ananda Ramayana.
+1 SOUR @S46@
+1 FAMS @F82@
+0 @ATITHI@ INDI
+1 NAME Atithi //
+2 GIVN Atithi
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, King, Later tradition
+1 NOTE Son of Kusha and his heir (Raghuvamsha, canto 17).
+1 SOUR @S45@
+1 SOUR @S50@
+1 FAMC @F81@
+0 @ANGADA_L@ INDI
+1 NAME Angada (son of Lakshmana) //
+2 GIVN Angada (son of Lakshmana)
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, Prince, Uttara Kanda
+1 NOTE Son of Lakshmana and Urmila; given the kingdom of Karupada (Uttara Kanda). Not the same person as the vanara Angada, son of Vali.
+1 SOUR @S42@
+1 FAMC @F55@
+0 @CHANDRAKETU@ INDI
+1 NAME Chandraketu //
+2 GIVN Chandraketu
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, Prince, Uttara Kanda
+1 NOTE Son of Lakshmana and Urmila; ruled Malla with its capital Chandrakanti (Uttara Kanda).
+1 SOUR @S42@
+1 FAMC @F55@
+0 @TAKSHA@ INDI
+1 NAME Taksha //
+2 GIVN Taksha
+1 SEX M
+1 BIRT
+2 PLAC Takshashila
+1 NOTE Tags: Ikshvaku dynasty, Prince, Uttara Kanda
+1 NOTE Son of Bharata and Mandavi; established at Takshashila (Taxila).
+1 SOUR @S43@
+1 FAMC @F54@
+0 @PUSHKALA@ INDI
+1 NAME Pushkala //
+2 GIVN Pushkala
+1 SEX M
+1 BIRT
+2 PLAC Pushkalavati
+1 NOTE Tags: Ikshvaku dynasty, Prince, Uttara Kanda
+1 NOTE Son of Bharata and Mandavi; established at Pushkalavati.
+1 SOUR @S43@
+1 FAMC @F54@
+0 @SUBAHU@ INDI
+1 NAME Subahu //
+2 GIVN Subahu
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, Prince, Uttara Kanda
+1 NOTE Son of Shatrughna and Shrutakirti; Shatrughna’s realm of Madhupura (Mathura) and Vidisha was divided between his sons.
+1 SOUR @S44@
+1 FAMC @F56@
+0 @SHATRUGHATI@ INDI
+1 NAME Shatrughati //
+2 GIVN Shatrughati
+1 SEX M
+1 NOTE Tags: Ikshvaku dynasty, Prince, Uttara Kanda
+1 NOTE Son of Shatrughna and Shrutakirti (see Subahu).
+1 SOUR @S44@
+1 FAMC @F56@
+0 @VISHNU@ INDI
+1 NAME Vishnu //
+2 GIVN Vishnu
+1 SEX M
+1 NOTE Tags: Deity, Trimurti
+1 NOTE The Preserver. Brahma is born from the lotus of his navel. His avatars in this tree: Vamana (son of Aditi), Rama and Krishna.
+1 SOUR @S17@
+1 SOUR @S3@
+1 FAMS @F83@
+0 @LAKSHMI@ INDI
+1 NAME Lakshmi //
+2 GIVN Lakshmi
+1 SEX F
+1 NOTE Tags: Deity, Variant
+1 NOTE Goddess of fortune, consort of Vishnu. Garuda, Linga and Padma Puranas: daughter of Bhrigu and Khyati (“Bhargavi”). Vishnu Purana and Ramayana: she rose from the churned ocean of milk. Her avatars inc
+2 CONC lude Sita and Rukmini.
+1 SOUR @S17@
+1 FAMC @F84@
+1 FAMS @F83@
+0 @SARASWATI@ INDI
+1 NAME Saraswati //
+2 GIVN Saraswati
+1 SEX F
+1 NOTE Tags: Deity, Variant
+1 NOTE Goddess of learning, consort of Brahma. Several Puranas (Brahma, Padma, Brahmanda) call her Brahma’s mind-born daughter instead; this tree records her as his consort only.
+1 SOUR @S16@
+1 FAMS @F1@
+0 @SHIVA@ INDI
+1 NAME Shiva //
+2 GIVN Shiva
+1 SEX M
+1 NOTE Tags: Deity, Trimurti
+1 NOTE The Destroyer; self-born (Svayambhu). First wife Sati (daughter of Daksha), later Parvati, her rebirth.
+1 SOUR @S10@
+1 FAMS @F85@
+1 FAMS @F86@
+0 @SATI@ INDI
+1 NAME Sati //
+2 GIVN Sati
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Daughter of Daksha and Prasuti, first wife of Shiva. Reborn as Parvati.
+1 SOUR @S2@
+1 SOUR @S10@
+1 FAMC @F87@
+1 FAMS @F85@
+0 @DAKSHA@ INDI
+1 NAME Daksha //
+2 GIVN Daksha
+1 SEX M
+1 NOTE Tags: Prajapati
+1 NOTE Prajapati, son of Brahma (Puranas). Wives Prasuti and Asikni. The Puranas disagree on how many daughters he had (24 or 60).
+1 SOUR @S2@
+1 FAMC @F3@
+1 FAMS @F87@
+1 FAMS @F88@
+0 @PRASUTI@ INDI
+1 NAME Prasuti //
+2 GIVN Prasuti
+1 SEX F
+1 NOTE First wife of Daksha; mother of his 24 daughters in the Vishnu Purana list.
+1 SOUR @S2@
+1 FAMS @F87@
+0 @ASIKNI@ INDI
+1 NAME Asikni (Panchajani) //
+2 GIVN Asikni (Panchajani)
+1 SEX F
+1 NOTE Second wife of Daksha; mother of the 60 daughters, including the 13 married to Kashyapa and the 27 nakshatras married to Chandra.
+1 SOUR @S2@
+1 FAMS @F88@
+0 @BHRIGU@ INDI
+1 NAME Bhrigu //
+2 GIVN Bhrigu
+1 SEX M
+1 NOTE Tags: Sage
+1 NOTE Mind-born son of Brahma, one of the great sages. Wives Khyati and Kavyamata.
+1 SOUR @S2@
+1 SOUR @S9@
+1 FAMC @F3@
+1 FAMS @F84@
+1 FAMS @F89@
+0 @KHYATI@ INDI
+1 NAME Khyati //
+2 GIVN Khyati
+1 SEX F
+1 NOTE Daughter of Daksha, married to Bhrigu.
+1 SOUR @S2@
+1 FAMC @F87@
+1 FAMS @F84@
+0 @KAVYAMATA@ INDI
+1 NAME Kavyamata //
+2 GIVN Kavyamata
+1 SEX F
+1 NOTE Wife of Bhrigu, mother of Shukra.
+1 SOUR @S9@
+1 FAMS @F89@
+0 @ANGIRAS@ INDI
+1 NAME Angiras //
+2 GIVN Angiras
+1 SEX M
+1 NOTE Tags: Sage
+1 NOTE Mind-born son of Brahma, father of Brihaspati.
+1 SOUR @S8@
+1 FAMC @F3@
+1 FAMS @F108@
+0 @ATRI@ INDI
+1 NAME Atri //
+2 GIVN Atri
+1 SEX M
+1 NOTE Tags: Sage
+1 NOTE Mind-born son of Brahma; husband of Anasuya; father of Chandra (“according to most texts”).
+1 SOUR @S19@
+1 SOUR @S2@
+1 FAMC @F3@
+1 FAMS @F90@
+0 @ANASUYA@ INDI
+1 NAME Anasuya //
+2 GIVN Anasuya
+1 SEX F
+1 NOTE Daughter of Daksha, wife of Atri, mother of Chandra.
+1 SOUR @S2@
+1 SOUR @S19@
+1 FAMC @F87@
+1 FAMS @F90@
+0 @KALA@ INDI
+1 NAME Kala //
+2 GIVN Kala
+1 SEX F
+1 NOTE Wife of Marichi and mother of Kashyapa (Kashyapa infobox).
+1 SOUR @S1@
+1 FAMS @F2@
+0 @AGNI@ INDI
+1 NAME Agni //
+2 GIVN Agni
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE God of fire; husband of Svaha.
+1 SOUR @S2@
+1 FAMS @F91@
+0 @SVAHA@ INDI
+1 NAME Svaha //
+2 GIVN Svaha
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Daughter of Daksha, wife of Agni.
+1 SOUR @S2@
+1 FAMC @F87@
+1 FAMS @F91@
+0 @ADITI@ INDI
+1 NAME Aditi //
+2 GIVN Aditi
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Mother of the gods: the twelve Adityas. Daughter of Daksha, wife of Kashyapa.
+1 SOUR @S2@
+1 SOUR @S3@
+1 FAMC @F88@
+1 FAMS @F4@
+0 @DITI@ INDI
+1 NAME Diti //
+2 GIVN Diti
+1 SEX F
+1 NOTE Mother of the Daityas (asuras). The Maruts were born when Indra split her unborn child.
+1 SOUR @S4@
+1 FAMC @F88@
+1 FAMS @F5@
+0 @DANU@ INDI
+1 NAME Danu //
+2 GIVN Danu
+1 SEX F
+1 NOTE Mother of the Danavas.
+1 SOUR @S2@
+1 FAMC @F88@
+1 FAMS @F6@
+0 @VINATA@ INDI
+1 NAME Vinata //
+2 GIVN Vinata
+1 SEX F
+1 NOTE Mother of Aruna and Garuda (Mahabharata), and of Sumati (Brahmanda Purana).
+1 SOUR @S6@
+1 FAMC @F88@
+1 FAMS @F7@
+0 @KADRU@ INDI
+1 NAME Kadru //
+2 GIVN Kadru
+1 SEX F
+1 NOTE Tags: Variant
+1 NOTE Mother of the thousand Nagas (Mahabharata). The Valmiki Ramayana instead makes her a granddaughter of Daksha.
+1 SOUR @S7@
+1 FAMC @F88@
+1 FAMS @F8@
+0 @INDRA@ INDI
+1 NAME Indra (Shakra) //
+2 GIVN Indra (Shakra)
+1 SEX M
+1 NOTE Tags: Deity, Aditya
+1 NOTE King of the gods. Puranic parents Kashyapa and Aditi (Vedic texts differ). Wife Shachi. Spiritual father of Vali and Arjuna.
+1 SOUR @S3@
+1 SOUR @S13@
+1 FAMC @F4@
+1 FAMS @F92@
+1 FAMS @F98@
+0 @VAMANA@ INDI
+1 NAME Vamana //
+2 GIVN Vamana
+1 SEX M
+1 NOTE Tags: Deity, Aditya, Avatar of Vishnu
+1 NOTE Dwarf avatar of Vishnu, born as the youngest Aditya; humbled the asura king Bali.
+1 SOUR @S3@
+1 FAMC @F4@
+0 @VARUNA@ INDI
+1 NAME Varuna //
+2 GIVN Varuna
+1 SEX M
+1 NOTE Tags: Deity, Aditya
+1 NOTE Aditya; god of the waters.
+1 SOUR @S3@
+1 FAMC @F4@
+0 @MITRA@ INDI
+1 NAME Mitra //
+2 GIVN Mitra
+1 SEX M
+1 NOTE Tags: Deity, Aditya
+1 NOTE Aditya.
+1 SOUR @S3@
+1 FAMC @F4@
+0 @ARYAMAN@ INDI
+1 NAME Aryaman //
+2 GIVN Aryaman
+1 SEX M
+1 NOTE Tags: Deity, Aditya
+1 NOTE Aditya.
+1 SOUR @S3@
+1 FAMC @F4@
+0 @TVASHTR@ INDI
+1 NAME Tvashtr //
+2 GIVN Tvashtr
+1 SEX M
+1 NOTE Tags: Deity, Aditya
+1 NOTE Aditya and divine craftsman; father of Saranyu (Surya’s wife).
+1 SOUR @S3@
+1 SOUR @S14@
+1 FAMC @F4@
+1 FAMS @F93@
+0 @SAVITR@ INDI
+1 NAME Savitr //
+2 GIVN Savitr
+1 SEX M
+1 NOTE Tags: Deity, Aditya
+1 NOTE Aditya.
+1 SOUR @S3@
+1 FAMC @F4@
+0 @BHAGA@ INDI
+1 NAME Bhaga //
+2 GIVN Bhaga
+1 SEX M
+1 NOTE Tags: Deity, Aditya
+1 NOTE Aditya.
+1 SOUR @S3@
+1 FAMC @F4@
+0 @DHATR@ INDI
+1 NAME Dhatr //
+2 GIVN Dhatr
+1 SEX M
+1 NOTE Tags: Deity, Aditya
+1 NOTE Aditya.
+1 SOUR @S3@
+1 FAMC @F4@
+0 @AMSHA@ INDI
+1 NAME Amsha //
+2 GIVN Amsha
+1 SEX M
+1 NOTE Tags: Deity, Aditya
+1 NOTE Aditya.
+1 SOUR @S3@
+1 FAMC @F4@
+0 @PUSHAN@ INDI
+1 NAME Pushan //
+2 GIVN Pushan
+1 SEX M
+1 NOTE Tags: Deity, Aditya
+1 NOTE Aditya.
+1 SOUR @S3@
+1 FAMC @F4@
+0 @SARANYU@ INDI
+1 NAME Saranyu (Sanjna) //
+2 GIVN Saranyu (Sanjna)
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Daughter of Tvashtr, wife of Surya; mother of Vaivasvata Manu, Yama, Yami and the Ashvins.
+1 SOUR @S14@
+1 FAMC @F93@
+1 FAMS @F10@
+0 @CHHAYA@ INDI
+1 NAME Chhaya //
+2 GIVN Chhaya
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE The “shadow” of Saranyu and Surya’s second wife; mother of Shani, Tapati and Savarni Manu.
+1 SOUR @S14@
+1 FAMS @F11@
+0 @YAMA@ INDI
+1 NAME Yama (Dharma) //
+2 GIVN Yama (Dharma)
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE God of death and dharma; first mortal to die. Divine father of Yudhishthira (Mahabharata).
+1 SOUR @S14@
+1 SOUR @S24@
+1 FAMC @F10@
+0 @YAMI@ INDI
+1 NAME Yami (Yamuna) //
+2 GIVN Yami (Yamuna)
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Twin sister of Yama; the river Yamuna.
+1 SOUR @S14@
+1 FAMC @F10@
+0 @NASATYA@ INDI
+1 NAME Nasatya (Ashvin) //
+2 GIVN Nasatya (Ashvin)
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE One of the twin Ashvins, physicians of the gods. Divine father of Nakula (Mahabharata).
+1 SOUR @S14@
+1 SOUR @S24@
+1 FAMC @F10@
+0 @DASRA@ INDI
+1 NAME Dasra (Ashvin) //
+2 GIVN Dasra (Ashvin)
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE One of the twin Ashvins. Divine father of Sahadeva (Mahabharata).
+1 SOUR @S14@
+1 SOUR @S24@
+1 FAMC @F10@
+0 @SHANI@ INDI
+1 NAME Shani //
+2 GIVN Shani
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE Saturn; son of Surya and Chhaya.
+1 SOUR @S14@
+1 FAMC @F11@
+0 @TAPATI@ INDI
+1 NAME Tapati //
+2 GIVN Tapati
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Daughter of Surya and Chhaya; the river Tapti.
+1 SOUR @S14@
+1 FAMC @F11@
+0 @SAVARNI@ INDI
+1 NAME Savarni Manu //
+2 GIVN Savarni Manu
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE The eighth Manu; son of Surya and Chhaya.
+1 SOUR @S14@
+1 FAMC @F11@
+0 @REVANTA@ INDI
+1 NAME Revanta //
+2 GIVN Revanta
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE Son of Surya; his mother varies by text.
+1 SOUR @S14@
+1 FAMC @F12@
+0 @SUGRIVA@ INDI
+1 NAME Sugriva //
+2 GIVN Sugriva
+1 SEX M
+1 NOTE Tags: Vanara
+1 NOTE Vanara king of Kishkindha, Rama’s ally; son of Surya (Ramayana).
+1 SOUR @S14@
+1 FAMC @F12@
+0 @KARNA@ INDI
+1 NAME Karna //
+2 GIVN Karna
+1 SEX M
+1 NOTE Tags: Mahabharata
+1 NOTE Son of Surya and Kunti, born before her marriage (Mahabharata, Vana Parva 3.287–292). Raised by a charioteer family.
+1 SOUR @S14@
+1 SOUR @S25@
+1 FAMC @F94@
+0 @PULOMAN@ INDI
+1 NAME Puloman //
+2 GIVN Puloman
+1 SEX M
+1 NOTE Tags: Danava
+1 NOTE A Danava chief; father of Shachi.
+1 SOUR @S13@
+1 FAMS @F95@
+0 @SHACHI@ INDI
+1 NAME Shachi (Indrani) //
+2 GIVN Shachi (Indrani)
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Wife of Indra, daughter of the Danava Puloman. “Most texts state that Indra had only one wife.”
+1 SOUR @S13@
+1 FAMC @F95@
+1 FAMS @F92@
+0 @JAYANTA@ INDI
+1 NAME Jayanta //
+2 GIVN Jayanta
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE Son of Indra (Bhagavata Purana).
+1 SOUR @S13@
+1 FAMC @F92@
+0 @JAYANTI@ INDI
+1 NAME Jayanti //
+2 GIVN Jayanti
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Daughter of Indra, married to Shukra (Bhagavata Purana).
+1 SOUR @S13@
+1 SOUR @S9@
+1 FAMC @F92@
+1 FAMS @F96@
+0 @DEVASENA@ INDI
+1 NAME Devasena //
+2 GIVN Devasena
+1 SEX F
+1 NOTE Tags: Deity, Variant
+1 NOTE Wife of Kartikeya. Skanda Purana: daughter of Indra and Shachi; Mahabharata: daughter of Daksha.
+1 SOUR @S12@
+1 SOUR @S13@
+1 FAMC @F92@
+1 FAMS @F97@
+0 @VALI@ INDI
+1 NAME Vali //
+2 GIVN Vali
+1 SEX M
+1 NOTE Tags: Vanara
+1 NOTE Vanara king, elder brother of Sugriva; son of Indra (Ramayana).
+1 SOUR @S13@
+1 FAMC @F98@
+0 @HIMAVAN@ INDI
+1 NAME Himavan //
+2 GIVN Himavan
+1 SEX M
+1 NOTE Tags: Mountain king
+1 NOTE King of the Himalayas; father of Parvati and Ganga.
+1 SOUR @S10@
+1 FAMS @F99@
+0 @MENA@ INDI
+1 NAME Mena //
+2 GIVN Mena
+1 SEX F
+1 NOTE Queen of Himavan; mother of Parvati.
+1 SOUR @S10@
+1 FAMS @F99@
+0 @PARVATI@ INDI
+1 NAME Parvati //
+2 GIVN Parvati
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Consort of Shiva, rebirth of Sati. Mother of Kartikeya and Ganesha.
+1 SOUR @S10@
+1 FAMC @F99@
+1 FAMS @F86@
+0 @GANGA@ INDI
+1 NAME Ganga //
+2 GIVN Ganga
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE River goddess; elder sister of Parvati (Ramayana). Wife of King Shantanu and mother of Bhishma (Mahabharata).
+1 SOUR @S10@
+1 SOUR @S23@
+1 FAMC @F99@
+1 FAMS @F100@
+0 @MAINAKA@ INDI
+1 NAME Mainaka //
+2 GIVN Mainaka
+1 SEX M
+1 NOTE Tags: Mountain
+1 NOTE Mountain; brother of Parvati.
+1 SOUR @S10@
+1 FAMC @F99@
+0 @KARTIKEYA@ INDI
+1 NAME Kartikeya (Skanda, Murugan) //
+2 GIVN Kartikeya (Skanda, Murugan)
+1 SEX M
+1 NOTE Tags: Deity, Variant
+1 NOTE God of war, son of Shiva and Parvati. Other accounts: son of Agni and Svaha (Vana Parva). Celibate in North/East Indian tradition; married to Devasena and Valli in the South.
+1 SOUR @S12@
+1 FAMC @F86@
+1 FAMS @F97@
+1 FAMS @F101@
+0 @VALLI@ INDI
+1 NAME Valli //
+2 GIVN Valli
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Second wife of Murugan in Tamil tradition, daughter of a tribal chief.
+1 SOUR @S12@
+1 FAMS @F101@
+0 @GANESHA@ INDI
+1 NAME Ganesha //
+2 GIVN Ganesha
+1 SEX M
+1 NOTE Tags: Deity, Variant
+1 NOTE Remover of obstacles, son of Shiva and Parvati. Consorts Riddhi and Siddhi in the mainstream pattern; celibate in South Indian tradition.
+1 SOUR @S11@
+1 FAMC @F86@
+1 FAMS @F102@
+1 FAMS @F103@
+0 @RIDDHI@ INDI
+1 NAME Riddhi //
+2 GIVN Riddhi
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Consort of Ganesha (prosperity).
+1 SOUR @S11@
+1 FAMS @F102@
+0 @SIDDHI@ INDI
+1 NAME Siddhi //
+2 GIVN Siddhi
+1 SEX F
+1 NOTE Tags: Deity
+1 NOTE Consort of Ganesha (spiritual power).
+1 SOUR @S11@
+1 FAMS @F103@
+0 @SHUBHA@ INDI
+1 NAME Shubha (Kshema) //
+2 GIVN Shubha (Kshema)
+1 SEX M
+1 NOTE Tags: Deity, Variant
+1 NOTE Son of Ganesha. The Shiva Purana names him Kshema. Which consort bore which son varies.
+1 SOUR @S11@
+1 FAMC @F103@
+0 @LABHA@ INDI
+1 NAME Labha //
+2 GIVN Labha
+1 SEX M
+1 NOTE Tags: Deity, Variant
+1 NOTE Son of Ganesha (profit).
+1 SOUR @S11@
+1 FAMC @F102@
+0 @ASHOKASUNDARI@ INDI
+1 NAME Ashokasundari //
+2 GIVN Ashokasundari
+1 SEX F
+1 NOTE Tags: Deity, Variant
+1 NOTE Daughter of Parvati in the Padma Purana. Some traditions make her the wife of King Nahusha and mother of Yayati (the Harivamsa names Nahusha’s wife Viraja instead).
+1 SOUR @S12@
+1 SOUR @S22@
+1 FAMC @F86@
+1 FAMS @F104@
+0 @SHUKRA@ INDI
+1 NAME Shukra (Ushanas) //
+2 GIVN Shukra (Ushanas)
+1 SEX M
+1 NOTE Tags: Sage
+1 NOTE Preceptor of the asuras; son (or grandson) of Bhrigu.
+1 SOUR @S9@
+1 FAMC @F89@
+1 FAMS @F96@
+1 FAMS @F106@
+0 @DEVAYANI@ INDI
+1 NAME Devayani //
+2 GIVN Devayani
+1 SEX F
+1 NOTE Daughter of Shukra, wife of Yayati. Mother given as Urjasvati or Jayanti depending on the text, so left blank.
+1 SOUR @S9@
+1 SOUR @S22@
+1 FAMC @F106@
+1 FAMS @F105@
+0 @BRIHASPATI@ INDI
+1 NAME Brihaspati //
+2 GIVN Brihaspati
+1 SEX M
+1 NOTE Tags: Sage
+1 NOTE Preceptor of the gods; son of Angiras. Wife Tara.
+1 SOUR @S8@
+1 FAMC @F108@
+1 FAMS @F107@
+0 @TARA@ INDI
+1 NAME Tara //
+2 GIVN Tara
+1 SEX F
+1 NOTE Wife of Brihaspati; abducted by Chandra, she bore Budha.
+1 SOUR @S8@
+1 SOUR @S19@
+1 FAMS @F107@
+1 FAMS @F119@
+0 @KACHA@ INDI
+1 NAME Kacha //
+2 GIVN Kacha
+1 SEX M
+1 NOTE Son of Brihaspati; studied under Shukra and was loved by Devayani.
+1 SOUR @S8@
+1 FAMC @F107@
+0 @HIRANYAKASHIPU@ INDI
+1 NAME Hiranyakashipu //
+2 GIVN Hiranyakashipu
+1 SEX M
+1 NOTE Tags: Daitya
+1 NOTE Asura king, twin of Hiranyaksha; slain by Narasimha.
+1 SOUR @S4@
+1 SOUR @S5@
+1 FAMC @F5@
+1 FAMS @F109@
+0 @HIRANYAKSHA@ INDI
+1 NAME Hiranyaksha //
+2 GIVN Hiranyaksha
+1 SEX M
+1 NOTE Tags: Daitya
+1 NOTE Twin of Hiranyakashipu; slain by Varaha.
+1 SOUR @S4@
+1 FAMC @F5@
+0 @SIMHIKA@ INDI
+1 NAME Simhika //
+2 GIVN Simhika
+1 SEX F
+1 NOTE Tags: Daitya, Variant
+1 NOTE Daughter of Diti (Diti page); the Vinata page makes her Vinata’s sister instead.
+1 SOUR @S4@
+1 SOUR @S6@
+1 FAMC @F5@
+0 @KAYADHU@ INDI
+1 NAME Kayadhu //
+2 GIVN Kayadhu
+1 SEX F
+1 NOTE Wife of Hiranyakashipu, mother of Prahlada.
+1 SOUR @S5@
+1 FAMS @F109@
+0 @PRAHLADA@ INDI
+1 NAME Prahlada //
+2 GIVN Prahlada
+1 SEX M
+1 NOTE Tags: Daitya
+1 NOTE Devotee of Vishnu, saved by Narasimha.
+1 SOUR @S5@
+1 FAMC @F109@
+1 FAMS @F110@
+0 @VIROCHANA@ INDI
+1 NAME Virochana //
+2 GIVN Virochana
+1 SEX M
+1 NOTE Tags: Daitya
+1 NOTE Son of Prahlada, father of Bali.
+1 SOUR @S5@
+1 FAMC @F110@
+1 FAMS @F111@
+0 @BALI@ INDI
+1 NAME Bali (Mahabali) //
+2 GIVN Bali (Mahabali)
+1 SEX M
+1 NOTE Tags: Daitya
+1 NOTE Generous asura king humbled by Vamana; celebrated at Onam.
+1 SOUR @S5@
+1 FAMC @F111@
+1 FAMS @F112@
+0 @BANASURA@ INDI
+1 NAME Banasura //
+2 GIVN Banasura
+1 SEX M
+1 NOTE Tags: Daitya
+1 NOTE Asura king, great-grandson of Prahlada; father of Usha. Defeated by Krishna.
+1 SOUR @S5@
+1 SOUR @S28@
+1 FAMC @F112@
+1 FAMS @F114@
+0 @USHA@ INDI
+1 NAME Usha //
+2 GIVN Usha
+1 SEX F
+1 NOTE Daughter of Bana; married Aniruddha, Krishna’s grandson (Bhagavata 10.62–63).
+1 SOUR @S28@
+1 FAMC @F114@
+1 FAMS @F113@
+0 @ARUNA@ INDI
+1 NAME Aruna //
+2 GIVN Aruna
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE Elder son of Vinata; charioteer of Surya.
+1 SOUR @S6@
+1 FAMC @F7@
+0 @GARUDA@ INDI
+1 NAME Garuda //
+2 GIVN Garuda
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE King of birds and mount of Vishnu.
+1 SOUR @S6@
+1 FAMC @F7@
+0 @SHESHA@ INDI
+1 NAME Shesha (Ananta) //
+2 GIVN Shesha (Ananta)
+1 SEX M
+1 NOTE Tags: Naga
+1 NOTE Eldest Naga; the serpent on whom Vishnu rests. Lakshmana and Balarama are considered his incarnations.
+1 SOUR @S7@
+1 FAMC @F8@
+0 @VASUKI@ INDI
+1 NAME Vasuki //
+2 GIVN Vasuki
+1 SEX M
+1 NOTE Tags: Naga
+1 NOTE Naga king; the rope used to churn the ocean.
+1 SOUR @S7@
+1 FAMC @F8@
+0 @TAKSHAKA@ INDI
+1 NAME Takshaka //
+2 GIVN Takshaka
+1 SEX M
+1 NOTE Tags: Naga
+1 NOTE Naga king who killed King Parikshit.
+1 SOUR @S7@
+1 FAMC @F8@
+0 @VAYU@ INDI
+1 NAME Vayu //
+2 GIVN Vayu
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE God of wind. Biological (aurasa) father of Hanuman in the Valmiki Ramayana; divine father of Bhima in the Mahabharata.
+1 SOUR @S15@
+1 SOUR @S24@
+1 FAMS @F116@
+0 @KESARI@ INDI
+1 NAME Kesari //
+2 GIVN Kesari
+1 SEX M
+1 NOTE Tags: Vanara
+1 NOTE Vanara chief; Hanuman’s father by marriage (kshetraja).
+1 SOUR @S15@
+1 FAMS @F115@
+0 @ANJANA@ INDI
+1 NAME Anjana //
+2 GIVN Anjana
+1 SEX F
+1 NOTE Tags: Vanara
+1 NOTE Mother of Hanuman, wife of Kesari.
+1 SOUR @S15@
+1 FAMS @F115@
+1 FAMS @F116@
+0 @HANUMAN@ INDI
+1 NAME Hanuman //
+2 GIVN Hanuman
+1 SEX M
+1 NOTE Tags: Deity, Vanara
+1 NOTE Devotee and messenger of Rama. Valmiki: aurasa son of Vayu and kshetraja son of Kesari. Shaiva tradition sees him as an avatar of Shiva. Traditionally celibate.
+1 SOUR @S15@
+1 FAMC @F116@
+0 @CHANDRA@ INDI
+1 NAME Chandra (Soma) //
+2 GIVN Chandra (Soma)
+1 SEX M
+1 NOTE Tags: Deity
+1 NOTE Moon god, founder of the Lunar dynasty. Married the 27 nakshatra daughters of Daksha, Rohini his favourite.
+1 SOUR @S19@
+1 FAMC @F90@
+1 FAMS @F117@
+1 FAMS @F119@
+0 @ROHINI@ INDI
+1 NAME Rohini //
+2 GIVN Rohini
+1 SEX F
+1 NOTE Tags: Nakshatra
+1 NOTE Daughter of Daksha; chief wife of Chandra.
+1 SOUR @S2@
+1 SOUR @S19@
+1 FAMC @F88@
+1 FAMS @F117@
+0 @BUDHA@ INDI
+1 NAME Budha //
+2 GIVN Budha
+1 SEX M
+1 NOTE Tags: Deity, Variant
+1 NOTE Mercury; son of Chandra by Tara (some sources: by Rohini). Husband of Ila.
+1 SOUR @S20@
+1 SOUR @S19@
+1 FAMC @F119@
+1 FAMS @F118@
+0 @ILA@ INDI
+1 NAME Ila //
+2 GIVN Ila
+1 SEX F
+1 NOTE Tags: Variant
+1 NOTE Child of Vaivasvata Manu who changed sex between male (Sudyumna) and female; as Ila, bore Pururavas to Budha. This links the Lunar dynasty to the Solar one.
+1 SOUR @S20@
+1 SOUR @S21@
+1 SOUR @S33@
+1 FAMC @F13@
+1 FAMS @F118@
+0 @PURURAVAS@ INDI
+1 NAME Pururavas //
+2 GIVN Pururavas
+1 SEX M
+1 NOTE Tags: Lunar dynasty, King
+1 NOTE First king of the Lunar dynasty (Rig Veda X.95; Vishnu Purana). Married the apsara Urvashi.
+1 SOUR @S21@
+1 FAMC @F118@
+1 FAMS @F120@
+0 @URVASHI@ INDI
+1 NAME Urvashi //
+2 GIVN Urvashi
+1 SEX F
+1 NOTE Tags: Apsara
+1 NOTE Apsara, wife of Pururavas.
+1 SOUR @S21@
+1 FAMS @F120@
+0 @AYU@ INDI
+1 NAME Ayu //
+2 GIVN Ayu
+1 SEX M
+1 NOTE Tags: Lunar dynasty, King
+1 NOTE Eldest son of Pururavas; father of Nahusha.
+1 SOUR @S21@
+1 FAMC @F120@
+1 FAMS @F121@
+0 @NAHUSHA_L@ INDI
+1 NAME Nahusha (Lunar dynasty) //
+2 GIVN Nahusha (Lunar dynasty)
+1 SEX M
+1 NOTE Tags: Lunar dynasty, King
+1 NOTE Son of Ayu; briefly ruled heaven in Indra’s place. Not the same as Nahusha of the Ikshvaku line.
+1 SOUR @S21@
+1 SOUR @S22@
+1 FAMC @F121@
+1 FAMS @F104@
+1 FAMS @F123@
+0 @YAYATI_L@ INDI
+1 NAME Yayati (Lunar dynasty) //
+2 GIVN Yayati (Lunar dynasty)
+1 SEX M
+1 NOTE Tags: Lunar dynasty, King
+1 NOTE Son of Nahusha. Married Devayani and Sharmishtha; his five sons founded the Yadava, Paurava and other lines. Mother: Viraja (Harivamsa) or Ashokasundari (Padma Purana).
+1 SOUR @S22@
+1 FAMC @F123@
+1 FAMS @F105@
+1 FAMS @F122@
+0 @VRISHAPARVAN@ INDI
+1 NAME Vrishaparvan //
+2 GIVN Vrishaparvan
+1 SEX M
+1 NOTE Tags: Danava
+1 NOTE King of the Danavas; father of Sharmishtha.
+1 SOUR @S22@
+1 FAMS @F124@
+0 @SHARMISHTHA@ INDI
+1 NAME Sharmishtha //
+2 GIVN Sharmishtha
+1 SEX F
+1 NOTE Daughter of Vrishaparvan; wife of Yayati.
+1 SOUR @S22@
+1 FAMC @F124@
+1 FAMS @F122@
+0 @YADU@ INDI
+1 NAME Yadu //
+2 GIVN Yadu
+1 SEX M
+1 NOTE Tags: Lunar dynasty, Yadava
+1 NOTE Eldest son of Yayati and Devayani; ancestor of the Yadavas (Krishna’s clan).
+1 SOUR @S22@
+1 FAMC @F105@
+1 FAMS @F125@
+0 @TURVASU@ INDI
+1 NAME Turvasu //
+2 GIVN Turvasu
+1 SEX M
+1 NOTE Tags: Lunar dynasty
+1 NOTE Son of Yayati and Devayani.
+1 SOUR @S22@
+1 FAMC @F105@
+0 @DRUHYU@ INDI
+1 NAME Druhyu //
+2 GIVN Druhyu
+1 SEX M
+1 NOTE Tags: Lunar dynasty
+1 NOTE Son of Yayati and Sharmishtha.
+1 SOUR @S22@
+1 FAMC @F122@
+0 @ANU@ INDI
+1 NAME Anu //
+2 GIVN Anu
+1 SEX M
+1 NOTE Tags: Lunar dynasty
+1 NOTE Son of Yayati and Sharmishtha.
+1 SOUR @S22@
+1 FAMC @F122@
+0 @PURU@ INDI
+1 NAME Puru //
+2 GIVN Puru
+1 SEX M
+1 NOTE Tags: Lunar dynasty, Kuru dynasty
+1 NOTE Youngest son of Yayati, who took on his father’s old age; ancestor of the Pauravas and the Kuru dynasty.
+1 SOUR @S22@
+1 FAMC @F122@
+1 FAMS @F136@
+0 @GAP_YADAVA@ INDI
+1 NAME ··· Yadava kings ··· //
+2 GIVN ··· Yadava kings ···
+1 SEX U
+1 NOTE Tags: Lineage gap
+1 NOTE LINEAGE GAP: many generations of Yadava kings between Yadu and Shurasena are not listed in this file (see Bhagavata Purana Canto 9, Harivamsa).
+1 SOUR @S27@
+1 FAMC @F125@
+1 FAMS @F127@
+0 @SHURASENA@ INDI
+1 NAME Shurasena //
+2 GIVN Shurasena
+1 SEX M
+1 NOTE Tags: Yadava, King
+1 NOTE Yadava king; father of Vasudeva and Kunti.
+1 SOUR @S27@
+1 SOUR @S25@
+1 FAMC @F127@
+1 FAMS @F126@
+0 @MARISHA@ INDI
+1 NAME Marisha //
+2 GIVN Marisha
+1 SEX F
+1 NOTE Wife of Shurasena (Bhagavata Purana).
+1 SOUR @S27@
+1 SOUR @S25@
+1 FAMS @F126@
+0 @VASUDEVA@ INDI
+1 NAME Vasudeva //
+2 GIVN Vasudeva
+1 SEX M
+1 NOTE Tags: Yadava
+1 NOTE Father of Krishna and Balarama.
+1 SOUR @S27@
+1 FAMC @F126@
+1 FAMS @F128@
+1 FAMS @F129@
+0 @DEVAKI@ INDI
+1 NAME Devaki //
+2 GIVN Devaki
+1 SEX F
+1 NOTE Tags: Yadava
+1 NOTE Mother of Krishna; sister (cousin) of Kamsa, who killed six of her sons.
+1 SOUR @S27@
+1 SOUR @S18@
+1 FAMS @F128@
+0 @ROHINI_V@ INDI
+1 NAME Rohini (wife of Vasudeva) //
+2 GIVN Rohini (wife of Vasudeva)
+1 SEX F
+1 NOTE Tags: Yadava
+1 NOTE Wife of Vasudeva; Balarama was transferred to her womb from Devaki’s. Not the nakshatra Rohini.
+1 SOUR @S27@
+1 FAMS @F129@
+0 @KRISHNA@ INDI
+1 NAME Krishna //
+2 GIVN Krishna
+1 SEX M
+1 NOTE Tags: Deity, Avatar of Vishnu, Yadava
+1 NOTE Eighth avatar of Vishnu. Born to Devaki and Vasudeva, raised by Nanda and Yashoda in Gokul. Bhagavata Purana names eight principal queens.
+1 SOUR @S18@
+1 SOUR @S27@
+1 FAMC @F128@
+1 FAMS @F130@
+1 FAMS @F131@
+1 FAMS @F132@
+0 @BALARAMA@ INDI
+1 NAME Balarama //
+2 GIVN Balarama
+1 SEX M
+1 NOTE Tags: Deity, Yadava
+1 NOTE Elder brother of Krishna; conceived by Devaki and transferred to Rohini’s womb.
+1 SOUR @S27@
+1 SOUR @S18@
+1 FAMC @F129@
+0 @SUBHADRA@ INDI
+1 NAME Subhadra //
+2 GIVN Subhadra
+1 SEX F
+1 NOTE Tags: Yadava
+1 NOTE Sister of Krishna and Balarama; wife of Arjuna, mother of Abhimanyu.
+1 SOUR @S27@
+1 SOUR @S26@
+1 FAMC @F129@
+1 FAMS @F133@
+0 @KUNTI@ INDI
+1 NAME Kunti (Pritha) //
+2 GIVN Kunti (Pritha)
+1 SEX F
+1 NOTE Tags: Mahabharata, Adopted
+1 NOTE Born Pritha, daughter of Shurasena, adopted by King Kuntibhoja. Sister of Vasudeva (so Krishna’s aunt). Wife of Pandu; mother of Karna, Yudhishthira, Bhima and Arjuna.
+1 SOUR @S25@
+1 FAMC @F126@
+1 FAMS @F94@
+1 FAMS @F134@
+0 @RUKMINI@ INDI
+1 NAME Rukmini //
+2 GIVN Rukmini
+1 SEX F
+1 NOTE Tags: Queen
+1 NOTE Chief queen of Krishna, considered an avatar of Lakshmi.
+1 SOUR @S18@
+1 SOUR @S17@
+1 FAMS @F130@
+0 @SATYABHAMA@ INDI
+1 NAME Satyabhama //
+2 GIVN Satyabhama
+1 SEX F
+1 NOTE Tags: Queen
+1 NOTE Queen of Krishna.
+1 SOUR @S18@
+1 FAMS @F131@
+0 @JAMBAVATI@ INDI
+1 NAME Jambavati //
+2 GIVN Jambavati
+1 SEX F
+1 NOTE Tags: Queen
+1 NOTE Queen of Krishna; mother of Samba.
+1 SOUR @S18@
+1 FAMS @F132@
+0 @PRADYUMNA@ INDI
+1 NAME Pradyumna //
+2 GIVN Pradyumna
+1 SEX M
+1 NOTE Tags: Yadava
+1 NOTE Son of Krishna and Rukmini; incarnation of Kamadeva (Bhagavata).
+1 SOUR @S28@
+1 FAMC @F130@
+1 FAMS @F135@
+0 @RUKMAVATI@ INDI
+1 NAME Rukmavati //
+2 GIVN Rukmavati
+1 SEX F
+1 NOTE Wife of Pradyumna, daughter of Rukmi; mother of Aniruddha. (Pradyumna also married Mayavati and Prabhavati.)
+1 SOUR @S28@
+1 FAMS @F135@
+0 @ANIRUDDHA@ INDI
+1 NAME Aniruddha //
+2 GIVN Aniruddha
+1 SEX M
+1 NOTE Tags: Yadava
+1 NOTE Grandson of Krishna; married Usha, daughter of Banasura (Bhagavata 10.61–63).
+1 SOUR @S28@
+1 FAMC @F135@
+1 FAMS @F113@
+0 @SAMBA@ INDI
+1 NAME Samba //
+2 GIVN Samba
+1 SEX M
+1 NOTE Tags: Yadava
+1 NOTE Son of Krishna and Jambavati.
+1 SOUR @S18@
+1 FAMC @F132@
+0 @GAP_PAURAVA1@ INDI
+1 NAME ··· Paurava kings ··· //
+2 GIVN ··· Paurava kings ···
+1 SEX U
+1 NOTE Tags: Lineage gap
+1 NOTE LINEAGE GAP: generations between Puru and Dushyanta are omitted (Mahabharata Adi Parva 94–95).
+1 SOUR @S23@
+1 FAMC @F136@
+1 FAMS @F138@
+0 @DUSHYANTA@ INDI
+1 NAME Dushyanta //
+2 GIVN Dushyanta
+1 SEX M
+1 NOTE Tags: Kuru dynasty, King
+1 NOTE Paurava king, husband of Shakuntala (Mahabharata Adi Parva; Kalidasa’s Abhijnanashakuntalam).
+1 SOUR @S23@
+1 FAMC @F138@
+1 FAMS @F137@
+0 @SHAKUNTALA@ INDI
+1 NAME Shakuntala //
+2 GIVN Shakuntala
+1 SEX F
+1 NOTE Wife of Dushyanta, mother of Bharata; daughter of Vishvamitra and the apsara Menaka.
+1 SOUR @S23@
+1 FAMS @F137@
+0 @BHARATA_K@ INDI
+1 NAME Bharata (son of Dushyanta) //
+2 GIVN Bharata (son of Dushyanta)
+1 SEX M
+1 NOTE Tags: Kuru dynasty, King
+1 NOTE Emperor after whom Bharata (India) is named. Not Rama’s brother.
+1 SOUR @S23@
+1 FAMC @F137@
+1 FAMS @F139@
+0 @GAP_PAURAVA2@ INDI
+1 NAME ··· Bharata’s descendants ··· //
+2 GIVN ··· Bharata’s descendants ···
+1 SEX U
+1 NOTE Tags: Lineage gap
+1 NOTE LINEAGE GAP: generations from Bharata to Kuru (including Hastin, founder of Hastinapura) are omitted.
+1 SOUR @S23@
+1 FAMC @F139@
+1 FAMS @F140@
+0 @KURU@ INDI
+1 NAME Kuru //
+2 GIVN Kuru
+1 SEX M
+1 NOTE Tags: Kuru dynasty, King
+1 NOTE King after whom the Kuru dynasty and Kurukshetra are named.
+1 SOUR @S23@
+1 FAMC @F140@
+1 FAMS @F141@
+0 @GAP_KURU@ INDI
+1 NAME ··· Kuru kings ··· //
+2 GIVN ··· Kuru kings ···
+1 SEX U
+1 NOTE Tags: Lineage gap
+1 NOTE LINEAGE GAP: generations from Kuru to Pratipa are omitted.
+1 SOUR @S23@
+1 FAMC @F141@
+1 FAMS @F143@
+0 @PRATIPA@ INDI
+1 NAME Pratipa //
+2 GIVN Pratipa
+1 SEX M
+1 NOTE Tags: Kuru dynasty, King
+1 NOTE King of Hastinapura; father of Shantanu.
+1 SOUR @S23@
+1 FAMC @F143@
+1 FAMS @F142@
+0 @SUNANDA@ INDI
+1 NAME Sunanda //
+2 GIVN Sunanda
+1 SEX F
+1 NOTE Wife of Pratipa, mother of Shantanu.
+1 SOUR @S23@
+1 FAMS @F142@
+0 @SHANTANU@ INDI
+1 NAME Shantanu //
+2 GIVN Shantanu
+1 SEX M
+1 NOTE Tags: Kuru dynasty, King
+1 NOTE King of Hastinapura. Wives Ganga (mother of Bhishma) and Satyavati.
+1 SOUR @S23@
+1 FAMC @F142@
+1 FAMS @F100@
+1 FAMS @F144@
+0 @BHISHMA@ INDI
+1 NAME Bhishma (Devavrata) //
+2 GIVN Bhishma (Devavrata)
+1 SEX M
+1 NOTE Tags: Kuru dynasty
+1 NOTE Son of Shantanu and Ganga; took a vow of lifelong celibacy. (Ganga’s seven elder sons, the Vasus, were drowned at birth.)
+1 SOUR @S23@
+1 FAMC @F100@
+0 @SATYAVATI@ INDI
+1 NAME Satyavati //
+2 GIVN Satyavati
+1 SEX F
+1 NOTE Wife of Shantanu; earlier bore Vyasa to the sage Parashara.
+1 SOUR @S23@
+1 FAMS @F144@
+1 FAMS @F145@
+0 @PARASHARA@ INDI
+1 NAME Parashara //
+2 GIVN Parashara
+1 SEX M
+1 NOTE Tags: Sage
+1 NOTE Sage; father of Vyasa by Satyavati.
+1 SOUR @S24@
+1 FAMS @F145@
+0 @VYASA@ INDI
+1 NAME Vyasa //
+2 GIVN Vyasa
+1 SEX M
+1 NOTE Tags: Sage
+1 NOTE Compiler of the Vedas and author of the Mahabharata. By niyoga, biological father of Dhritarashtra, Pandu and Vidura.
+1 SOUR @S24@
+1 SOUR @S29@
+1 FAMC @F145@
+1 FAMS @F149@
+1 FAMS @F151@
+1 FAMS @F152@
+0 @CHITRANGADA@ INDI
+1 NAME Chitrangada //
+2 GIVN Chitrangada
+1 SEX M
+1 NOTE Tags: Kuru dynasty
+1 NOTE Elder son of Shantanu and Satyavati; died young.
+1 SOUR @S23@
+1 FAMC @F144@
+0 @VICHITRAVIRYA@ INDI
+1 NAME Vichitravirya //
+2 GIVN Vichitravirya
+1 SEX M
+1 NOTE Tags: Kuru dynasty, King
+1 NOTE Younger son of Shantanu; legal father of Dhritarashtra and Pandu. Died childless.
+1 SOUR @S23@
+1 FAMC @F144@
+1 FAMS @F146@
+1 FAMS @F147@
+0 @AMBIKA@ INDI
+1 NAME Ambika //
+2 GIVN Ambika
+1 SEX F
+1 NOTE Widow of Vichitravirya; mother of Dhritarashtra.
+1 SOUR @S29@
+1 FAMS @F146@
+1 FAMS @F149@
+0 @AMBALIKA@ INDI
+1 NAME Ambalika //
+2 GIVN Ambalika
+1 SEX F
+1 NOTE Widow of Vichitravirya; mother of Pandu.
+1 SOUR @S24@
+1 FAMS @F147@
+1 FAMS @F151@
+0 @PARISHRAMI@ INDI
+1 NAME Parishrami //
+2 GIVN Parishrami
+1 SEX F
+1 NOTE Maid of the queens; mother of Vidura.
+1 SOUR @S31@
+1 FAMS @F152@
+0 @DHRITARASHTRA@ INDI
+1 NAME Dhritarashtra //
+2 GIVN Dhritarashtra
+1 SEX M
+1 NOTE Tags: Kuru dynasty, King
+1 NOTE Blind king of Hastinapura. Biological son of Vyasa (niyoga); legal son of Vichitravirya.
+1 SOUR @S29@
+1 FAMC @F149@
+1 FAMS @F148@
+0 @PANDU@ INDI
+1 NAME Pandu //
+2 GIVN Pandu
+1 SEX M
+1 NOTE Tags: Kuru dynasty, King
+1 NOTE Biological son of Vyasa (niyoga); legal son of Vichitravirya. Wives Kunti and Madri.
+1 SOUR @S24@
+1 FAMC @F151@
+1 FAMS @F134@
+1 FAMS @F150@
+0 @VIDURA@ INDI
+1 NAME Vidura //
+2 GIVN Vidura
+1 SEX M
+1 NOTE Tags: Kuru dynasty
+1 NOTE Wise minister; son of Vyasa and the maid Parishrami. Said to be an incarnation of Yama (Dharma).
+1 SOUR @S31@
+1 FAMC @F152@
+0 @GANDHARI@ INDI
+1 NAME Gandhari //
+2 GIVN Gandhari
+1 SEX F
+1 NOTE Princess of Gandhara, wife of Dhritarashtra, mother of the hundred Kauravas and Dushala.
+1 SOUR @S30@
+1 FAMC @F153@
+1 FAMS @F148@
+0 @SUBALA@ INDI
+1 NAME Subala //
+2 GIVN Subala
+1 SEX M
+1 NOTE Tags: King
+1 NOTE King of Gandhara.
+1 SOUR @S30@
+1 FAMS @F153@
+0 @SHAKUNI@ INDI
+1 NAME Shakuni //
+2 GIVN Shakuni
+1 SEX M
+1 NOTE Brother of Gandhari.
+1 SOUR @S30@
+1 FAMC @F153@
+0 @DURYODHANA@ INDI
+1 NAME Duryodhana //
+2 GIVN Duryodhana
+1 SEX M
+1 NOTE Tags: Kuru dynasty, Kaurava
+1 NOTE Eldest Kaurava.
+1 SOUR @S29@
+1 FAMC @F148@
+0 @DUSHASANA@ INDI
+1 NAME Dushasana //
+2 GIVN Dushasana
+1 SEX M
+1 NOTE Tags: Kuru dynasty, Kaurava
+1 NOTE Second Kaurava.
+1 SOUR @S29@
+1 FAMC @F148@
+0 @DUSHALA@ INDI
+1 NAME Dushala //
+2 GIVN Dushala
+1 SEX F
+1 NOTE Tags: Kuru dynasty
+1 NOTE Only daughter of Dhritarashtra and Gandhari.
+1 SOUR @S29@
+1 SOUR @S30@
+1 FAMC @F148@
+0 @MADRI@ INDI
+1 NAME Madri //
+2 GIVN Madri
+1 SEX F
+1 NOTE Second wife of Pandu; mother of Nakula and Sahadeva.
+1 SOUR @S24@
+1 FAMS @F150@
+0 @YUDHISHTHIRA@ INDI
+1 NAME Yudhishthira //
+2 GIVN Yudhishthira
+1 SEX M
+1 NOTE Tags: Kuru dynasty, Pandava
+1 NOTE Eldest Pandava. Divine father: Yama (Dharma). Pandu is his legal father.
+1 SOUR @S24@
+1 FAMC @F134@
+1 FAMS @F154@
+0 @BHIMA@ INDI
+1 NAME Bhima //
+2 GIVN Bhima
+1 SEX M
+1 NOTE Tags: Kuru dynasty, Pandava
+1 NOTE Second Pandava. Divine father: Vayu, which makes him Hanuman’s half-brother (Mahabharata).
+1 SOUR @S24@
+1 SOUR @S15@
+1 FAMC @F134@
+1 FAMS @F155@
+0 @ARJUNA@ INDI
+1 NAME Arjuna //
+2 GIVN Arjuna
+1 SEX M
+1 NOTE Tags: Kuru dynasty, Pandava
+1 NOTE Third Pandava; divine father Indra. Wives Draupadi, Ulupi, Chitrangada and Subhadra. Recipient of the Bhagavad Gita.
+1 SOUR @S24@
+1 SOUR @S26@
+1 FAMC @F134@
+1 FAMS @F133@
+1 FAMS @F156@
+1 FAMS @F157@
+1 FAMS @F158@
+0 @NAKULA@ INDI
+1 NAME Nakula //
+2 GIVN Nakula
+1 SEX M
+1 NOTE Tags: Kuru dynasty, Pandava
+1 NOTE Fourth Pandava; divine father the Ashvin Nasatya.
+1 SOUR @S24@
+1 FAMC @F150@
+1 FAMS @F159@
+0 @SAHADEVA@ INDI
+1 NAME Sahadeva //
+2 GIVN Sahadeva
+1 SEX M
+1 NOTE Tags: Kuru dynasty, Pandava
+1 NOTE Fifth Pandava; divine father the Ashvin Dasra.
+1 SOUR @S24@
+1 FAMC @F150@
+1 FAMS @F160@
+0 @DRAUPADI@ INDI
+1 NAME Draupadi //
+2 GIVN Draupadi
+1 SEX F
+1 NOTE Princess of Panchala, wife of all five Pandavas; regarded as a form of Sri (Lakshmi) in the Mahabharata.
+1 SOUR @S26@
+1 SOUR @S32@
+1 FAMS @F154@
+1 FAMS @F155@
+1 FAMS @F156@
+1 FAMS @F159@
+1 FAMS @F160@
+0 @PRATIVINDHYA@ INDI
+1 NAME Prativindhya //
+2 GIVN Prativindhya
+1 SEX M
+1 NOTE Tags: Kuru dynasty
+1 NOTE Son of Yudhishthira and Draupadi.
+1 SOUR @S32@
+1 FAMC @F154@
+0 @SUTASOMA@ INDI
+1 NAME Sutasoma //
+2 GIVN Sutasoma
+1 SEX M
+1 NOTE Tags: Kuru dynasty
+1 NOTE Son of Bhima and Draupadi.
+1 SOUR @S32@
+1 FAMC @F155@
+0 @SHRUTAKARMA@ INDI
+1 NAME Shrutakarma //
+2 GIVN Shrutakarma
+1 SEX M
+1 NOTE Tags: Kuru dynasty
+1 NOTE Son of Arjuna and Draupadi.
+1 SOUR @S32@
+1 FAMC @F156@
+0 @SHATANIKA@ INDI
+1 NAME Shatanika //
+2 GIVN Shatanika
+1 SEX M
+1 NOTE Tags: Kuru dynasty
+1 NOTE Son of Nakula and Draupadi.
+1 SOUR @S32@
+1 FAMC @F159@
+0 @SHRUTASENA@ INDI
+1 NAME Shrutasena //
+2 GIVN Shrutasena
+1 SEX M
+1 NOTE Tags: Kuru dynasty
+1 NOTE Son of Sahadeva and Draupadi.
+1 SOUR @S32@
+1 FAMC @F160@
+0 @ULUPI@ INDI
+1 NAME Ulupi //
+2 GIVN Ulupi
+1 SEX F
+1 NOTE Tags: Naga
+1 NOTE Naga princess, wife of Arjuna.
+1 SOUR @S26@
+1 FAMS @F157@
+0 @CHITRANGADA_M@ INDI
+1 NAME Chitrangada (of Manipura) //
+2 GIVN Chitrangada (of Manipura)
+1 SEX F
+1 NOTE Princess of Manipura, wife of Arjuna. Not the Kuru prince Chitrangada.
+1 SOUR @S26@
+1 FAMS @F158@
+0 @IRAVAN@ INDI
+1 NAME Iravan //
+2 GIVN Iravan
+1 SEX M
+1 NOTE Tags: Kuru dynasty
+1 NOTE Son of Arjuna and Ulupi.
+1 SOUR @S26@
+1 FAMC @F157@
+0 @BABRUVAHANA@ INDI
+1 NAME Babruvahana //
+2 GIVN Babruvahana
+1 SEX M
+1 NOTE Son of Arjuna and Chitrangada; king of Manipura.
+1 SOUR @S26@
+1 FAMC @F158@
+0 @ABHIMANYU@ INDI
+1 NAME Abhimanyu //
+2 GIVN Abhimanyu
+1 SEX M
+1 NOTE Tags: Kuru dynasty
+1 NOTE Son of Arjuna and Subhadra; killed in the Chakravyuha. Said to be Chandra’s son Varchas reborn.
+1 SOUR @S26@
+1 SOUR @S19@
+1 FAMC @F133@
+1 FAMS @F161@
+0 @UTTARA@ INDI
+1 NAME Uttara //
+2 GIVN Uttara
+1 SEX F
+1 NOTE Princess of Matsya, wife of Abhimanyu.
+1 SOUR @S26@
+1 FAMS @F161@
+0 @PARIKSHIT@ INDI
+1 NAME Parikshit //
+2 GIVN Parikshit
+1 SEX M
+1 NOTE Tags: Kuru dynasty, King
+1 NOTE Grandson of Arjuna; continued the Kuru line. Killed by the Naga Takshaka.
+1 SOUR @S26@
+1 FAMC @F161@
+1 FAMS @F162@
+0 @JANAMEJAYA@ INDI
+1 NAME Janamejaya //
+2 GIVN Janamejaya
+1 SEX M
+1 NOTE Tags: Kuru dynasty, King
+1 NOTE Son of Parikshit; the Mahabharata was first recited at his snake sacrifice.
+1 SOUR @S26@
+1 FAMC @F162@
+0 @F1@ FAM
+1 HUSB @BRAHMA@
+1 WIFE @SARASWATI@
+0 @F2@ FAM
+1 HUSB @MARICHI@
+1 WIFE @KALA@
+0 @F3@ FAM
+1 HUSB @BRAHMA@
+1 CHIL @MARICHI@
+1 CHIL @DAKSHA@
+1 CHIL @BHRIGU@
+1 CHIL @ANGIRAS@
+1 CHIL @ATRI@
+0 @F4@ FAM
+1 HUSB @KASHYAPA@
+1 WIFE @ADITI@
+1 CHIL @VIVASVAN@
+1 CHIL @INDRA@
+1 CHIL @VAMANA@
+1 CHIL @VARUNA@
+1 CHIL @MITRA@
+1 CHIL @ARYAMAN@
+1 CHIL @TVASHTR@
+1 CHIL @SAVITR@
+1 CHIL @BHAGA@
+1 CHIL @DHATR@
+1 CHIL @AMSHA@
+1 CHIL @PUSHAN@
+0 @F5@ FAM
+1 HUSB @KASHYAPA@
+1 WIFE @DITI@
+1 CHIL @HIRANYAKASHIPU@
+1 CHIL @HIRANYAKSHA@
+1 CHIL @SIMHIKA@
+0 @F6@ FAM
+1 HUSB @KASHYAPA@
+1 WIFE @DANU@
+0 @F7@ FAM
+1 HUSB @KASHYAPA@
+1 WIFE @VINATA@
+1 CHIL @SUMATI_S@
+1 CHIL @ARUNA@
+1 CHIL @GARUDA@
+0 @F8@ FAM
+1 HUSB @KASHYAPA@
+1 WIFE @KADRU@
+1 CHIL @SHESHA@
+1 CHIL @VASUKI@
+1 CHIL @TAKSHAKA@
+0 @F9@ FAM
+1 HUSB @MARICHI@
+1 CHIL @KASHYAPA@
+0 @F10@ FAM
+1 HUSB @VIVASVAN@
+1 WIFE @SARANYU@
+1 CHIL @YAMA@
+1 CHIL @YAMI@
+1 CHIL @NASATYA@
+1 CHIL @DASRA@
+0 @F11@ FAM
+1 HUSB @VIVASVAN@
+1 WIFE @CHHAYA@
+1 CHIL @SHANI@
+1 CHIL @TAPATI@
+1 CHIL @SAVARNI@
+0 @F12@ FAM
+1 HUSB @VIVASVAN@
+1 CHIL @MANU@
+1 CHIL @REVANTA@
+1 CHIL @SUGRIVA@
+0 @F13@ FAM
+1 HUSB @MANU@
+1 CHIL @IKSHVAKU@
+1 CHIL @ILA@
+0 @F14@ FAM
+1 HUSB @IKSHVAKU@
+1 CHIL @KUKSHI@
+0 @F15@ FAM
+1 HUSB @KUKSHI@
+1 CHIL @VIKUKSHI@
+0 @F16@ FAM
+1 HUSB @VIKUKSHI@
+1 CHIL @BANA@
+0 @F17@ FAM
+1 HUSB @BANA@
+1 CHIL @ANARANYA@
+0 @F18@ FAM
+1 HUSB @ANARANYA@
+1 CHIL @PRITHU@
+0 @F19@ FAM
+1 HUSB @PRITHU@
+1 CHIL @TRISHANKU@
+0 @F20@ FAM
+1 HUSB @TRISHANKU@
+1 CHIL @DHUNDHUMARA@
+0 @F21@ FAM
+1 HUSB @DHUNDHUMARA@
+1 CHIL @YUVANASHVA@
+0 @F22@ FAM
+1 HUSB @YUVANASHVA@
+1 CHIL @MANDHATA@
+0 @F23@ FAM
+1 HUSB @MANDHATA@
+1 CHIL @SUSANDHI@
+0 @F24@ FAM
+1 HUSB @SUSANDHI@
+1 CHIL @DHRUVASANDHI@
+1 CHIL @PRASENAJIT@
+0 @F25@ FAM
+1 HUSB @DHRUVASANDHI@
+1 CHIL @BHARATA1@
+0 @F26@ FAM
+1 HUSB @BHARATA1@
+1 CHIL @ASITA@
+0 @F27@ FAM
+1 HUSB @SAGARA@
+1 WIFE @KESHINI@
+1 CHIL @ASAMANJA@
+0 @F28@ FAM
+1 HUSB @SAGARA@
+1 WIFE @SUMATI_S@
+0 @F29@ FAM
+1 HUSB @ASITA@
+1 CHIL @SAGARA@
+0 @F30@ FAM
+1 HUSB @ASAMANJA@
+1 CHIL @AMSHUMAN@
+0 @F31@ FAM
+1 HUSB @AMSHUMAN@
+1 CHIL @DILIPA@
+0 @F32@ FAM
+1 HUSB @DILIPA@
+1 CHIL @BHAGIRATHA@
+0 @F33@ FAM
+1 HUSB @BHAGIRATHA@
+1 CHIL @KAKUTSTHA@
+0 @F34@ FAM
+1 HUSB @KAKUTSTHA@
+1 CHIL @RAGHU@
+0 @F35@ FAM
+1 HUSB @RAGHU@
+1 CHIL @PRAVRIDDHA@
+0 @F36@ FAM
+1 HUSB @PRAVRIDDHA@
+1 CHIL @SHANKHANA@
+0 @F37@ FAM
+1 HUSB @SHANKHANA@
+1 CHIL @SUDARSHANA@
+0 @F38@ FAM
+1 HUSB @SUDARSHANA@
+1 CHIL @AGNIVARNA@
+0 @F39@ FAM
+1 HUSB @AGNIVARNA@
+1 CHIL @SHIGHRAGA@
+0 @F40@ FAM
+1 HUSB @SHIGHRAGA@
+1 CHIL @MARU@
+0 @F41@ FAM
+1 HUSB @MARU@
+1 CHIL @PRASHUSHRUKA@
+0 @F42@ FAM
+1 HUSB @PRASHUSHRUKA@
+1 CHIL @AMBARISHA@
+0 @F43@ FAM
+1 HUSB @AMBARISHA@
+1 CHIL @NAHUSHA@
+0 @F44@ FAM
+1 HUSB @NAHUSHA@
+1 CHIL @YAYATI@
+0 @F45@ FAM
+1 HUSB @YAYATI@
+1 CHIL @NABHAGA@
+0 @F46@ FAM
+1 HUSB @AJA@
+1 WIFE @INDUMATI@
+1 CHIL @DASHARATHA@
+0 @F47@ FAM
+1 HUSB @NABHAGA@
+1 CHIL @AJA@
+1 CHIL @SUVRATA@
+0 @F48@ FAM
+1 HUSB @DASHARATHA@
+1 WIFE @KAUSALYA@
+1 CHIL @SHANTA@
+1 CHIL @RAMA@
+0 @F49@ FAM
+1 HUSB @DASHARATHA@
+1 WIFE @KAIKEYI@
+1 CHIL @BHARATA@
+0 @F50@ FAM
+1 HUSB @DASHARATHA@
+1 WIFE @SUMITRA@
+1 CHIL @LAKSHMANA@
+1 CHIL @SHATRUGHNA@
+0 @F51@ FAM
+1 HUSB @ASHVAPATI@
+1 CHIL @KAIKEYI@
+1 CHIL @YUDHAJIT@
+0 @F52@ FAM
+1 HUSB @RISHYASHRINGA@
+1 WIFE @SHANTA@
+0 @F53@ FAM
+1 HUSB @RAMA@
+1 WIFE @SITA@
+1 CHIL @KUSHA@
+1 CHIL @LAVA@
+0 @F54@ FAM
+1 HUSB @BHARATA@
+1 WIFE @MANDAVI@
+1 CHIL @TAKSHA@
+1 CHIL @PUSHKALA@
+0 @F55@ FAM
+1 HUSB @LAKSHMANA@
+1 WIFE @URMILA@
+1 CHIL @ANGADA_L@
+1 CHIL @CHANDRAKETU@
+0 @F56@ FAM
+1 HUSB @SHATRUGHNA@
+1 WIFE @SHRUTAKIRTI@
+1 CHIL @SUBAHU@
+1 CHIL @SHATRUGHATI@
+0 @F57@ FAM
+1 HUSB @NIMI@
+1 CHIL @MITHI@
+0 @F58@ FAM
+1 HUSB @MITHI@
+1 CHIL @JANAKA1@
+0 @F59@ FAM
+1 HUSB @JANAKA1@
+1 CHIL @UDAVASU@
+0 @F60@ FAM
+1 HUSB @UDAVASU@
+1 CHIL @NANDIVARDHANA@
+0 @F61@ FAM
+1 HUSB @NANDIVARDHANA@
+1 CHIL @SUKETU@
+0 @F62@ FAM
+1 HUSB @SUKETU@
+1 CHIL @DEVARATA@
+0 @F63@ FAM
+1 HUSB @DEVARATA@
+1 CHIL @BRIHADRATHA@
+0 @F64@ FAM
+1 HUSB @BRIHADRATHA@
+1 CHIL @MAHAVIRA@
+0 @F65@ FAM
+1 HUSB @MAHAVIRA@
+1 CHIL @SUDHRITI@
+0 @F66@ FAM
+1 HUSB @SUDHRITI@
+1 CHIL @DHRISHTAKETU@
+0 @F67@ FAM
+1 HUSB @DHRISHTAKETU@
+1 CHIL @HARYASHVA@
+0 @F68@ FAM
+1 HUSB @HARYASHVA@
+1 CHIL @MARU_V@
+0 @F69@ FAM
+1 HUSB @MARU_V@
+1 CHIL @PRATINDHAKA@
+0 @F70@ FAM
+1 HUSB @PRATINDHAKA@
+1 CHIL @KIRTIRATHA@
+0 @F71@ FAM
+1 HUSB @KIRTIRATHA@
+1 CHIL @DEVAMIDHA@
+0 @F72@ FAM
+1 HUSB @DEVAMIDHA@
+1 CHIL @VIBUDHA@
+0 @F73@ FAM
+1 HUSB @VIBUDHA@
+1 CHIL @MAHIDHRAKA@
+0 @F74@ FAM
+1 HUSB @MAHIDHRAKA@
+1 CHIL @KIRTIRATA@
+0 @F75@ FAM
+1 HUSB @KIRTIRATA@
+1 CHIL @MAHAROMA@
+0 @F76@ FAM
+1 HUSB @MAHAROMA@
+1 CHIL @SWARNAROMA@
+0 @F77@ FAM
+1 HUSB @SWARNAROMA@
+1 CHIL @HRASVAROMA@
+0 @F78@ FAM
+1 HUSB @JANAKA@
+1 WIFE @SUNAYANA@
+1 CHIL @SITA@
+1 CHIL @URMILA@
+0 @F79@ FAM
+1 HUSB @HRASVAROMA@
+1 CHIL @JANAKA@
+1 CHIL @KUSHADHVAJA@
+0 @F80@ FAM
+1 HUSB @KUSHADHVAJA@
+1 CHIL @MANDAVI@
+1 CHIL @SHRUTAKIRTI@
+0 @F81@ FAM
+1 HUSB @KUSHA@
+1 WIFE @KUMUDVATI@
+1 CHIL @ATITHI@
+0 @F82@ FAM
+1 HUSB @LAVA@
+1 WIFE @SUMATI_L@
+0 @F83@ FAM
+1 HUSB @VISHNU@
+1 WIFE @LAKSHMI@
+0 @F84@ FAM
+1 HUSB @BHRIGU@
+1 WIFE @KHYATI@
+1 CHIL @LAKSHMI@
+0 @F85@ FAM
+1 HUSB @SHIVA@
+1 WIFE @SATI@
+0 @F86@ FAM
+1 HUSB @SHIVA@
+1 WIFE @PARVATI@
+1 CHIL @KARTIKEYA@
+1 CHIL @GANESHA@
+1 CHIL @ASHOKASUNDARI@
+0 @F87@ FAM
+1 HUSB @DAKSHA@
+1 WIFE @PRASUTI@
+1 CHIL @SATI@
+1 CHIL @KHYATI@
+1 CHIL @ANASUYA@
+1 CHIL @SVAHA@
+0 @F88@ FAM
+1 HUSB @DAKSHA@
+1 WIFE @ASIKNI@
+1 CHIL @ADITI@
+1 CHIL @DITI@
+1 CHIL @DANU@
+1 CHIL @VINATA@
+1 CHIL @KADRU@
+1 CHIL @ROHINI@
+0 @F89@ FAM
+1 HUSB @BHRIGU@
+1 WIFE @KAVYAMATA@
+1 CHIL @SHUKRA@
+0 @F90@ FAM
+1 HUSB @ATRI@
+1 WIFE @ANASUYA@
+1 CHIL @CHANDRA@
+0 @F91@ FAM
+1 HUSB @AGNI@
+1 WIFE @SVAHA@
+0 @F92@ FAM
+1 HUSB @INDRA@
+1 WIFE @SHACHI@
+1 CHIL @JAYANTA@
+1 CHIL @JAYANTI@
+1 CHIL @DEVASENA@
+0 @F93@ FAM
+1 HUSB @TVASHTR@
+1 CHIL @SARANYU@
+0 @F94@ FAM
+1 HUSB @VIVASVAN@
+1 WIFE @KUNTI@
+1 CHIL @KARNA@
+0 @F95@ FAM
+1 HUSB @PULOMAN@
+1 CHIL @SHACHI@
+0 @F96@ FAM
+1 HUSB @SHUKRA@
+1 WIFE @JAYANTI@
+0 @F97@ FAM
+1 HUSB @KARTIKEYA@
+1 WIFE @DEVASENA@
+0 @F98@ FAM
+1 HUSB @INDRA@
+1 CHIL @VALI@
+0 @F99@ FAM
+1 HUSB @HIMAVAN@
+1 WIFE @MENA@
+1 CHIL @PARVATI@
+1 CHIL @GANGA@
+1 CHIL @MAINAKA@
+0 @F100@ FAM
+1 HUSB @SHANTANU@
+1 WIFE @GANGA@
+1 CHIL @BHISHMA@
+0 @F101@ FAM
+1 HUSB @KARTIKEYA@
+1 WIFE @VALLI@
+0 @F102@ FAM
+1 HUSB @GANESHA@
+1 WIFE @RIDDHI@
+1 CHIL @LABHA@
+0 @F103@ FAM
+1 HUSB @GANESHA@
+1 WIFE @SIDDHI@
+1 CHIL @SHUBHA@
+0 @F104@ FAM
+1 HUSB @NAHUSHA_L@
+1 WIFE @ASHOKASUNDARI@
+0 @F105@ FAM
+1 HUSB @YAYATI_L@
+1 WIFE @DEVAYANI@
+1 CHIL @YADU@
+1 CHIL @TURVASU@
+0 @F106@ FAM
+1 HUSB @SHUKRA@
+1 CHIL @DEVAYANI@
+0 @F107@ FAM
+1 HUSB @BRIHASPATI@
+1 WIFE @TARA@
+1 CHIL @KACHA@
+0 @F108@ FAM
+1 HUSB @ANGIRAS@
+1 CHIL @BRIHASPATI@
+0 @F109@ FAM
+1 HUSB @HIRANYAKASHIPU@
+1 WIFE @KAYADHU@
+1 CHIL @PRAHLADA@
+0 @F110@ FAM
+1 HUSB @PRAHLADA@
+1 CHIL @VIROCHANA@
+0 @F111@ FAM
+1 HUSB @VIROCHANA@
+1 CHIL @BALI@
+0 @F112@ FAM
+1 HUSB @BALI@
+1 CHIL @BANASURA@
+0 @F113@ FAM
+1 HUSB @ANIRUDDHA@
+1 WIFE @USHA@
+0 @F114@ FAM
+1 HUSB @BANASURA@
+1 CHIL @USHA@
+0 @F115@ FAM
+1 HUSB @KESARI@
+1 WIFE @ANJANA@
+0 @F116@ FAM
+1 HUSB @VAYU@
+1 WIFE @ANJANA@
+1 CHIL @HANUMAN@
+0 @F117@ FAM
+1 HUSB @CHANDRA@
+1 WIFE @ROHINI@
+0 @F118@ FAM
+1 HUSB @BUDHA@
+1 WIFE @ILA@
+1 CHIL @PURURAVAS@
+0 @F119@ FAM
+1 HUSB @CHANDRA@
+1 WIFE @TARA@
+1 CHIL @BUDHA@
+0 @F120@ FAM
+1 HUSB @PURURAVAS@
+1 WIFE @URVASHI@
+1 CHIL @AYU@
+0 @F121@ FAM
+1 HUSB @AYU@
+1 CHIL @NAHUSHA_L@
+0 @F122@ FAM
+1 HUSB @YAYATI_L@
+1 WIFE @SHARMISHTHA@
+1 CHIL @DRUHYU@
+1 CHIL @ANU@
+1 CHIL @PURU@
+0 @F123@ FAM
+1 HUSB @NAHUSHA_L@
+1 CHIL @YAYATI_L@
+0 @F124@ FAM
+1 HUSB @VRISHAPARVAN@
+1 CHIL @SHARMISHTHA@
+0 @F125@ FAM
+1 HUSB @YADU@
+1 CHIL @GAP_YADAVA@
+0 @F126@ FAM
+1 HUSB @SHURASENA@
+1 WIFE @MARISHA@
+1 CHIL @VASUDEVA@
+1 CHIL @KUNTI@
+0 @F127@ FAM
+1 HUSB @GAP_YADAVA@
+1 CHIL @SHURASENA@
+0 @F128@ FAM
+1 HUSB @VASUDEVA@
+1 WIFE @DEVAKI@
+1 CHIL @KRISHNA@
+0 @F129@ FAM
+1 HUSB @VASUDEVA@
+1 WIFE @ROHINI_V@
+1 CHIL @BALARAMA@
+1 CHIL @SUBHADRA@
+0 @F130@ FAM
+1 HUSB @KRISHNA@
+1 WIFE @RUKMINI@
+1 CHIL @PRADYUMNA@
+0 @F131@ FAM
+1 HUSB @KRISHNA@
+1 WIFE @SATYABHAMA@
+0 @F132@ FAM
+1 HUSB @KRISHNA@
+1 WIFE @JAMBAVATI@
+1 CHIL @SAMBA@
+0 @F133@ FAM
+1 HUSB @ARJUNA@
+1 WIFE @SUBHADRA@
+1 CHIL @ABHIMANYU@
+0 @F134@ FAM
+1 HUSB @PANDU@
+1 WIFE @KUNTI@
+1 CHIL @YUDHISHTHIRA@
+1 CHIL @BHIMA@
+1 CHIL @ARJUNA@
+0 @F135@ FAM
+1 HUSB @PRADYUMNA@
+1 WIFE @RUKMAVATI@
+1 CHIL @ANIRUDDHA@
+0 @F136@ FAM
+1 HUSB @PURU@
+1 CHIL @GAP_PAURAVA1@
+0 @F137@ FAM
+1 HUSB @DUSHYANTA@
+1 WIFE @SHAKUNTALA@
+1 CHIL @BHARATA_K@
+0 @F138@ FAM
+1 HUSB @GAP_PAURAVA1@
+1 CHIL @DUSHYANTA@
+0 @F139@ FAM
+1 HUSB @BHARATA_K@
+1 CHIL @GAP_PAURAVA2@
+0 @F140@ FAM
+1 HUSB @GAP_PAURAVA2@
+1 CHIL @KURU@
+0 @F141@ FAM
+1 HUSB @KURU@
+1 CHIL @GAP_KURU@
+0 @F142@ FAM
+1 HUSB @PRATIPA@
+1 WIFE @SUNANDA@
+1 CHIL @SHANTANU@
+0 @F143@ FAM
+1 HUSB @GAP_KURU@
+1 CHIL @PRATIPA@
+0 @F144@ FAM
+1 HUSB @SHANTANU@
+1 WIFE @SATYAVATI@
+1 CHIL @CHITRANGADA@
+1 CHIL @VICHITRAVIRYA@
+0 @F145@ FAM
+1 HUSB @PARASHARA@
+1 WIFE @SATYAVATI@
+1 CHIL @VYASA@
+0 @F146@ FAM
+1 HUSB @VICHITRAVIRYA@
+1 WIFE @AMBIKA@
+0 @F147@ FAM
+1 HUSB @VICHITRAVIRYA@
+1 WIFE @AMBALIKA@
+0 @F148@ FAM
+1 HUSB @DHRITARASHTRA@
+1 WIFE @GANDHARI@
+1 CHIL @DURYODHANA@
+1 CHIL @DUSHASANA@
+1 CHIL @DUSHALA@
+0 @F149@ FAM
+1 HUSB @VYASA@
+1 WIFE @AMBIKA@
+1 CHIL @DHRITARASHTRA@
+0 @F150@ FAM
+1 HUSB @PANDU@
+1 WIFE @MADRI@
+1 CHIL @NAKULA@
+1 CHIL @SAHADEVA@
+0 @F151@ FAM
+1 HUSB @VYASA@
+1 WIFE @AMBALIKA@
+1 CHIL @PANDU@
+0 @F152@ FAM
+1 HUSB @VYASA@
+1 WIFE @PARISHRAMI@
+1 CHIL @VIDURA@
+0 @F153@ FAM
+1 HUSB @SUBALA@
+1 CHIL @GANDHARI@
+1 CHIL @SHAKUNI@
+0 @F154@ FAM
+1 HUSB @YUDHISHTHIRA@
+1 WIFE @DRAUPADI@
+1 CHIL @PRATIVINDHYA@
+0 @F155@ FAM
+1 HUSB @BHIMA@
+1 WIFE @DRAUPADI@
+1 CHIL @SUTASOMA@
+0 @F156@ FAM
+1 HUSB @ARJUNA@
+1 WIFE @DRAUPADI@
+1 CHIL @SHRUTAKARMA@
+0 @F157@ FAM
+1 HUSB @ARJUNA@
+1 WIFE @ULUPI@
+1 CHIL @IRAVAN@
+0 @F158@ FAM
+1 HUSB @ARJUNA@
+1 WIFE @CHITRANGADA_M@
+1 CHIL @BABRUVAHANA@
+0 @F159@ FAM
+1 HUSB @NAKULA@
+1 WIFE @DRAUPADI@
+1 CHIL @SHATANIKA@
+0 @F160@ FAM
+1 HUSB @SAHADEVA@
+1 WIFE @DRAUPADI@
+1 CHIL @SHRUTASENA@
+0 @F161@ FAM
+1 HUSB @ABHIMANYU@
+1 WIFE @UTTARA@
+1 CHIL @PARIKSHIT@
+0 @F162@ FAM
+1 HUSB @PARIKSHIT@
+1 CHIL @JANAMEJAYA@
+0 @S1@ SOUR
+1 TITL Wikipedia, “Kashyapa” (Vishnu Purana, Mahabharata, Ramayana lists of his wives)
+1 WWW https://en.wikipedia.org/wiki/Kashyapa
+0 @S2@ SOUR
+1 TITL Wikipedia, “Daksha” (Vishnu, Linga, Padma, Bhagavata Puranas; Mahabharata/Harivamsa)
+1 WWW https://en.wikipedia.org/wiki/Daksha
+0 @S3@ SOUR
+1 TITL Wikipedia, “Adityas” (the twelve sons of Aditi in the Mahabharata and Puranas)
+1 WWW https://en.wikipedia.org/wiki/Adityas
+0 @S4@ SOUR
+1 TITL Wikipedia, “Diti” (Bhagavata Purana)
+1 WWW https://en.wikipedia.org/wiki/Diti
+0 @S5@ SOUR
+1 TITL Wikipedia, “Prahlada” (Bhagavata Purana; Vishnu Purana 1.20)
+1 WWW https://en.wikipedia.org/wiki/Prahlada
+0 @S6@ SOUR
+1 TITL Wikipedia, “Vinata” (Mahabharata; Brahmanda Purana 16–18)
+1 WWW https://en.wikipedia.org/wiki/Vinata
+0 @S7@ SOUR
+1 TITL Wikipedia, “Kadru” (Mahabharata)
+1 WWW https://en.wikipedia.org/wiki/Kadru
+0 @S8@ SOUR
+1 TITL Wikipedia, “Brihaspati”
+1 WWW https://en.wikipedia.org/wiki/Brihaspati
+0 @S9@ SOUR
+1 TITL Wikipedia, “Shukra”
+1 WWW https://en.wikipedia.org/wiki/Shukra
+0 @S10@ SOUR
+1 TITL Wikipedia, “Parvati” (Puranas; Ramayana for Ganga as her sister)
+1 WWW https://en.wikipedia.org/wiki/Parvati
+0 @S11@ SOUR
+1 TITL Wikipedia, “Ganesha” (Shiva Purana: sons Kshema/Shubha and Labha)
+1 WWW https://en.wikipedia.org/wiki/Ganesha
+0 @S12@ SOUR
+1 TITL Wikipedia, “Kartikeya” (Skanda Purana; Tamil tradition for Valli)
+1 WWW https://en.wikipedia.org/wiki/Kartikeya
+0 @S13@ SOUR
+1 TITL Wikipedia, “Indra” (Mahabharata, Puranas; Bhagavata Purana for his children)
+1 WWW https://en.wikipedia.org/wiki/Indra
+0 @S14@ SOUR
+1 TITL Wikipedia, “Surya” (Puranas; Ramayana for Sugriva; Mahabharata for Karna)
+1 WWW https://en.wikipedia.org/wiki/Surya
+0 @S15@ SOUR
+1 TITL Wikipedia, “Hanuman” (Valmiki Ramayana: kshetraja son of Kesari, aurasa son of Vayu)
+1 WWW https://en.wikipedia.org/wiki/Hanuman
+0 @S16@ SOUR
+1 TITL Wikipedia, “Saraswati” (consort of Brahma; daughter of Brahma in some Puranas)
+1 WWW https://en.wikipedia.org/wiki/Saraswati
+0 @S17@ SOUR
+1 TITL Wikipedia, “Lakshmi” (Garuda, Linga, Padma Puranas: daughter of Bhrigu & Khyati; Vishnu Purana: born from the churned ocean)
+1 WWW https://en.wikipedia.org/wiki/Lakshmi
+0 @S18@ SOUR
+1 TITL Wikipedia, “Krishna” (Bhagavata Purana, Harivamsa, Mahabharata)
+1 WWW https://en.wikipedia.org/wiki/Krishna
+0 @S19@ SOUR
+1 TITL Wikipedia, “Chandra” (Mahabharata; Puranas)
+1 WWW https://en.wikipedia.org/wiki/Chandra
+0 @S20@ SOUR
+1 TITL Wikipedia, “Budha”
+1 WWW https://en.wikipedia.org/wiki/Budha
+0 @S21@ SOUR
+1 TITL Wikipedia, “Pururavas” (Rig Veda X.95; Mahabharata; Vishnu Purana)
+1 WWW https://en.wikipedia.org/wiki/Pururavas
+0 @S22@ SOUR
+1 TITL Wikipedia, “Yayati” (Mahabharata Adi Parva; Bhagavata Purana 9.18–19; Harivamsa)
+1 WWW https://en.wikipedia.org/wiki/Yayati
+0 @S23@ SOUR
+1 TITL Wikipedia, “Shantanu” (Mahabharata Adi Parva)
+1 WWW https://en.wikipedia.org/wiki/Shantanu
+0 @S24@ SOUR
+1 TITL Wikipedia, “Pandu” (Mahabharata Adi Parva, Sambhava Parva)
+1 WWW https://en.wikipedia.org/wiki/Pandu
+0 @S25@ SOUR
+1 TITL Wikipedia, “Kunti” (Mahabharata; Bhagavata Purana; Vana Parva 3.287–292 for Karna)
+1 WWW https://en.wikipedia.org/wiki/Kunti
+0 @S26@ SOUR
+1 TITL Wikipedia, “Arjuna” (Mahabharata Adi Parva)
+1 WWW https://en.wikipedia.org/wiki/Arjuna
+0 @S27@ SOUR
+1 TITL Wikipedia, “Vasudeva” (Bhagavata, Harivamsa, Vishnu Purana)
+1 WWW https://en.wikipedia.org/wiki/Vasudeva
+0 @S28@ SOUR
+1 TITL Wikipedia, “Pradyumna” (Bhagavata Purana 10.55, 10.61–63)
+1 WWW https://en.wikipedia.org/wiki/Pradyumna
+0 @S29@ SOUR
+1 TITL Wikipedia, “Dhritarashtra” (Mahabharata Adi Parva)
+1 WWW https://en.wikipedia.org/wiki/Dhritarashtra
+0 @S30@ SOUR
+1 TITL Wikipedia, “Gandhari (Mahabharata)”
+1 WWW https://en.wikipedia.org/wiki/Gandhari_(Mahabharata)
+0 @S31@ SOUR
+1 TITL Wikipedia, “Vidura” (Mahabharata, Sambhava Parva 106)
+1 WWW https://en.wikipedia.org/wiki/Vidura
+0 @S32@ SOUR
+1 TITL Wikipedia, “Draupadeyas” (Mahabharata)
+1 WWW https://en.wikipedia.org/wiki/Draupadeyas
+0 @S33@ SOUR
+1 TITL General Puranic tradition (e.g. Bhagavata Purana, Canto 9) — not individually verified for this file
+1 WWW https://en.wikipedia.org/wiki/Ila_(Hinduism)
+0 @S34@ SOUR
+1 TITL Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes)
+1 WWW https://www.valmikiramayan.net/utf8/baala/sarga18/balasans18.htm
+0 @S35@ SOUR
+1 TITL Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons)
+1 WWW https://www.valmikiramayan.net/utf8/baala/sarga38/balasans38.htm
+0 @S36@ SOUR
+1 TITL Valmiki Ramayana, Bala Kanda, Sarga 66 (Janaka finds Sita in the furrow)
+1 WWW https://www.valmikiramayan.net/utf8/baala/sarga66/balasans66.htm
+0 @S37@ SOUR
+1 TITL Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)
+1 WWW https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm
+0 @S38@ SOUR
+1 TITL Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)
+1 WWW https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm
+0 @S39@ SOUR
+1 TITL Valmiki Ramayana, Bala Kanda, Sarga 72 (Kushadhvaja’s daughters proposed)
+1 WWW https://www.valmikiramayan.net/utf8/baala/sarga72/balasans72.htm
+0 @S40@ SOUR
+1 TITL Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings)
+1 WWW https://www.valmikiramayan.net/utf8/baala/sarga73/balasans73.htm
+0 @S41@ SOUR
+1 TITL Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)
+1 WWW https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm
+0 @S42@ SOUR
+1 TITL Wikipedia, “Lakshmana” (Uttara Kanda: sons Angada & Chandraketu)
+1 WWW https://en.wikipedia.org/wiki/Lakshmana
+0 @S43@ SOUR
+1 TITL Wikipedia, “Bharata (Ramayana)” (sons Taksha & Pushkala; cites 1894 Chackravarti translation)
+1 WWW https://en.wikipedia.org/wiki/Bharata_(Ramayana)
+0 @S44@ SOUR
+1 TITL Wikipedia, “Shatrughna” (sons Subahu & Shatrughati)
+1 WWW https://en.wikipedia.org/wiki/Shatrughna
+0 @S45@ SOUR
+1 TITL Wikipedia, “Kusha (Ramayana)” (Uttara Kanda; Raghuvamsha: wife Kumudvati, son Atithi)
+1 WWW https://en.wikipedia.org/wiki/Kusha_(Ramayana)
+0 @S46@ SOUR
+1 TITL Wikipedia, “Lava (Ramayana)” (Shravasti; Ananda Ramayana: wife Sumati)
+1 WWW https://en.wikipedia.org/wiki/Lava_(Ramayana)
+0 @S47@ SOUR
+1 TITL Wikipedia, “Shanta (Ramayana)” (parentage differs by recension)
+1 WWW https://en.wikipedia.org/wiki/Shanta_(Ramayana)
+0 @S48@ SOUR
+1 TITL Wikipedia, “Kaikeyi” (father Ashvapati of Kekaya, brother Yudhajit)
+1 WWW https://en.wikipedia.org/wiki/Kaikeyi
+0 @S49@ SOUR
+1 TITL Wikipedia, “Sita” (mother Sunayana per later tradition)
+1 WWW https://en.wikipedia.org/wiki/Sita
+0 @S50@ SOUR
+1 TITL Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha
+1 WWW https://en.wikipedia.org/wiki/Raghuvamsha
+0 TRLR

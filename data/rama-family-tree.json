@@ -1,0 +1,2393 @@
+{
+  "title": "Family tree of Lord Rama (Ikshvaku / Raghu dynasty)",
+  "note": "Mythological genealogy compiled primarily from the Valmiki Ramayana (Bala Kanda 1.18, 1.38, 1.66, 1.70–1.73; Ayodhya Kanda 2.110). Uttara Kanda and later-tradition entries are tagged. No historical dates exist, so no birth/death years are given.",
+  "sources": {
+    "VR1.18": {
+      "cite": "Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes)",
+      "url": "https://www.valmikiramayan.net/utf8/baala/sarga18/balasans18.htm"
+    },
+    "VR1.38": {
+      "cite": "Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons)",
+      "url": "https://www.valmikiramayan.net/utf8/baala/sarga38/balasans38.htm"
+    },
+    "VR1.66": {
+      "cite": "Valmiki Ramayana, Bala Kanda, Sarga 66 (Janaka finds Sita in the furrow)",
+      "url": "https://www.valmikiramayan.net/utf8/baala/sarga66/balasans66.htm"
+    },
+    "VR1.70": {
+      "cite": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+      "url": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+    },
+    "VR1.71": {
+      "cite": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+      "url": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+    },
+    "VR1.72": {
+      "cite": "Valmiki Ramayana, Bala Kanda, Sarga 72 (Kushadhvaja’s daughters proposed)",
+      "url": "https://www.valmikiramayan.net/utf8/baala/sarga72/balasans72.htm"
+    },
+    "VR1.73": {
+      "cite": "Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings)",
+      "url": "https://www.valmikiramayan.net/utf8/baala/sarga73/balasans73.htm"
+    },
+    "VR2.110": {
+      "cite": "Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)",
+      "url": "https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm"
+    },
+    "W-Lakshmana": {
+      "cite": "Wikipedia, “Lakshmana” (Uttara Kanda: sons Angada & Chandraketu)",
+      "url": "https://en.wikipedia.org/wiki/Lakshmana"
+    },
+    "W-Bharata": {
+      "cite": "Wikipedia, “Bharata (Ramayana)” (sons Taksha & Pushkala; cites 1894 Chackravarti translation)",
+      "url": "https://en.wikipedia.org/wiki/Bharata_(Ramayana)"
+    },
+    "W-Shatrughna": {
+      "cite": "Wikipedia, “Shatrughna” (sons Subahu & Shatrughati)",
+      "url": "https://en.wikipedia.org/wiki/Shatrughna"
+    },
+    "W-Kusha": {
+      "cite": "Wikipedia, “Kusha (Ramayana)” (Uttara Kanda; Raghuvamsha: wife Kumudvati, son Atithi)",
+      "url": "https://en.wikipedia.org/wiki/Kusha_(Ramayana)"
+    },
+    "W-Lava": {
+      "cite": "Wikipedia, “Lava (Ramayana)” (Shravasti; Ananda Ramayana: wife Sumati)",
+      "url": "https://en.wikipedia.org/wiki/Lava_(Ramayana)"
+    },
+    "W-Shanta": {
+      "cite": "Wikipedia, “Shanta (Ramayana)” (parentage differs by recension)",
+      "url": "https://en.wikipedia.org/wiki/Shanta_(Ramayana)"
+    },
+    "W-Kaikeyi": {
+      "cite": "Wikipedia, “Kaikeyi” (father Ashvapati of Kekaya, brother Yudhajit)",
+      "url": "https://en.wikipedia.org/wiki/Kaikeyi"
+    },
+    "W-Sita": {
+      "cite": "Wikipedia, “Sita” (mother Sunayana per later tradition)",
+      "url": "https://en.wikipedia.org/wiki/Sita"
+    },
+    "W-Raghuvamsha": {
+      "cite": "Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha",
+      "url": "https://en.wikipedia.org/wiki/Raghuvamsha"
+    }
+  },
+  "focusId": "rama",
+  "people": [
+    {
+      "id": "brahma",
+      "given": "Brahma",
+      "surname": "",
+      "gender": "M",
+      "spouseIds": [],
+      "bio": "The Creator; head of the lineage recited by Vasishtha (1.70.19–20).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Deity"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "brahma-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "marichi",
+      "given": "Marichi",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "brahma",
+      "spouseIds": [],
+      "bio": "Son of Brahma (1.70.20).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Sage"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "marichi-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "kashyapa",
+      "given": "Kashyapa",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "marichi",
+      "spouseIds": [],
+      "bio": "Son of Marichi (1.70.20).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Sage"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "kashyapa-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "vivasvan",
+      "given": "Vivasvan (Surya)",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "kashyapa",
+      "spouseIds": [],
+      "bio": "The Sun god, son of Kashyapa (1.70.20). The dynasty is called Suryavamsha (Solar dynasty) after him.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Deity"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "vivasvan-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "manu",
+      "given": "Vaivasvata Manu",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "vivasvan",
+      "spouseIds": [],
+      "bio": "Son of the Sun (1.70.20); progenitor of mankind.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "manu-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "ikshvaku",
+      "given": "Ikshvaku",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "manu",
+      "spouseIds": [],
+      "birthPlace": "Ayodhya",
+      "bio": "Son of Manu and first king of Ayodhya (1.70.21). The dynasty is named after him.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "ikshvaku-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "kukshi",
+      "given": "Kukshi",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "ikshvaku",
+      "spouseIds": [],
+      "bio": "Son of Ikshvaku (1.70.22).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "kukshi-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "vikukshi",
+      "given": "Vikukshi",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "kukshi",
+      "spouseIds": [],
+      "bio": "Son of Kukshi (1.70.22).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "vikukshi-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "bana",
+      "given": "Bana",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "vikukshi",
+      "spouseIds": [],
+      "bio": "Son of Vikukshi (1.70.23).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "bana-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "anaranya",
+      "given": "Anaranya",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "bana",
+      "spouseIds": [],
+      "bio": "Son of Bana (1.70.23).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "anaranya-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "prithu",
+      "given": "Prithu",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "anaranya",
+      "spouseIds": [],
+      "bio": "Son of Anaranya (1.70.24).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "prithu-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "trishanku",
+      "given": "Trishanku",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "prithu",
+      "spouseIds": [],
+      "bio": "Son of Prithu (1.70.24).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "trishanku-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "dhundhumara",
+      "given": "Dhundhumara",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "trishanku",
+      "spouseIds": [],
+      "bio": "Son of Trishanku (1.70.24).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "dhundhumara-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "yuvanashva",
+      "given": "Yuvanashva",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "dhundhumara",
+      "spouseIds": [],
+      "bio": "Son of Dhundhumara (1.70.25).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "yuvanashva-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "mandhata",
+      "given": "Mandhata",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "yuvanashva",
+      "spouseIds": [],
+      "bio": "Son of Yuvanashva (1.70.25).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "mandhata-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "susandhi",
+      "given": "Susandhi",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "mandhata",
+      "spouseIds": [],
+      "bio": "Son of Mandhata (1.70.26).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "susandhi-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "dhruvasandhi",
+      "given": "Dhruvasandhi",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "susandhi",
+      "spouseIds": [],
+      "bio": "Elder son of Susandhi (1.70.26); the line continues through him.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "dhruvasandhi-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "prasenajit",
+      "given": "Prasenajit",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "susandhi",
+      "spouseIds": [],
+      "bio": "Second son of Susandhi (1.70.26).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "prasenajit-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "bharata1",
+      "given": "Bharata (son of Dhruvasandhi)",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "dhruvasandhi",
+      "spouseIds": [],
+      "bio": "Son of Dhruvasandhi (1.70.27). Not the same person as Rama’s brother Bharata.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "bharata1-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "asita",
+      "given": "Asita",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "bharata1",
+      "spouseIds": [],
+      "bio": "Son of Bharata (1.70.27). Lost his kingdom and died while both his queens were pregnant (1.70.28–30). One queen is named Kalindi, but readings differ on which queen bore Sagara, so no mother is recorded here.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "asita-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "sagara",
+      "given": "Sagara",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "asita",
+      "spouseIds": [
+        "keshini",
+        "sumati_s"
+      ],
+      "bio": "Born “with poison” (sa-gara), hence his name (1.70.37), blessed by sage Chyavana. Queens: Keshini of Vidarbha and Sumati, sister of Garuda (1.38.3–4). Sumati bore 60,000 sons (1.38.17).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "sagara-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "sagara-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga38/balasans38.htm"
+        }
+      ]
+    },
+    {
+      "id": "keshini",
+      "given": "Keshini",
+      "surname": "",
+      "gender": "F",
+      "spouseIds": [
+        "sagara"
+      ],
+      "birthPlace": "Vidarbha",
+      "bio": "Elder queen of Sagara, daughter of the king of Vidarbha (1.38.3); mother of Asamanja (1.38.16).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons).",
+      "tags": [
+        "Queen"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "keshini-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga38/balasans38.htm"
+        }
+      ]
+    },
+    {
+      "id": "sumati_s",
+      "given": "Sumati",
+      "surname": "",
+      "gender": "F",
+      "spouseIds": [
+        "sagara"
+      ],
+      "bio": "Younger queen of Sagara, daughter of Arishtanemi and sister of Garuda (1.38.4). Mother of 60,000 sons (1.38.17).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons).",
+      "tags": [
+        "Queen"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "sumati_s-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga38/balasans38.htm"
+        }
+      ]
+    },
+    {
+      "id": "asamanja",
+      "given": "Asamanja",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "sagara",
+      "motherId": "keshini",
+      "spouseIds": [],
+      "bio": "Son of Sagara and Keshini (1.38.16; 1.70.38).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons).",
+      "tags": [
+        "Ikshvaku dynasty"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "asamanja-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "asamanja-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga38/balasans38.htm"
+        }
+      ]
+    },
+    {
+      "id": "amshuman",
+      "given": "Amshuman",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "asamanja",
+      "spouseIds": [],
+      "bio": "Son of Asamanja (1.38.22–23; 1.70.38).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "amshuman-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "amshuman-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga38/balasans38.htm"
+        }
+      ]
+    },
+    {
+      "id": "dilipa",
+      "given": "Dilipa",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "amshuman",
+      "spouseIds": [],
+      "bio": "Son of Amshuman (1.70.38).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "dilipa-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "bhagiratha",
+      "given": "Bhagiratha",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "dilipa",
+      "spouseIds": [],
+      "bio": "Son of Dilipa (1.70.38); brought the Ganga down to earth.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "bhagiratha-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "kakutstha",
+      "given": "Kakutstha",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "bhagiratha",
+      "spouseIds": [],
+      "bio": "Son of Bhagiratha (1.70.39). Rama is often called “Kakutstha” after him (2.110.27).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "kakutstha-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "kakutstha-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)",
+          "note": "https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm"
+        }
+      ]
+    },
+    {
+      "id": "raghu",
+      "given": "Raghu",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "kakutstha",
+      "spouseIds": [],
+      "bio": "Son of Kakutstha (1.70.39). The “Raghavas” / Raghuvamsha are named after him (2.110.27).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "raghu-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "raghu-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)",
+          "note": "https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm"
+        }
+      ]
+    },
+    {
+      "id": "pravriddha",
+      "given": "Pravriddha (Kalmashapada)",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "raghu",
+      "spouseIds": [],
+      "bio": "Son of Raghu (1.70.39); also called Purushadaka, Kalmashapada and Saudasa (2.110.28).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "pravriddha-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "pravriddha-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)",
+          "note": "https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm"
+        }
+      ]
+    },
+    {
+      "id": "shankhana",
+      "given": "Shankhana",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "pravriddha",
+      "spouseIds": [],
+      "bio": "Son of Pravriddha (1.70.40).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "shankhana-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "sudarshana",
+      "given": "Sudarshana",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "shankhana",
+      "spouseIds": [],
+      "bio": "Son of Shankhana (1.70.40).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "sudarshana-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "agnivarna",
+      "given": "Agnivarna",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "sudarshana",
+      "spouseIds": [],
+      "bio": "Son of Sudarshana (1.70.40).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "agnivarna-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "shighraga",
+      "given": "Shighraga",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "agnivarna",
+      "spouseIds": [],
+      "bio": "Son of Agnivarna (1.70.41).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "shighraga-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "maru",
+      "given": "Maru",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "shighraga",
+      "spouseIds": [],
+      "bio": "Son of Shighraga (1.70.41).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "maru-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "prashushruka",
+      "given": "Prashushruka",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "maru",
+      "spouseIds": [],
+      "bio": "Son of Maru (1.70.41).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "prashushruka-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "ambarisha",
+      "given": "Ambarisha",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "prashushruka",
+      "spouseIds": [],
+      "bio": "Son of Prashushruka (1.70.41).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "ambarisha-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "nahusha",
+      "given": "Nahusha",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "ambarisha",
+      "spouseIds": [],
+      "bio": "Son of Ambarisha (1.70.42).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "nahusha-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "nahusha-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)",
+          "note": "https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm"
+        }
+      ]
+    },
+    {
+      "id": "yayati",
+      "given": "Yayati",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "nahusha",
+      "spouseIds": [],
+      "bio": "Son of Nahusha in Bala Kanda 1.70.42. NOTE: Ayodhya Kanda 2.110.32 omits Yayati and makes Nabhaga the direct son of Nahusha.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King",
+        "Variant"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "yayati-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "yayati-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)",
+          "note": "https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm"
+        }
+      ]
+    },
+    {
+      "id": "nabhaga",
+      "given": "Nabhaga",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "yayati",
+      "spouseIds": [],
+      "bio": "Son of Yayati (1.70.42); son of Nahusha in 2.110.32.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "nabhaga-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "nabhaga-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)",
+          "note": "https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm"
+        }
+      ]
+    },
+    {
+      "id": "aja",
+      "given": "Aja",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "nabhaga",
+      "spouseIds": [
+        "indumati"
+      ],
+      "bio": "Son of Nabhaga (1.70.43; 2.110.33). In Kalidasa’s Raghuvamsha, Aja is instead the son of Raghu and married Indumati of Vidarbha.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama); Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha.",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "aja-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "aja-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)",
+          "note": "https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm"
+        },
+        {
+          "id": "aja-src2",
+          "kind": "document",
+          "title": "Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha",
+          "note": "https://en.wikipedia.org/wiki/Raghuvamsha"
+        }
+      ]
+    },
+    {
+      "id": "suvrata",
+      "given": "Suvrata",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "nabhaga",
+      "spouseIds": [],
+      "bio": "Named as Aja’s brother in Ayodhya Kanda 2.110.33.\n\nSources: Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).",
+      "tags": [
+        "Ikshvaku dynasty"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "suvrata-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)",
+          "note": "https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm"
+        }
+      ]
+    },
+    {
+      "id": "indumati",
+      "given": "Indumati",
+      "surname": "",
+      "gender": "F",
+      "spouseIds": [
+        "aja"
+      ],
+      "birthPlace": "Vidarbha",
+      "bio": "Princess of Vidarbha who chose Aja at her svayamvara (Raghuvamsha, cantos 5–8). She is not named in Valmiki’s text.\n\nSources: Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha.",
+      "tags": [
+        "Queen",
+        "Later tradition"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "indumati-src0",
+          "kind": "document",
+          "title": "Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha",
+          "note": "https://en.wikipedia.org/wiki/Raghuvamsha"
+        }
+      ]
+    },
+    {
+      "id": "dasharatha",
+      "given": "Dasharatha",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "aja",
+      "motherId": "indumati",
+      "spouseIds": [
+        "kausalya",
+        "kaikeyi",
+        "sumitra"
+      ],
+      "birthPlace": "Ayodhya",
+      "bio": "King of Kosala at Ayodhya, son of Aja (1.70.43). Mother Indumati per Raghuvamsha.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama); Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha.",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "dasharatha-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "dasharatha-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)",
+          "note": "https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm"
+        },
+        {
+          "id": "dasharatha-src2",
+          "kind": "document",
+          "title": "Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha",
+          "note": "https://en.wikipedia.org/wiki/Raghuvamsha"
+        }
+      ]
+    },
+    {
+      "id": "kausalya",
+      "given": "Kausalya",
+      "surname": "",
+      "gender": "F",
+      "spouseIds": [
+        "dasharatha"
+      ],
+      "birthPlace": "Kosala",
+      "bio": "Chief queen of Dasharatha; mother of Rama (1.18.10).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes).",
+      "tags": [
+        "Queen"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "kausalya-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga18/balasans18.htm"
+        }
+      ]
+    },
+    {
+      "id": "kaikeyi",
+      "given": "Kaikeyi",
+      "surname": "",
+      "gender": "F",
+      "fatherId": "ashvapati",
+      "spouseIds": [
+        "dasharatha"
+      ],
+      "birthPlace": "Kekaya",
+      "bio": "Queen of Dasharatha from Kekaya; mother of Bharata (1.18.13).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes); Wikipedia, “Kaikeyi” (father Ashvapati of Kekaya, brother Yudhajit).",
+      "tags": [
+        "Queen"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "kaikeyi-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga18/balasans18.htm"
+        },
+        {
+          "id": "kaikeyi-src1",
+          "kind": "document",
+          "title": "Wikipedia, “Kaikeyi” (father Ashvapati of Kekaya, brother Yudhajit)",
+          "note": "https://en.wikipedia.org/wiki/Kaikeyi"
+        }
+      ]
+    },
+    {
+      "id": "sumitra",
+      "given": "Sumitra",
+      "surname": "",
+      "gender": "F",
+      "spouseIds": [
+        "dasharatha"
+      ],
+      "bio": "Queen of Dasharatha; mother of the twins Lakshmana and Shatrughna (1.18.14).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes).",
+      "tags": [
+        "Queen"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "sumitra-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga18/balasans18.htm"
+        }
+      ]
+    },
+    {
+      "id": "ashvapati",
+      "given": "Ashvapati",
+      "surname": "",
+      "gender": "M",
+      "spouseIds": [],
+      "birthPlace": "Kekaya",
+      "bio": "King of Kekaya; father of Kaikeyi.\n\nSources: Wikipedia, “Kaikeyi” (father Ashvapati of Kekaya, brother Yudhajit).",
+      "tags": [
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "ashvapati-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Kaikeyi” (father Ashvapati of Kekaya, brother Yudhajit)",
+          "note": "https://en.wikipedia.org/wiki/Kaikeyi"
+        }
+      ]
+    },
+    {
+      "id": "yudhajit",
+      "given": "Yudhajit",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "ashvapati",
+      "spouseIds": [],
+      "birthPlace": "Kekaya",
+      "bio": "Prince of Kekaya, Kaikeyi’s brother and Bharata’s maternal uncle.\n\nSources: Wikipedia, “Kaikeyi” (father Ashvapati of Kekaya, brother Yudhajit).",
+      "tags": [
+        "Prince"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "yudhajit-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Kaikeyi” (father Ashvapati of Kekaya, brother Yudhajit)",
+          "note": "https://en.wikipedia.org/wiki/Kaikeyi"
+        }
+      ]
+    },
+    {
+      "id": "shanta",
+      "given": "Shanta",
+      "surname": "",
+      "gender": "F",
+      "fatherId": "dasharatha",
+      "motherId": "kausalya",
+      "spouseIds": [
+        "rishyashringa"
+      ],
+      "bio": "DISPUTED: northern recensions and later literature make her Dasharatha’s daughter, adopted by King Romapada of Anga. Other scholars treat this as a later addition. Married the sage Rishyashringa, who performed the putrakameshti sacrifice for Dasharatha.\n\nSources: Wikipedia, “Shanta (Ramayana)” (parentage differs by recension).",
+      "tags": [
+        "Princess",
+        "Disputed"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "shanta-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Shanta (Ramayana)” (parentage differs by recension)",
+          "note": "https://en.wikipedia.org/wiki/Shanta_(Ramayana)"
+        }
+      ]
+    },
+    {
+      "id": "rishyashringa",
+      "given": "Rishyashringa",
+      "surname": "",
+      "gender": "M",
+      "spouseIds": [
+        "shanta"
+      ],
+      "bio": "Sage, husband of Shanta; led the sacrifice that led to the birth of the four princes.\n\nSources: Wikipedia, “Shanta (Ramayana)” (parentage differs by recension).",
+      "tags": [
+        "Sage"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "rishyashringa-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Shanta (Ramayana)” (parentage differs by recension)",
+          "note": "https://en.wikipedia.org/wiki/Shanta_(Ramayana)"
+        }
+      ]
+    },
+    {
+      "id": "rama",
+      "given": "Rama",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "dasharatha",
+      "motherId": "kausalya",
+      "spouseIds": [
+        "sita"
+      ],
+      "birthPlace": "Ayodhya",
+      "bio": "Eldest son of Dasharatha, born to Kausalya on Chaitra Navami (1.18.8–11). Seventh avatar of Vishnu.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes); Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).\nMarried Sita (Valmiki Ramayana 1.73.26–27, at Mithila).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King",
+        "Avatar of Vishnu"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "rama-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga18/balasans18.htm"
+        },
+        {
+          "id": "rama-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        },
+        {
+          "id": "rama-src2",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama)",
+          "note": "https://www.valmikiramayan.net/utf8/ayodhya/sarga110/ayodhyasans110.htm"
+        }
+      ]
+    },
+    {
+      "id": "bharata",
+      "given": "Bharata",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "dasharatha",
+      "motherId": "kaikeyi",
+      "spouseIds": [
+        "mandavi"
+      ],
+      "birthPlace": "Ayodhya",
+      "bio": "Son of Dasharatha and Kaikeyi, born the day after Rama (1.18.13–15).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes).\nMarried Mandavi (Valmiki Ramayana 1.73.31–32, at Mithila).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "Prince"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "bharata-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga18/balasans18.htm"
+        }
+      ]
+    },
+    {
+      "id": "lakshmana",
+      "given": "Lakshmana",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "dasharatha",
+      "motherId": "sumitra",
+      "spouseIds": [
+        "urmila"
+      ],
+      "birthPlace": "Ayodhya",
+      "bio": "Son of Sumitra, elder of the twins (1.18.14–15); Rama’s constant companion.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes); Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).\nMarried Urmila (Valmiki Ramayana 1.73.30–31, at Mithila).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "Prince"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "lakshmana-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga18/balasans18.htm"
+        },
+        {
+          "id": "lakshmana-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga70/balasans70.htm"
+        }
+      ]
+    },
+    {
+      "id": "shatrughna",
+      "given": "Shatrughna",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "dasharatha",
+      "motherId": "sumitra",
+      "spouseIds": [
+        "shrutakirti"
+      ],
+      "birthPlace": "Ayodhya",
+      "bio": "Younger twin, son of Sumitra (1.18.14, 1.18.32).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes).\nMarried Shrutakirti (Valmiki Ramayana 1.73.32–33, at Mithila).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "Prince"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "shatrughna-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga18/balasans18.htm"
+        }
+      ]
+    },
+    {
+      "id": "nimi",
+      "given": "Nimi",
+      "surname": "",
+      "gender": "M",
+      "spouseIds": [],
+      "birthPlace": "Mithila",
+      "bio": "Founder of the Videha line of Mithila (1.71.3).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "nimi-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "mithi",
+      "given": "Mithi",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "nimi",
+      "spouseIds": [],
+      "birthPlace": "Mithila",
+      "bio": "Son of Nimi (1.71.4); Mithila is named after him.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "mithi-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "janaka1",
+      "given": "Janaka I",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "mithi",
+      "spouseIds": [],
+      "birthPlace": "Mithila",
+      "bio": "Son of Mithi and the first “Janaka” (1.71.4). Later kings took the title Janaka.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "janaka1-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "udavasu",
+      "given": "Udavasu",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "janaka1",
+      "spouseIds": [],
+      "bio": "1.71.4\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "udavasu-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "nandivardhana",
+      "given": "Nandivardhana",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "udavasu",
+      "spouseIds": [],
+      "bio": "1.71.5\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "nandivardhana-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "suketu",
+      "given": "Suketu",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "nandivardhana",
+      "spouseIds": [],
+      "bio": "1.71.5\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "suketu-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "devarata",
+      "given": "Devarata",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "suketu",
+      "spouseIds": [],
+      "bio": "1.71.6. Shiva’s bow was entrusted to him.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "devarata-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "brihadratha",
+      "given": "Brihadratha",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "devarata",
+      "spouseIds": [],
+      "bio": "1.71.6\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "brihadratha-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "mahavira",
+      "given": "Mahavira",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "brihadratha",
+      "spouseIds": [],
+      "bio": "1.71.7\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "mahavira-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "sudhriti",
+      "given": "Sudhriti",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "mahavira",
+      "spouseIds": [],
+      "bio": "1.71.7\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "sudhriti-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "dhrishtaketu",
+      "given": "Dhrishtaketu",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "sudhriti",
+      "spouseIds": [],
+      "bio": "1.71.8\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "dhrishtaketu-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "haryashva",
+      "given": "Haryashva",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "dhrishtaketu",
+      "spouseIds": [],
+      "bio": "1.71.8\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "haryashva-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "maru_v",
+      "given": "Maru (of Videha)",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "haryashva",
+      "spouseIds": [],
+      "bio": "1.71.9. Not the same person as Maru of the Ikshvaku line.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "maru_v-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "pratindhaka",
+      "given": "Pratindhaka",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "maru_v",
+      "spouseIds": [],
+      "bio": "1.71.9\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "pratindhaka-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "kirtiratha",
+      "given": "Kirtiratha",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "pratindhaka",
+      "spouseIds": [],
+      "bio": "1.71.9\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "kirtiratha-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "devamidha",
+      "given": "Devamidha",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "kirtiratha",
+      "spouseIds": [],
+      "bio": "1.71.10\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "devamidha-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "vibudha",
+      "given": "Vibudha",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "devamidha",
+      "spouseIds": [],
+      "bio": "1.71.10\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "vibudha-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "mahidhraka",
+      "given": "Mahidhraka",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "vibudha",
+      "spouseIds": [],
+      "bio": "1.71.10\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "mahidhraka-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "kirtirata",
+      "given": "Kirtirata",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "mahidhraka",
+      "spouseIds": [],
+      "bio": "1.71.11\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "kirtirata-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "maharoma",
+      "given": "Maharoma",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "kirtirata",
+      "spouseIds": [],
+      "bio": "1.71.11\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "maharoma-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "swarnaroma",
+      "given": "Swarnaroma",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "maharoma",
+      "spouseIds": [],
+      "bio": "1.71.12\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "swarnaroma-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "hrasvaroma",
+      "given": "Hrasvaroma",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "swarnaroma",
+      "spouseIds": [],
+      "bio": "1.71.12. Father of Janaka and Kushadhvaja (1.71.13).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "hrasvaroma-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        }
+      ]
+    },
+    {
+      "id": "janaka",
+      "given": "Janaka (Siradhvaja)",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "hrasvaroma",
+      "spouseIds": [
+        "sunayana"
+      ],
+      "birthPlace": "Mithila",
+      "bio": "King of Videha at Mithila, elder son of Hrasvaroma (1.71.13). Valmiki calls him only “Janaka”; the personal name Siradhvaja comes from Puranic tradition.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage); Valmiki Ramayana, Bala Kanda, Sarga 66 (Janaka finds Sita in the furrow).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "janaka-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        },
+        {
+          "id": "janaka-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 66 (Janaka finds Sita in the furrow)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga66/balasans66.htm"
+        }
+      ]
+    },
+    {
+      "id": "sunayana",
+      "given": "Sunayana",
+      "surname": "",
+      "gender": "F",
+      "spouseIds": [
+        "janaka"
+      ],
+      "birthPlace": "Mithila",
+      "bio": "Queen of Janaka per later tradition. She is not named in Valmiki’s Bala Kanda.\n\nSources: Wikipedia, “Sita” (mother Sunayana per later tradition).",
+      "tags": [
+        "Queen",
+        "Later tradition"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "sunayana-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Sita” (mother Sunayana per later tradition)",
+          "note": "https://en.wikipedia.org/wiki/Sita"
+        }
+      ]
+    },
+    {
+      "id": "kushadhvaja",
+      "given": "Kushadhvaja",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "hrasvaroma",
+      "spouseIds": [],
+      "birthPlace": "Sankashya",
+      "bio": "Younger brother of Janaka (1.71.13), king of Sankashya; father of Mandavi and Shrutakirti (1.72.5–11).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage); Valmiki Ramayana, Bala Kanda, Sarga 72 (Kushadhvaja’s daughters proposed).",
+      "tags": [
+        "Videha dynasty",
+        "King"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "kushadhvaja-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        },
+        {
+          "id": "kushadhvaja-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 72 (Kushadhvaja’s daughters proposed)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga72/balasans72.htm"
+        }
+      ]
+    },
+    {
+      "id": "sita",
+      "given": "Sita",
+      "surname": "",
+      "gender": "F",
+      "fatherId": "janaka",
+      "motherId": "sunayana",
+      "spouseIds": [
+        "rama"
+      ],
+      "birthPlace": "Mithila",
+      "bio": "“Non-uterine” (ayonija) birth: Janaka found her in the furrow while ploughing a ritual field and raised her as his daughter (1.66.13–15). Hence she is called Bhumija, daughter of the Earth. Married Rama (1.73.26–27). Parents are recorded as her adoptive parents.\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 66 (Janaka finds Sita in the furrow); Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage); Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings).\nMarried Rama (Valmiki Ramayana 1.73.26–27, at Mithila).",
+      "tags": [
+        "Videha dynasty",
+        "Avatar of Lakshmi",
+        "Adopted"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "sita-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 66 (Janaka finds Sita in the furrow)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga66/balasans66.htm"
+        },
+        {
+          "id": "sita-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        },
+        {
+          "id": "sita-src2",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga73/balasans73.htm"
+        }
+      ]
+    },
+    {
+      "id": "urmila",
+      "given": "Urmila",
+      "surname": "",
+      "gender": "F",
+      "fatherId": "janaka",
+      "motherId": "sunayana",
+      "spouseIds": [
+        "lakshmana"
+      ],
+      "birthPlace": "Mithila",
+      "bio": "Daughter of Janaka, given to Lakshmana (1.71.20–21; 1.73.30–31).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage); Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings).\nMarried Lakshmana (Valmiki Ramayana 1.73.30–31, at Mithila).",
+      "tags": [
+        "Videha dynasty",
+        "Princess"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "urmila-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga71/balasans71.htm"
+        },
+        {
+          "id": "urmila-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga73/balasans73.htm"
+        }
+      ]
+    },
+    {
+      "id": "mandavi",
+      "given": "Mandavi",
+      "surname": "",
+      "gender": "F",
+      "fatherId": "kushadhvaja",
+      "spouseIds": [
+        "bharata"
+      ],
+      "bio": "Daughter of Kushadhvaja (1.72.11), married to Bharata (1.73.31–32).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 72 (Kushadhvaja’s daughters proposed); Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings).\nMarried Bharata (Valmiki Ramayana 1.73.31–32, at Mithila).",
+      "tags": [
+        "Videha dynasty",
+        "Princess"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "mandavi-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 72 (Kushadhvaja’s daughters proposed)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga72/balasans72.htm"
+        },
+        {
+          "id": "mandavi-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga73/balasans73.htm"
+        }
+      ]
+    },
+    {
+      "id": "shrutakirti",
+      "given": "Shrutakirti",
+      "surname": "",
+      "gender": "F",
+      "fatherId": "kushadhvaja",
+      "spouseIds": [
+        "shatrughna"
+      ],
+      "bio": "Daughter of Kushadhvaja (1.72.11), married to Shatrughna (1.73.32–33).\n\nSources: Valmiki Ramayana, Bala Kanda, Sarga 72 (Kushadhvaja’s daughters proposed); Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings).\nMarried Shatrughna (Valmiki Ramayana 1.73.32–33, at Mithila).",
+      "tags": [
+        "Videha dynasty",
+        "Princess"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "shrutakirti-src0",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 72 (Kushadhvaja’s daughters proposed)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga72/balasans72.htm"
+        },
+        {
+          "id": "shrutakirti-src1",
+          "kind": "document",
+          "title": "Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings)",
+          "note": "https://www.valmikiramayan.net/utf8/baala/sarga73/balasans73.htm"
+        }
+      ]
+    },
+    {
+      "id": "kusha",
+      "given": "Kusha",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "rama",
+      "motherId": "sita",
+      "spouseIds": [
+        "kumudvati"
+      ],
+      "bio": "Elder twin son of Rama and Sita, born at Valmiki’s hermitage (Uttara Kanda). Ruled southern Kosala from Kushasthali/Kushavati.\n\nSources: Wikipedia, “Kusha (Ramayana)” (Uttara Kanda; Raghuvamsha: wife Kumudvati, son Atithi).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King",
+        "Uttara Kanda"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "kusha-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Kusha (Ramayana)” (Uttara Kanda; Raghuvamsha: wife Kumudvati, son Atithi)",
+          "note": "https://en.wikipedia.org/wiki/Kusha_(Ramayana)"
+        }
+      ]
+    },
+    {
+      "id": "lava",
+      "given": "Lava",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "rama",
+      "motherId": "sita",
+      "spouseIds": [
+        "sumati_l"
+      ],
+      "bio": "Younger twin son of Rama and Sita (Uttara Kanda). Ruled northern Kosala from Shravasti; traditionally linked with founding Lavapuri (Lahore).\n\nSources: Wikipedia, “Lava (Ramayana)” (Shravasti; Ananda Ramayana: wife Sumati).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King",
+        "Uttara Kanda"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "lava-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Lava (Ramayana)” (Shravasti; Ananda Ramayana: wife Sumati)",
+          "note": "https://en.wikipedia.org/wiki/Lava_(Ramayana)"
+        }
+      ]
+    },
+    {
+      "id": "kumudvati",
+      "given": "Kumudvati",
+      "surname": "",
+      "gender": "F",
+      "spouseIds": [
+        "kusha"
+      ],
+      "bio": "Wife of Kusha, daughter of the Naga chief Kumuda (Raghuvamsha, canto 16). The Ananda Ramayana calls her Champika.\n\nSources: Wikipedia, “Kusha (Ramayana)” (Uttara Kanda; Raghuvamsha: wife Kumudvati, son Atithi).",
+      "tags": [
+        "Naga",
+        "Later tradition"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "kumudvati-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Kusha (Ramayana)” (Uttara Kanda; Raghuvamsha: wife Kumudvati, son Atithi)",
+          "note": "https://en.wikipedia.org/wiki/Kusha_(Ramayana)"
+        }
+      ]
+    },
+    {
+      "id": "sumati_l",
+      "given": "Sumati",
+      "surname": "",
+      "gender": "F",
+      "spouseIds": [
+        "lava"
+      ],
+      "bio": "Wife of Lava according to the Ananda Ramayana.\n\nSources: Wikipedia, “Lava (Ramayana)” (Shravasti; Ananda Ramayana: wife Sumati).",
+      "tags": [
+        "Later tradition"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "sumati_l-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Lava (Ramayana)” (Shravasti; Ananda Ramayana: wife Sumati)",
+          "note": "https://en.wikipedia.org/wiki/Lava_(Ramayana)"
+        }
+      ]
+    },
+    {
+      "id": "atithi",
+      "given": "Atithi",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "kusha",
+      "motherId": "kumudvati",
+      "spouseIds": [],
+      "bio": "Son of Kusha and his heir (Raghuvamsha, canto 17).\n\nSources: Wikipedia, “Kusha (Ramayana)” (Uttara Kanda; Raghuvamsha: wife Kumudvati, son Atithi); Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha.",
+      "tags": [
+        "Ikshvaku dynasty",
+        "King",
+        "Later tradition"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "atithi-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Kusha (Ramayana)” (Uttara Kanda; Raghuvamsha: wife Kumudvati, son Atithi)",
+          "note": "https://en.wikipedia.org/wiki/Kusha_(Ramayana)"
+        },
+        {
+          "id": "atithi-src1",
+          "kind": "document",
+          "title": "Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha",
+          "note": "https://en.wikipedia.org/wiki/Raghuvamsha"
+        }
+      ]
+    },
+    {
+      "id": "angada_l",
+      "given": "Angada (son of Lakshmana)",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "lakshmana",
+      "motherId": "urmila",
+      "spouseIds": [],
+      "bio": "Son of Lakshmana and Urmila; given the kingdom of Karupada (Uttara Kanda). Not the same person as the vanara Angada, son of Vali.\n\nSources: Wikipedia, “Lakshmana” (Uttara Kanda: sons Angada & Chandraketu).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "Prince",
+        "Uttara Kanda"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "angada_l-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Lakshmana” (Uttara Kanda: sons Angada & Chandraketu)",
+          "note": "https://en.wikipedia.org/wiki/Lakshmana"
+        }
+      ]
+    },
+    {
+      "id": "chandraketu",
+      "given": "Chandraketu",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "lakshmana",
+      "motherId": "urmila",
+      "spouseIds": [],
+      "bio": "Son of Lakshmana and Urmila; ruled Malla with its capital Chandrakanti (Uttara Kanda).\n\nSources: Wikipedia, “Lakshmana” (Uttara Kanda: sons Angada & Chandraketu).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "Prince",
+        "Uttara Kanda"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "chandraketu-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Lakshmana” (Uttara Kanda: sons Angada & Chandraketu)",
+          "note": "https://en.wikipedia.org/wiki/Lakshmana"
+        }
+      ]
+    },
+    {
+      "id": "taksha",
+      "given": "Taksha",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "bharata",
+      "motherId": "mandavi",
+      "spouseIds": [],
+      "birthPlace": "Takshashila",
+      "bio": "Son of Bharata and Mandavi; established at Takshashila (Taxila).\n\nSources: Wikipedia, “Bharata (Ramayana)” (sons Taksha & Pushkala; cites 1894 Chackravarti translation).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "Prince",
+        "Uttara Kanda"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "taksha-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Bharata (Ramayana)” (sons Taksha & Pushkala; cites 1894 Chackravarti translation)",
+          "note": "https://en.wikipedia.org/wiki/Bharata_(Ramayana)"
+        }
+      ]
+    },
+    {
+      "id": "pushkala",
+      "given": "Pushkala",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "bharata",
+      "motherId": "mandavi",
+      "spouseIds": [],
+      "birthPlace": "Pushkalavati",
+      "bio": "Son of Bharata and Mandavi; established at Pushkalavati.\n\nSources: Wikipedia, “Bharata (Ramayana)” (sons Taksha & Pushkala; cites 1894 Chackravarti translation).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "Prince",
+        "Uttara Kanda"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "pushkala-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Bharata (Ramayana)” (sons Taksha & Pushkala; cites 1894 Chackravarti translation)",
+          "note": "https://en.wikipedia.org/wiki/Bharata_(Ramayana)"
+        }
+      ]
+    },
+    {
+      "id": "subahu",
+      "given": "Subahu",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "shatrughna",
+      "motherId": "shrutakirti",
+      "spouseIds": [],
+      "bio": "Son of Shatrughna and Shrutakirti; Shatrughna’s realm of Madhupura (Mathura) and Vidisha was divided between his sons.\n\nSources: Wikipedia, “Shatrughna” (sons Subahu & Shatrughati).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "Prince",
+        "Uttara Kanda"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "subahu-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Shatrughna” (sons Subahu & Shatrughati)",
+          "note": "https://en.wikipedia.org/wiki/Shatrughna"
+        }
+      ]
+    },
+    {
+      "id": "shatrughati",
+      "given": "Shatrughati",
+      "surname": "",
+      "gender": "M",
+      "fatherId": "shatrughna",
+      "motherId": "shrutakirti",
+      "spouseIds": [],
+      "bio": "Son of Shatrughna and Shrutakirti (see Subahu).\n\nSources: Wikipedia, “Shatrughna” (sons Subahu & Shatrughati).",
+      "tags": [
+        "Ikshvaku dynasty",
+        "Prince",
+        "Uttara Kanda"
+      ],
+      "events": [],
+      "media": [
+        {
+          "id": "shatrughati-src0",
+          "kind": "document",
+          "title": "Wikipedia, “Shatrughna” (sons Subahu & Shatrughati)",
+          "note": "https://en.wikipedia.org/wiki/Shatrughna"
+        }
+      ]
+    }
+  ]
+}

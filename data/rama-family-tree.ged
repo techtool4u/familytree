@@ -1,0 +1,676 @@
+0 HEAD
+1 SOUR Kindred
+1 NOTE Family tree of Lord Rama compiled from the Valmiki Ramayana (Bala Kanda 70-73, Ayodhya Kanda 110) and later texts; see rama-family-tree-sources.md
+1 GEDC
+2 VERS 5.5.1
+1 CHAR UTF-8
+0 @brahma@ INDI
+1 NAME Brahma //
+1 SEX M
+1 NOTE The Creator; head of the lineage recited by Vasishtha (1.70.19–20).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @marichi@ INDI
+1 NAME Marichi //
+1 SEX M
+1 NOTE Son of Brahma (1.70.20).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @kashyapa@ INDI
+1 NAME Kashyapa //
+1 SEX M
+1 NOTE Son of Marichi (1.70.20).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @vivasvan@ INDI
+1 NAME Vivasvan (Surya) //
+1 SEX M
+1 NOTE The Sun god, son of Kashyapa (1.70.20). The dynasty is called Suryavamsha (Solar dynasty) after him.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @manu@ INDI
+1 NAME Vaivasvata Manu //
+1 SEX M
+1 NOTE Son of the Sun (1.70.20); progenitor of mankind.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @ikshvaku@ INDI
+1 NAME Ikshvaku //
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE Son of Manu and first king of Ayodhya (1.70.21). The dynasty is named after him.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @kukshi@ INDI
+1 NAME Kukshi //
+1 SEX M
+1 NOTE Son of Ikshvaku (1.70.22).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @vikukshi@ INDI
+1 NAME Vikukshi //
+1 SEX M
+1 NOTE Son of Kukshi (1.70.22).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @bana@ INDI
+1 NAME Bana //
+1 SEX M
+1 NOTE Son of Vikukshi (1.70.23).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @anaranya@ INDI
+1 NAME Anaranya //
+1 SEX M
+1 NOTE Son of Bana (1.70.23).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @prithu@ INDI
+1 NAME Prithu //
+1 SEX M
+1 NOTE Son of Anaranya (1.70.24).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @trishanku@ INDI
+1 NAME Trishanku //
+1 SEX M
+1 NOTE Son of Prithu (1.70.24).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @dhundhumara@ INDI
+1 NAME Dhundhumara //
+1 SEX M
+1 NOTE Son of Trishanku (1.70.24).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @yuvanashva@ INDI
+1 NAME Yuvanashva //
+1 SEX M
+1 NOTE Son of Dhundhumara (1.70.25).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @mandhata@ INDI
+1 NAME Mandhata //
+1 SEX M
+1 NOTE Son of Yuvanashva (1.70.25).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @susandhi@ INDI
+1 NAME Susandhi //
+1 SEX M
+1 NOTE Son of Mandhata (1.70.26).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @dhruvasandhi@ INDI
+1 NAME Dhruvasandhi //
+1 SEX M
+1 NOTE Elder son of Susandhi (1.70.26); the line continues through him.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @prasenajit@ INDI
+1 NAME Prasenajit //
+1 SEX M
+1 NOTE Second son of Susandhi (1.70.26).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @bharata1@ INDI
+1 NAME Bharata (son of Dhruvasandhi) //
+1 SEX M
+1 NOTE Son of Dhruvasandhi (1.70.27). Not the same person as Rama’s brother Bharata.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @asita@ INDI
+1 NAME Asita //
+1 SEX M
+1 NOTE Son of Bharata (1.70.27). Lost his kingdom and died while both his queens were pregnant (1.70.28–30). One queen is named Kalindi, but readings differ on which queen bore Sagara, so no mother is recorded here.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @sagara@ INDI
+1 NAME Sagara //
+1 SEX M
+1 NOTE Born “with poison” (sa-gara), hence his name (1.70.37), blessed by sage Chyavana. Queens: Keshini of Vidarbha and Sumati, sister of Garuda (1.38.3–4). Sumati bore 60,000 sons (1.38.17).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons).
+0 @keshini@ INDI
+1 NAME Keshini //
+1 SEX F
+1 BIRT
+2 PLAC Vidarbha
+1 NOTE Elder queen of Sagara, daughter of the king of Vidarbha (1.38.3); mother of Asamanja (1.38.16).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons).
+0 @sumati_s@ INDI
+1 NAME Sumati //
+1 SEX F
+1 NOTE Younger queen of Sagara, daughter of Arishtanemi and sister of Garuda (1.38.4). Mother of 60,000 sons (1.38.17).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons).
+0 @asamanja@ INDI
+1 NAME Asamanja //
+1 SEX M
+1 NOTE Son of Sagara and Keshini (1.38.16; 1.70.38).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons).
+0 @amshuman@ INDI
+1 NAME Amshuman //
+1 SEX M
+1 NOTE Son of Asamanja (1.38.22–23; 1.70.38).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Bala Kanda, Sarga 38 (Sagara’s queens and sons).
+0 @dilipa@ INDI
+1 NAME Dilipa //
+1 SEX M
+1 NOTE Son of Amshuman (1.70.38).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @bhagiratha@ INDI
+1 NAME Bhagiratha //
+1 SEX M
+1 NOTE Son of Dilipa (1.70.38); brought the Ganga down to earth.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @kakutstha@ INDI
+1 NAME Kakutstha //
+1 SEX M
+1 NOTE Son of Bhagiratha (1.70.39). Rama is often called “Kakutstha” after him (2.110.27).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).
+0 @raghu@ INDI
+1 NAME Raghu //
+1 SEX M
+1 NOTE Son of Kakutstha (1.70.39). The “Raghavas” / Raghuvamsha are named after him (2.110.27).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).
+0 @pravriddha@ INDI
+1 NAME Pravriddha (Kalmashapada) //
+1 SEX M
+1 NOTE Son of Raghu (1.70.39); also called Purushadaka, Kalmashapada and Saudasa (2.110.28).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).
+0 @shankhana@ INDI
+1 NAME Shankhana //
+1 SEX M
+1 NOTE Son of Pravriddha (1.70.40).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @sudarshana@ INDI
+1 NAME Sudarshana //
+1 SEX M
+1 NOTE Son of Shankhana (1.70.40).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @agnivarna@ INDI
+1 NAME Agnivarna //
+1 SEX M
+1 NOTE Son of Sudarshana (1.70.40).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @shighraga@ INDI
+1 NAME Shighraga //
+1 SEX M
+1 NOTE Son of Agnivarna (1.70.41).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @maru@ INDI
+1 NAME Maru //
+1 SEX M
+1 NOTE Son of Shighraga (1.70.41).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @prashushruka@ INDI
+1 NAME Prashushruka //
+1 SEX M
+1 NOTE Son of Maru (1.70.41).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @ambarisha@ INDI
+1 NAME Ambarisha //
+1 SEX M
+1 NOTE Son of Prashushruka (1.70.41).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage).
+0 @nahusha@ INDI
+1 NAME Nahusha //
+1 SEX M
+1 NOTE Son of Ambarisha (1.70.42).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).
+0 @yayati@ INDI
+1 NAME Yayati //
+1 SEX M
+1 NOTE Son of Nahusha in Bala Kanda 1.70.42. NOTE: Ayodhya Kanda 2.110.32 omits Yayati and makes Nabhaga the direct son of Nahusha.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).
+0 @nabhaga@ INDI
+1 NAME Nabhaga //
+1 SEX M
+1 NOTE Son of Yayati (1.70.42); son of Nahusha in 2.110.32.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).
+0 @aja@ INDI
+1 NAME Aja //
+1 SEX M
+1 NOTE Son of Nabhaga (1.70.43; 2.110.33). In Kalidasa’s Raghuvamsha, Aja is instead the son of Raghu and married Indumati of Vidarbha.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama); Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha.
+0 @suvrata@ INDI
+1 NAME Suvrata //
+1 SEX M
+1 NOTE Named as Aja’s brother in Ayodhya Kanda 2.110.33.  Sources: Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama).
+0 @indumati@ INDI
+1 NAME Indumati //
+1 SEX F
+1 BIRT
+2 PLAC Vidarbha
+1 NOTE Princess of Vidarbha who chose Aja at her svayamvara (Raghuvamsha, cantos 5–8). She is not named in Valmiki’s text.  Sources: Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha.
+0 @dasharatha@ INDI
+1 NAME Dasharatha //
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE King of Kosala at Ayodhya, son of Aja (1.70.43). Mother Indumati per Raghuvamsha.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama); Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha.
+0 @kausalya@ INDI
+1 NAME Kausalya //
+1 SEX F
+1 BIRT
+2 PLAC Kosala
+1 NOTE Chief queen of Dasharatha; mother of Rama (1.18.10).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes).
+0 @kaikeyi@ INDI
+1 NAME Kaikeyi //
+1 SEX F
+1 BIRT
+2 PLAC Kekaya
+1 NOTE Queen of Dasharatha from Kekaya; mother of Bharata (1.18.13).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes); Wikipedia, “Kaikeyi” (father Ashvapati of Kekaya, brother Yudhajit).
+0 @sumitra@ INDI
+1 NAME Sumitra //
+1 SEX F
+1 NOTE Queen of Dasharatha; mother of the twins Lakshmana and Shatrughna (1.18.14).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes).
+0 @ashvapati@ INDI
+1 NAME Ashvapati //
+1 SEX M
+1 BIRT
+2 PLAC Kekaya
+1 NOTE King of Kekaya; father of Kaikeyi.  Sources: Wikipedia, “Kaikeyi” (father Ashvapati of Kekaya, brother Yudhajit).
+0 @yudhajit@ INDI
+1 NAME Yudhajit //
+1 SEX M
+1 BIRT
+2 PLAC Kekaya
+1 NOTE Prince of Kekaya, Kaikeyi’s brother and Bharata’s maternal uncle.  Sources: Wikipedia, “Kaikeyi” (father Ashvapati of Kekaya, brother Yudhajit).
+0 @shanta@ INDI
+1 NAME Shanta //
+1 SEX F
+1 NOTE DISPUTED: northern recensions and later literature make her Dasharatha’s daughter, adopted by King Romapada of Anga. Other scholars treat this as a later addition. Married the sage Rishyashringa, who performed the putrakameshti sacrifice for Dasharatha.  Sources: Wikipedia, “Shanta (Ramayana)” (parentage differs by recension).
+0 @rishyashringa@ INDI
+1 NAME Rishyashringa //
+1 SEX M
+1 NOTE Sage, husband of Shanta; led the sacrifice that led to the birth of the four princes.  Sources: Wikipedia, “Shanta (Ramayana)” (parentage differs by recension).
+0 @rama@ INDI
+1 NAME Rama //
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE Eldest son of Dasharatha, born to Kausalya on Chaitra Navami (1.18.8–11). Seventh avatar of Vishnu.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes); Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage); Valmiki Ramayana, Ayodhya Kanda, Sarga 110 (lineage repeated to Rama). Married Sita (Valmiki Ramayana 1.73.26–27, at Mithila).
+0 @bharata@ INDI
+1 NAME Bharata //
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE Son of Dasharatha and Kaikeyi, born the day after Rama (1.18.13–15).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes). Married Mandavi (Valmiki Ramayana 1.73.31–32, at Mithila).
+0 @lakshmana@ INDI
+1 NAME Lakshmana //
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE Son of Sumitra, elder of the twins (1.18.14–15); Rama’s constant companion.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes); Valmiki Ramayana, Bala Kanda, Sarga 70 (Vasishtha recites the Ikshvaku lineage). Married Urmila (Valmiki Ramayana 1.73.30–31, at Mithila).
+0 @shatrughna@ INDI
+1 NAME Shatrughna //
+1 SEX M
+1 BIRT
+2 PLAC Ayodhya
+1 NOTE Younger twin, son of Sumitra (1.18.14, 1.18.32).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 18 (birth of the four princes). Married Shrutakirti (Valmiki Ramayana 1.73.32–33, at Mithila).
+0 @nimi@ INDI
+1 NAME Nimi //
+1 SEX M
+1 BIRT
+2 PLAC Mithila
+1 NOTE Founder of the Videha line of Mithila (1.71.3).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @mithi@ INDI
+1 NAME Mithi //
+1 SEX M
+1 BIRT
+2 PLAC Mithila
+1 NOTE Son of Nimi (1.71.4); Mithila is named after him.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @janaka1@ INDI
+1 NAME Janaka I //
+1 SEX M
+1 BIRT
+2 PLAC Mithila
+1 NOTE Son of Mithi and the first “Janaka” (1.71.4). Later kings took the title Janaka.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @udavasu@ INDI
+1 NAME Udavasu //
+1 SEX M
+1 NOTE 1.71.4  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @nandivardhana@ INDI
+1 NAME Nandivardhana //
+1 SEX M
+1 NOTE 1.71.5  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @suketu@ INDI
+1 NAME Suketu //
+1 SEX M
+1 NOTE 1.71.5  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @devarata@ INDI
+1 NAME Devarata //
+1 SEX M
+1 NOTE 1.71.6. Shiva’s bow was entrusted to him.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @brihadratha@ INDI
+1 NAME Brihadratha //
+1 SEX M
+1 NOTE 1.71.6  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @mahavira@ INDI
+1 NAME Mahavira //
+1 SEX M
+1 NOTE 1.71.7  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @sudhriti@ INDI
+1 NAME Sudhriti //
+1 SEX M
+1 NOTE 1.71.7  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @dhrishtaketu@ INDI
+1 NAME Dhrishtaketu //
+1 SEX M
+1 NOTE 1.71.8  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @haryashva@ INDI
+1 NAME Haryashva //
+1 SEX M
+1 NOTE 1.71.8  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @maru_v@ INDI
+1 NAME Maru (of Videha) //
+1 SEX M
+1 NOTE 1.71.9. Not the same person as Maru of the Ikshvaku line.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @pratindhaka@ INDI
+1 NAME Pratindhaka //
+1 SEX M
+1 NOTE 1.71.9  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @kirtiratha@ INDI
+1 NAME Kirtiratha //
+1 SEX M
+1 NOTE 1.71.9  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @devamidha@ INDI
+1 NAME Devamidha //
+1 SEX M
+1 NOTE 1.71.10  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @vibudha@ INDI
+1 NAME Vibudha //
+1 SEX M
+1 NOTE 1.71.10  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @mahidhraka@ INDI
+1 NAME Mahidhraka //
+1 SEX M
+1 NOTE 1.71.10  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @kirtirata@ INDI
+1 NAME Kirtirata //
+1 SEX M
+1 NOTE 1.71.11  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @maharoma@ INDI
+1 NAME Maharoma //
+1 SEX M
+1 NOTE 1.71.11  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @swarnaroma@ INDI
+1 NAME Swarnaroma //
+1 SEX M
+1 NOTE 1.71.12  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @hrasvaroma@ INDI
+1 NAME Hrasvaroma //
+1 SEX M
+1 NOTE 1.71.12. Father of Janaka and Kushadhvaja (1.71.13).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage).
+0 @janaka@ INDI
+1 NAME Janaka (Siradhvaja) //
+1 SEX M
+1 BIRT
+2 PLAC Mithila
+1 NOTE King of Videha at Mithila, elder son of Hrasvaroma (1.71.13). Valmiki calls him only “Janaka”; the personal name Siradhvaja comes from Puranic tradition.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage); Valmiki Ramayana, Bala Kanda, Sarga 66 (Janaka finds Sita in the furrow).
+0 @sunayana@ INDI
+1 NAME Sunayana //
+1 SEX F
+1 BIRT
+2 PLAC Mithila
+1 NOTE Queen of Janaka per later tradition. She is not named in Valmiki’s Bala Kanda.  Sources: Wikipedia, “Sita” (mother Sunayana per later tradition).
+0 @kushadhvaja@ INDI
+1 NAME Kushadhvaja //
+1 SEX M
+1 BIRT
+2 PLAC Sankashya
+1 NOTE Younger brother of Janaka (1.71.13), king of Sankashya; father of Mandavi and Shrutakirti (1.72.5–11).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage); Valmiki Ramayana, Bala Kanda, Sarga 72 (Kushadhvaja’s daughters proposed).
+0 @sita@ INDI
+1 NAME Sita //
+1 SEX F
+1 BIRT
+2 PLAC Mithila
+1 NOTE “Non-uterine” (ayonija) birth: Janaka found her in the furrow while ploughing a ritual field and raised her as his daughter (1.66.13–15). Hence she is called Bhumija, daughter of the Earth. Married Rama (1.73.26–27). Parents are recorded as her adoptive parents.  Sources: Valmiki Ramayana, Bala Kanda, Sarga 66 (Janaka finds Sita in the furrow); Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage); Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings). Married Rama (Valmiki Ramayana 1.73.26–27, at Mithila).
+0 @urmila@ INDI
+1 NAME Urmila //
+1 SEX F
+1 BIRT
+2 PLAC Mithila
+1 NOTE Daughter of Janaka, given to Lakshmana (1.71.20–21; 1.73.30–31).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 71 (Janaka recites the Videha lineage); Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings). Married Lakshmana (Valmiki Ramayana 1.73.30–31, at Mithila).
+0 @mandavi@ INDI
+1 NAME Mandavi //
+1 SEX F
+1 NOTE Daughter of Kushadhvaja (1.72.11), married to Bharata (1.73.31–32).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 72 (Kushadhvaja’s daughters proposed); Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings). Married Bharata (Valmiki Ramayana 1.73.31–32, at Mithila).
+0 @shrutakirti@ INDI
+1 NAME Shrutakirti //
+1 SEX F
+1 NOTE Daughter of Kushadhvaja (1.72.11), married to Shatrughna (1.73.32–33).  Sources: Valmiki Ramayana, Bala Kanda, Sarga 72 (Kushadhvaja’s daughters proposed); Valmiki Ramayana, Bala Kanda, Sarga 73 (the four weddings). Married Shatrughna (Valmiki Ramayana 1.73.32–33, at Mithila).
+0 @kusha@ INDI
+1 NAME Kusha //
+1 SEX M
+1 NOTE Elder twin son of Rama and Sita, born at Valmiki’s hermitage (Uttara Kanda). Ruled southern Kosala from Kushasthali/Kushavati.  Sources: Wikipedia, “Kusha (Ramayana)” (Uttara Kanda; Raghuvamsha: wife Kumudvati, son Atithi).
+0 @lava@ INDI
+1 NAME Lava //
+1 SEX M
+1 NOTE Younger twin son of Rama and Sita (Uttara Kanda). Ruled northern Kosala from Shravasti; traditionally linked with founding Lavapuri (Lahore).  Sources: Wikipedia, “Lava (Ramayana)” (Shravasti; Ananda Ramayana: wife Sumati).
+0 @kumudvati@ INDI
+1 NAME Kumudvati //
+1 SEX F
+1 NOTE Wife of Kusha, daughter of the Naga chief Kumuda (Raghuvamsha, canto 16). The Ananda Ramayana calls her Champika.  Sources: Wikipedia, “Kusha (Ramayana)” (Uttara Kanda; Raghuvamsha: wife Kumudvati, son Atithi).
+0 @sumati_l@ INDI
+1 NAME Sumati //
+1 SEX F
+1 NOTE Wife of Lava according to the Ananda Ramayana.  Sources: Wikipedia, “Lava (Ramayana)” (Shravasti; Ananda Ramayana: wife Sumati).
+0 @atithi@ INDI
+1 NAME Atithi //
+1 SEX M
+1 NOTE Son of Kusha and his heir (Raghuvamsha, canto 17).  Sources: Wikipedia, “Kusha (Ramayana)” (Uttara Kanda; Raghuvamsha: wife Kumudvati, son Atithi); Kalidasa, Raghuvamsha (via Wikipedia “Raghuvamsha”): Dilipa → Raghu → Aja (m. Indumati) → Dasharatha.
+0 @angada_l@ INDI
+1 NAME Angada (son of Lakshmana) //
+1 SEX M
+1 NOTE Son of Lakshmana and Urmila; given the kingdom of Karupada (Uttara Kanda). Not the same person as the vanara Angada, son of Vali.  Sources: Wikipedia, “Lakshmana” (Uttara Kanda: sons Angada & Chandraketu).
+0 @chandraketu@ INDI
+1 NAME Chandraketu //
+1 SEX M
+1 NOTE Son of Lakshmana and Urmila; ruled Malla with its capital Chandrakanti (Uttara Kanda).  Sources: Wikipedia, “Lakshmana” (Uttara Kanda: sons Angada & Chandraketu).
+0 @taksha@ INDI
+1 NAME Taksha //
+1 SEX M
+1 BIRT
+2 PLAC Takshashila
+1 NOTE Son of Bharata and Mandavi; established at Takshashila (Taxila).  Sources: Wikipedia, “Bharata (Ramayana)” (sons Taksha & Pushkala; cites 1894 Chackravarti translation).
+0 @pushkala@ INDI
+1 NAME Pushkala //
+1 SEX M
+1 BIRT
+2 PLAC Pushkalavati
+1 NOTE Son of Bharata and Mandavi; established at Pushkalavati.  Sources: Wikipedia, “Bharata (Ramayana)” (sons Taksha & Pushkala; cites 1894 Chackravarti translation).
+0 @subahu@ INDI
+1 NAME Subahu //
+1 SEX M
+1 NOTE Son of Shatrughna and Shrutakirti; Shatrughna’s realm of Madhupura (Mathura) and Vidisha was divided between his sons.  Sources: Wikipedia, “Shatrughna” (sons Subahu & Shatrughati).
+0 @shatrughati@ INDI
+1 NAME Shatrughati //
+1 SEX M
+1 NOTE Son of Shatrughna and Shrutakirti (see Subahu).  Sources: Wikipedia, “Shatrughna” (sons Subahu & Shatrughati).
+0 @F1@ FAM
+1 HUSB @brahma@
+1 CHIL @marichi@
+0 @F2@ FAM
+1 HUSB @marichi@
+1 CHIL @kashyapa@
+0 @F3@ FAM
+1 HUSB @kashyapa@
+1 CHIL @vivasvan@
+0 @F4@ FAM
+1 HUSB @vivasvan@
+1 CHIL @manu@
+0 @F5@ FAM
+1 HUSB @manu@
+1 CHIL @ikshvaku@
+0 @F6@ FAM
+1 HUSB @ikshvaku@
+1 CHIL @kukshi@
+0 @F7@ FAM
+1 HUSB @kukshi@
+1 CHIL @vikukshi@
+0 @F8@ FAM
+1 HUSB @vikukshi@
+1 CHIL @bana@
+0 @F9@ FAM
+1 HUSB @bana@
+1 CHIL @anaranya@
+0 @F10@ FAM
+1 HUSB @anaranya@
+1 CHIL @prithu@
+0 @F11@ FAM
+1 HUSB @prithu@
+1 CHIL @trishanku@
+0 @F12@ FAM
+1 HUSB @trishanku@
+1 CHIL @dhundhumara@
+0 @F13@ FAM
+1 HUSB @dhundhumara@
+1 CHIL @yuvanashva@
+0 @F14@ FAM
+1 HUSB @yuvanashva@
+1 CHIL @mandhata@
+0 @F15@ FAM
+1 HUSB @mandhata@
+1 CHIL @susandhi@
+0 @F16@ FAM
+1 HUSB @susandhi@
+1 CHIL @dhruvasandhi@
+1 CHIL @prasenajit@
+0 @F17@ FAM
+1 HUSB @dhruvasandhi@
+1 CHIL @bharata1@
+0 @F18@ FAM
+1 HUSB @bharata1@
+1 CHIL @asita@
+0 @F19@ FAM
+1 HUSB @sagara@
+1 WIFE @keshini@
+1 CHIL @asamanja@
+0 @F20@ FAM
+1 HUSB @sagara@
+1 WIFE @sumati_s@
+0 @F21@ FAM
+1 HUSB @asita@
+1 CHIL @sagara@
+0 @F22@ FAM
+1 HUSB @asamanja@
+1 CHIL @amshuman@
+0 @F23@ FAM
+1 HUSB @amshuman@
+1 CHIL @dilipa@
+0 @F24@ FAM
+1 HUSB @dilipa@
+1 CHIL @bhagiratha@
+0 @F25@ FAM
+1 HUSB @bhagiratha@
+1 CHIL @kakutstha@
+0 @F26@ FAM
+1 HUSB @kakutstha@
+1 CHIL @raghu@
+0 @F27@ FAM
+1 HUSB @raghu@
+1 CHIL @pravriddha@
+0 @F28@ FAM
+1 HUSB @pravriddha@
+1 CHIL @shankhana@
+0 @F29@ FAM
+1 HUSB @shankhana@
+1 CHIL @sudarshana@
+0 @F30@ FAM
+1 HUSB @sudarshana@
+1 CHIL @agnivarna@
+0 @F31@ FAM
+1 HUSB @agnivarna@
+1 CHIL @shighraga@
+0 @F32@ FAM
+1 HUSB @shighraga@
+1 CHIL @maru@
+0 @F33@ FAM
+1 HUSB @maru@
+1 CHIL @prashushruka@
+0 @F34@ FAM
+1 HUSB @prashushruka@
+1 CHIL @ambarisha@
+0 @F35@ FAM
+1 HUSB @ambarisha@
+1 CHIL @nahusha@
+0 @F36@ FAM
+1 HUSB @nahusha@
+1 CHIL @yayati@
+0 @F37@ FAM
+1 HUSB @yayati@
+1 CHIL @nabhaga@
+0 @F38@ FAM
+1 HUSB @aja@
+1 WIFE @indumati@
+1 CHIL @dasharatha@
+0 @F39@ FAM
+1 HUSB @nabhaga@
+1 CHIL @aja@
+1 CHIL @suvrata@
+0 @F40@ FAM
+1 HUSB @dasharatha@
+1 WIFE @kausalya@
+1 CHIL @shanta@
+1 CHIL @rama@
+0 @F41@ FAM
+1 HUSB @dasharatha@
+1 WIFE @kaikeyi@
+1 CHIL @bharata@
+0 @F42@ FAM
+1 HUSB @dasharatha@
+1 WIFE @sumitra@
+1 CHIL @lakshmana@
+1 CHIL @shatrughna@
+0 @F43@ FAM
+1 HUSB @ashvapati@
+1 CHIL @kaikeyi@
+1 CHIL @yudhajit@
+0 @F44@ FAM
+1 HUSB @rishyashringa@
+1 WIFE @shanta@
+0 @F45@ FAM
+1 HUSB @rama@
+1 WIFE @sita@
+1 CHIL @kusha@
+1 CHIL @lava@
+0 @F46@ FAM
+1 HUSB @bharata@
+1 WIFE @mandavi@
+1 CHIL @taksha@
+1 CHIL @pushkala@
+0 @F47@ FAM
+1 HUSB @lakshmana@
+1 WIFE @urmila@
+1 CHIL @angada_l@
+1 CHIL @chandraketu@
+0 @F48@ FAM
+1 HUSB @shatrughna@
+1 WIFE @shrutakirti@
+1 CHIL @subahu@
+1 CHIL @shatrughati@
+0 @F49@ FAM
+1 HUSB @nimi@
+1 CHIL @mithi@
+0 @F50@ FAM
+1 HUSB @mithi@
+1 CHIL @janaka1@
+0 @F51@ FAM
+1 HUSB @janaka1@
+1 CHIL @udavasu@
+0 @F52@ FAM
+1 HUSB @udavasu@
+1 CHIL @nandivardhana@
+0 @F53@ FAM
+1 HUSB @nandivardhana@
+1 CHIL @suketu@
+0 @F54@ FAM
+1 HUSB @suketu@
+1 CHIL @devarata@
+0 @F55@ FAM
+1 HUSB @devarata@
+1 CHIL @brihadratha@
+0 @F56@ FAM
+1 HUSB @brihadratha@
+1 CHIL @mahavira@
+0 @F57@ FAM
+1 HUSB @mahavira@
+1 CHIL @sudhriti@
+0 @F58@ FAM
+1 HUSB @sudhriti@
+1 CHIL @dhrishtaketu@
+0 @F59@ FAM
+1 HUSB @dhrishtaketu@
+1 CHIL @haryashva@
+0 @F60@ FAM
+1 HUSB @haryashva@
+1 CHIL @maru_v@
+0 @F61@ FAM
+1 HUSB @maru_v@
+1 CHIL @pratindhaka@
+0 @F62@ FAM
+1 HUSB @pratindhaka@
+1 CHIL @kirtiratha@
+0 @F63@ FAM
+1 HUSB @kirtiratha@
+1 CHIL @devamidha@
+0 @F64@ FAM
+1 HUSB @devamidha@
+1 CHIL @vibudha@
+0 @F65@ FAM
+1 HUSB @vibudha@
+1 CHIL @mahidhraka@
+0 @F66@ FAM
+1 HUSB @mahidhraka@
+1 CHIL @kirtirata@
+0 @F67@ FAM
+1 HUSB @kirtirata@
+1 CHIL @maharoma@
+0 @F68@ FAM
+1 HUSB @maharoma@
+1 CHIL @swarnaroma@
+0 @F69@ FAM
+1 HUSB @swarnaroma@
+1 CHIL @hrasvaroma@
+0 @F70@ FAM
+1 HUSB @janaka@
+1 WIFE @sunayana@
+1 CHIL @sita@
+1 CHIL @urmila@
+0 @F71@ FAM
+1 HUSB @hrasvaroma@
+1 CHIL @janaka@
+1 CHIL @kushadhvaja@
+0 @F72@ FAM
+1 HUSB @kushadhvaja@
+1 CHIL @mandavi@
+1 CHIL @shrutakirti@
+0 @F73@ FAM
+1 HUSB @kusha@
+1 WIFE @kumudvati@
+1 CHIL @atithi@
+0 @F74@ FAM
+1 HUSB @lava@
+1 WIFE @sumati_l@
+0 TRLR

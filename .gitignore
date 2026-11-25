@@ -1,0 +1,9 @@
+node_modules
+dist
+dist-single
+*.log
+
+# Personal family data: keep real exports out of this public repo
+*-export.json
+*-export.ged
+private/
