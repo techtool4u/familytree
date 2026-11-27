@@ -14,9 +14,12 @@ before the first upload if you want a different one.
 
 ## Try the Android app today (no accounts needed)
 
-1. Open the repo's **Actions** tab → latest **Mobile apps** run → **Artifacts** → download
-   `OurFamilyTree-android-debug-apk`, and unzip it.
-2. Copy `app-debug.apk` to an Android phone and open it (allow "Install unknown apps" when asked).
+1. On the Android phone, open
+   https://github.com/techtool4u/familytree/releases/tag/android-latest and download
+   **OurFamilyTree.apk** (rebuilt automatically on every change to `main`).
+2. Open it and allow "Install unknown apps" when asked.
+
+(Every build's APK is also attached to its **Mobile apps** run in the Actions tab.)
 
 This is a test build. Data lives on the phone, separate from the browser version: use
 **⋯ → Export tree as JSON** in one and **Import** in the other to move a tree across.

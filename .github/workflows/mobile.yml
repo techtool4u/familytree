@@ -10,6 +10,8 @@ on:
 jobs:
   android:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # to publish the APK on the "Latest Android build" release
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -30,6 +32,16 @@ jobs:
         with:
           name: OurFamilyTree-android-debug-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
+      - name: Publish APK to the "Latest Android build" release (main only)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cp android/app/build/outputs/apk/debug/app-debug.apk OurFamilyTree.apk
+          NOTES="Test build of the OurFamilyTree Android app, updated on every change to main (latest: ${GITHUB_SHA::7}). On your Android phone, download OurFamilyTree.apk and open it (allow installing from this source when asked)."
+          gh release view android-latest >/dev/null 2>&1 || gh release create android-latest --prerelease --title "Latest Android build" --notes "$NOTES"
+          gh release upload android-latest OurFamilyTree.apk --clobber
+          gh release edit android-latest --notes "$NOTES"
 
   ios:
     runs-on: macos-latest
