@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useStore } from '../store';
-import { ChevronDown, Plus, Pencil, Trash2, Check, Upload } from 'lucide-react';
+import { ChevronDown, Plus, Pencil, Trash2, Check, Upload, Cloud } from 'lucide-react';
+import { deleteCloudTree, removeMember } from '../lib/cloud';
 
 /** Top-bar menu listing every family tree saved in this browser. */
 export default function TreeSwitcher({ onImport }: { onImport: () => void }) {
@@ -8,6 +9,16 @@ export default function TreeSwitcher({ onImport }: { onImport: () => void }) {
   const active = useStore((s) => s.activeTreeId);
   const count = useStore((s) => s.people.length);
   const { switchTree, renameTree, deleteTree, set, notify } = useStore.getState();
+  const user = useStore((s) => s.user);
+  /** Deleting a shared tree: the owner deletes it for everyone, others just leave it. */
+  const remove = async (id: string) => {
+    const t = trees.find((x) => x.id === id);
+    try {
+      if (t?.cloud && user) { if (t.cloud.role === 'owner') await deleteCloudTree(t.cloud.id); else await removeMember(t.cloud.id, user.id); }
+      deleteTree(id);
+      notify(t?.cloud ? (t.cloud.role === 'owner' ? 'Shared tree deleted for everyone' : `You left “${t.name}”`) : 'Tree deleted');
+    } catch { notify('Could not reach the server. Try again when you’re online.'); }
+  };
   const [open, setOpen] = useState(false);
   const [editing, setEditing] = useState<string | null>(null);
   const [name, setName] = useState('');
@@ -39,18 +50,18 @@ export default function TreeSwitcher({ onImport }: { onImport: () => void }) {
                 </form>
               ) : confirm === t.id ? (
                 <div className="ts-confirm">
-                  <span>Delete “{t.name}” for good?</span>
-                  <button className="btn sm danger" onClick={() => { deleteTree(t.id); setConfirm(null); notify('Tree deleted'); }}>Delete</button>
+                  <span>{t.cloud && t.cloud.role !== 'owner' ? `Leave “${t.name}”? You’ll need a new invite to come back.` : t.cloud ? `Delete “${t.name}” for everyone it’s shared with?` : `Delete “${t.name}” for good?`}</span>
+                  <button className="btn sm danger" onClick={() => { remove(t.id); setConfirm(null); }}>{t.cloud && t.cloud.role !== 'owner' ? 'Leave' : 'Delete'}</button>
                   <button className="btn sm" onClick={() => setConfirm(null)}>Keep</button>
                 </div>
               ) : (
                 <>
                   <button className="ts-open" onClick={() => { switchTree(t.id); setOpen(false); }}>
                     {t.id === active ? <Check size={14} /> : <span style={{ width: 14 }} />}
-                    <span className="grow"><b>{t.name}</b><br /><span className="muted small">{t.id === active ? count : t.people.length} people</span></span>
+                    <span className="grow"><b>{t.name}</b><br /><span className="muted small">{t.id === active ? count : t.people.length} people{t.cloud && <> · <Cloud size={11} /> shared{t.cloud.role !== 'owner' ? ` · ${t.cloud.role === 'editor' ? 'can edit' : 'view only'}` : ''}</>}</span></span>
                   </button>
-                  <button className="icon-btn" onClick={() => { setEditing(t.id); setName(t.name); }} title="Rename"><Pencil size={14} /></button>
-                  <button className="icon-btn" onClick={() => setConfirm(t.id)} title="Delete"><Trash2 size={14} /></button>
+                  {t.cloud?.role !== 'viewer' && <button className="icon-btn" onClick={() => { setEditing(t.id); setName(t.name); }} title="Rename"><Pencil size={14} /></button>}
+                  <button className="icon-btn" onClick={() => setConfirm(t.id)} title={t.cloud && t.cloud.role !== 'owner' ? 'Leave' : 'Delete'}><Trash2 size={14} /></button>
                 </>
               )}
             </div>

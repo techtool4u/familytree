@@ -22,8 +22,10 @@ import { parseGedcom, toGedcom } from './lib/gedcom';
 import { activeFilterCount, parentsOf, childrenOf, siblingsOf, spousesOf, fullName } from './lib/graph';
 import type { ViewId, Person } from './types';
 import type { Place } from './data/places';
-import { Network, Sun, Moon, Search, GitFork, SlidersHorizontal, UserPlus, MoreHorizontal, CircleDot, Orbit, CalendarRange, Globe2, BarChart3, X, Download, Sparkles, Hourglass, Mic } from 'lucide-react';
+import { Network, Sun, Moon, Search, GitFork, SlidersHorizontal, UserPlus, MoreHorizontal, CircleDot, Orbit, CalendarRange, Globe2, BarChart3, X, Download, Sparkles, Hourglass, Mic, Users, Eye } from 'lucide-react';
 import { saveFile } from './lib/native';
+import SharePanel, { rememberJoin } from './components/SharePanel';
+import { tokenFrom } from './lib/cloud';
 
 const MapView = lazy(() => import('./views/MapView'));
 
@@ -51,6 +53,16 @@ export default function App() {
   const [moreOpen, setMoreOpen] = useState(false);
 
   useEffect(() => { document.documentElement.dataset.theme = s.theme; }, [s.theme]);
+  // Invite links look like …/familytree/#join=<token>: remember the token and open the Share panel.
+  useEffect(() => {
+    const m = location.hash.match(/^#join=(.+)$/);
+    const t = m && tokenFrom(m[1]);
+    if (!t) return;
+    rememberJoin(t);
+    history.replaceState(null, '', location.pathname + location.search);
+    s.set({ shareOpen: true, selectedId: null });
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  const tree = s.trees.find((t) => t.id === s.activeTreeId);
   useEffect(() => {
     const h = (e: Event) => { e.preventDefault(); setInstallEvt(e as BIPEvent); };
     window.addEventListener('beforeinstallprompt', h);
@@ -137,7 +149,7 @@ export default function App() {
   const legendOn = (label: string) => s.colorMode === 'branch' ? filters.branches.includes(branch.branches.find((x) => x.label === label)?.key ?? '') : s.colorMode === 'surname' ? filters.surnames.includes(label) : s.colorMode === 'country' ? filters.countries.includes(label) : false;
 
   return (
-    <div className={`app ${s.filtersOpen ? 'with-filters' : ''} ${s.selectedId ? 'with-drawer' : ''}`}>
+    <div className={`app ${s.filtersOpen ? 'with-filters' : ''} ${s.selectedId || s.shareOpen ? 'with-drawer' : ''}`}>
       <header className="topbar">
         <div className="brand"><span className="logo">🌳</span><span className="brand-name">OurFamilyTree</span></div>
         <TreeSwitcher onImport={() => fileIn.current?.click()} />
@@ -155,11 +167,15 @@ export default function App() {
         </button>
         <button className="icon-btn" onClick={() => s.openRelation(s.selectedId ?? undefined)} title="How are two people related? (R)"><GitFork size={18} /></button>
         <button className="icon-btn hide-sm" onClick={() => s.set({ edit: {} })} title="Add person"><UserPlus size={18} /></button>
-        <button className="icon-btn" onClick={() => s.set({ theme: s.theme === 'dark' ? 'light' : 'dark' })} title="Toggle theme">{s.theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}</button>
+        <button className={`icon-btn share-btn ${s.shareOpen ? 'on' : ''}`} onClick={() => s.set({ shareOpen: !s.shareOpen, selectedId: null })} title={tree?.cloud ? 'Shared with family' : 'Share with family'}>
+          <Users size={18} />{tree?.cloud && <span className={`sync-dot ${s.sync.status}`} />}
+        </button>
+        <button className="icon-btn hide-sm" onClick={() => s.set({ theme: s.theme === 'dark' ? 'light' : 'dark' })} title="Toggle theme">{s.theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}</button>
         <div className="menu-wrap">
           <button className="icon-btn" title="More"><MoreHorizontal size={18} /></button>
           <div className="menu right">
             {installEvt && <button onClick={() => installEvt.prompt()}><Download size={14} /> Install app</button>}
+            <button className="only-mobile" onClick={() => s.set({ theme: s.theme === 'dark' ? 'light' : 'dark' })}>{s.theme === 'dark' ? <Sun size={14} /> : <Moon size={14} />} {s.theme === 'dark' ? 'Light mode' : 'Dark mode'}</button>
             {actions.slice(5).map((a) => <button key={a.label} onClick={a.run}>{a.label}</button>)}
           </div>
         </div>
@@ -171,6 +187,7 @@ export default function App() {
         {s.filtersOpen && <div className="scrim only-mobile" onClick={() => s.set({ filtersOpen: false })} />}
         <main className={`stage ${PAGE_VIEWS.includes(s.view) ? 'page' : ''}`}>
           <div className="stage-bar">
+            {tree?.cloud?.role === 'viewer' && <span className="pill" title="This tree is shared with you to look at"><Eye size={13} /> View only</span>}
             {focus && <span className="focus-chip" title="Everything is measured from this person. Double-click anyone to change.">◉ Focus: <b>{fullName(focus)}</b></span>}
             {nf > 0 && <span className="pill">{matched.size} of {people.length} match · <button className="link" onClick={() => s.setFilters({ ...DEFAULT_FILTERS, mode: filters.mode })}>clear</button></span>}
             {s.spotlight && <span className="pill path-pill">✨ {s.spotlight.label} <button className="x" onClick={() => s.set({ spotlight: null })} aria-label="Clear spotlight"><X size={13} /></button></span>}
@@ -196,7 +213,7 @@ export default function App() {
             </div>
           )}
         </main>
-        {s.selectedId && <ProfileDrawer />}
+        {s.shareOpen ? <SharePanel /> : s.selectedId && <ProfileDrawer />}
       </div>
 
       <nav className="bottom-nav" aria-label="Views">

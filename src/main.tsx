@@ -3,6 +3,9 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { isNativeApp } from './lib/native';
+import { startSync } from './lib/sync';
+
+startSync();
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

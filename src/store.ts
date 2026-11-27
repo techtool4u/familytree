@@ -4,6 +4,7 @@ import type { Person, ViewId, ColorMode, Filters, MediaItem, Capsule } from './t
 import { buildSample, SAMPLE_FOCUS, SAMPLE_CAPSULES } from './data/sample';
 import { setCustomPlaces, type Place } from './data/places';
 import { buildIndex, generations, computeBranches, matchSet, makeColorer, uid } from './lib/graph';
+import type { Role } from './lib/cloud';
 
 export const DEFAULT_FILTERS: Filters = {
   text: '', scope: 'all', genMin: -99, genMax: 99, yearMin: 0, yearMax: 9999,
@@ -11,7 +12,11 @@ export const DEFAULT_FILTERS: Filters = {
 };
 
 /** One saved family tree. The active tree's data lives in `people`/`focusId`/`asked`; the rest wait here. */
-export interface TreeDoc { id: string; name: string; people: Person[]; focusId: string; asked: Record<string, string[]>; capsules?: Capsule[]; updatedAt: string }
+export interface TreeDoc { id: string; name: string; people: Person[]; focusId: string; asked: Record<string, string[]>; capsules?: Capsule[]; updatedAt: string;
+  /** set when the tree is shared online: its id in the database and your role in it */
+  cloud?: { id: string; role: Role } }
+
+export type SyncStatus = 'local' | 'loading' | 'synced' | 'saving' | 'offline' | 'error';
 
 export type Relation = 'parent' | 'child' | 'spouse' | 'sibling';
 export type EditState = { personId?: string; relativeOf?: string; relation?: Relation } | null;
@@ -69,6 +74,12 @@ interface State {
   notify: (msg: string, opts?: { undo?: boolean }) => void;
   addMedia: (personId: string, m: MediaItem) => void;
   markAsked: (personId: string, qid: string) => void;
+  /** sharing: the signed-in account, the Share panel, and how the active shared tree is syncing */
+  user: { id: string; email: string; name: string } | null;
+  shareOpen: boolean;
+  sync: { status: SyncStatus; pending: number; error?: string };
+  /** true when the active tree is shared with you as a viewer */
+  readOnly: () => boolean;
 }
 
 // Storage key keeps the app's original name (Kindred) so trees already saved on devices still load.
@@ -94,6 +105,12 @@ let toastTimer: ReturnType<typeof setTimeout> | undefined;
 export const useStore = create<State>((set, get) => {
   /** Save the current people list so the next change can be undone. */
   const remember = () => set({ past: [...get().past.slice(-39), get().people] });
+  /** Viewers of a shared tree can look but not change it. */
+  const blocked = () => {
+    if (!get().readOnly()) return false;
+    get().notify('You can view this tree but not edit it. Ask the owner to make you an editor.');
+    return true;
+  };
   return {
   people: initialActive.people,
   focusId: initialActive.focusId,
@@ -116,6 +133,7 @@ export const useStore = create<State>((set, get) => {
   toastUndo: false,
   past: [],
   undo: () => {
+    if (blocked()) return;
     const past = get().past;
     if (!past.length) { get().notify('Nothing to undo'); return; }
     const prev = past[past.length - 1];
@@ -144,9 +162,10 @@ export const useStore = create<State>((set, get) => {
   timeYear: null,
   set: (p) => set(p),
   setFilters: (p) => set({ filters: { ...get().filters, ...p } }),
-  select: (id, center) => set({ selectedId: id, ...(center && id ? { centerReq: { id, n: Date.now() } } : {}) }),
+  select: (id, center) => set({ selectedId: id, ...(id ? { shareOpen: false } : {}), ...(center && id ? { centerReq: { id, n: Date.now() } } : {}) }),
   setFocus: (id) => { set({ focusId: id, centerReq: { id, n: Date.now() } }); get().notify(`Focus moved to ${get().people.find((p) => p.id === id)?.given ?? ''}`); },
   upsert: (p) => {
+    if (blocked()) return;
     const people = get().people.slice();
     const i = people.findIndex((x) => x.id === p.id);
     if (i >= 0) people[i] = p; else people.push(p);
@@ -159,6 +178,7 @@ export const useStore = create<State>((set, get) => {
     set({ people });
   },
   addRelative: (baseId, rel, p) => {
+    if (blocked()) return;
     const people = get().people.slice();
     const bi = people.findIndex((x) => x.id === baseId);
     if (bi < 0) return;
@@ -187,6 +207,7 @@ export const useStore = create<State>((set, get) => {
     get().notify(`Added ${`${p.given} ${p.surname}`.trim()}`, { undo: true });
   },
   remove: (id) => {
+    if (blocked()) return;
     remember();
     const people = get().people.filter((p) => p.id !== id).map((p) => ({
       ...p,
@@ -233,11 +254,15 @@ export const useStore = create<State>((set, get) => {
     set({ toast: msg, toastUndo: !!opts?.undo });
     toastTimer = setTimeout(() => set({ toast: null, toastUndo: false }), opts?.undo ? 6000 : 2600);
   },
-  addMedia: (personId, m) => (remember(), set({ people: get().people.map((p) => (p.id === personId ? { ...p, media: [...p.media, m] } : p)) })),
+  addMedia: (personId, m) => blocked() ? undefined : (remember(), set({ people: get().people.map((p) => (p.id === personId ? { ...p, media: [...p.media, m] } : p)) })),
   markAsked: (personId, qid) => {
     const cur = get().asked[personId] ?? [];
     if (!cur.includes(qid)) set({ asked: { ...get().asked, [personId]: [...cur, qid] } });
   },
+  user: null,
+  shareOpen: false,
+  sync: { status: 'local', pending: 0 },
+  readOnly: () => { const st = get(); return st.trees.find((t) => t.id === st.activeTreeId)?.cloud?.role === 'viewer'; },
 };
 });
 
