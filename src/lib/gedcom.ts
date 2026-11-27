@@ -77,7 +77,7 @@ export function parseGedcom(text: string): Person[] {
 }
 
 export function toGedcom(people: Person[]): string {
-  const out = ['0 HEAD', '1 SOUR Kindred', '1 GEDC', '2 VERS 5.5.1', '1 CHAR UTF-8'];
+  const out = ['0 HEAD', '1 SOUR OurFamilyTree', '1 GEDC', '2 VERS 5.5.1', '1 CHAR UTF-8'];
   const famKey = new Map<string, { id: string; h?: string; w?: string; c: string[] }>();
   const keyFor = (a?: string, b?: string) => `${a ?? ''}|${b ?? ''}`;
   let fi = 1;

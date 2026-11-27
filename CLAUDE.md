@@ -1,10 +1,10 @@
-# Kindred: project guide for Claude
+# OurFamilyTree: project guide for Claude
 
 Read this first. It explains what this project is, how it is built, where everything lives, and the conventions to follow, so you can continue the work without the original conversation.
 
 ## 1. What it is
 
-**Kindred** is an interactive family tree app built with React 19, TypeScript, D3 and Vite. It runs in any browser and can be installed as a PWA. It ships with a fictional sample family across five generations and four lines (Rossi, O'Brien, Chen, Wong), plus extra data sets for Lord Rama's family and the Hindu deities.
+**OurFamilyTree** is an interactive family tree app built with React 19, TypeScript, D3 and Vite. It runs in any browser and can be installed as a PWA. It ships with a fictional sample family across five generations and four lines (Rossi, O'Brien, Chen, Wong), plus extra data sets for Lord Rama's family and the Hindu deities.
 
 The owner (Anil Chevuri) uses it for his own family, the Chevuri tree. Everything is stored in the browser and there is no backend.
 
@@ -30,7 +30,7 @@ The owner (Anil Chevuri) uses it for his own family, the Chevuri tree. Everythin
 
 1. Run `npx tsc -b`.
 2. Run `npm run build:single`.
-3. Copy `dist-single/index.html` to `Kindred.html` in the project root. That file is what the owner double-clicks to use the app.
+3. Copy `dist-single/index.html` to `OurFamilyTree.html` in the project root. That file is what the owner double-clicks to use the app.
 
 `tsconfig` is not strict, but `noUnusedLocals` is on, so remove unused imports. Lint uses `oxlint`.
 
@@ -40,12 +40,12 @@ The owner (Anil Chevuri) uses it for his own family, the Chevuri tree. Everythin
 - **zustand** for state (`src/store.ts`). The `useDerived()` hook gives computed graph data.
 - **d3**: zoom, hierarchy, arc, geo. **topojson-client** with **world-atlas** (countries-110m) for the map.
 - **lucide-react** for icons.
-- **Capacitor 8** wraps the web build as native apps (`capacitor.config.ts`, appId `com.techtool4u.kindred`, `android/`, `ios/` with Swift Package Manager). Plugins: `@capacitor/filesystem`, `@capacitor/share`. See `MOBILE.md`.
+- **Capacitor 8** wraps the web build as native apps (`capacitor.config.ts`, appId `com.techtool4u.ourfamilytree`, `android/`, `ios/` with Swift Package Manager). Plugins: `@capacitor/filesystem`, `@capacitor/share`. See `MOBILE.md`.
 - No CSS framework. All styles are in `src/index.css`, which uses CSS variables for light and dark themes. The mobile breakpoint is `@media (max-width: 900px)`.
 
 ## 4. Storage
 
-- **localStorage** key `kindred-tree-v1` holds `{ trees: TreeDoc[], activeTreeId, theme, customPlaces }`.
+- **localStorage** key `kindred-tree-v1` (original app name, kept so saved trees still load; same for IndexedDB `kindred-media`) holds `{ trees: TreeDoc[], activeTreeId, theme, customPlaces }`.
   - `TreeDoc` = `{ id, name, people, focusId, asked, capsules?, updatedAt }`.
   - An old single-tree format is migrated automatically.
 - **IndexedDB** (`src/lib/idb.ts`) holds voice recordings, referenced by `MediaItem.audioKey` and `Capsule.audioKey`.
@@ -118,7 +118,7 @@ src/
 scripts/rama-family.ts, scripts/hindu-gods.ts   generators for the data sets
 data/                     rama-family-tree.{json,ged}, hindu-gods-family-tree.{json,ged}, *-sources.md
 public/                   PWA manifest, service worker, icons
-Kindred.html              latest single-file build (what the owner opens)
+OurFamilyTree.html        latest single-file build (what the owner opens)
 android/, ios/            Capacitor native projects; assets/ holds icon + splash sources
 .github/workflows/        ci.yml (check + build), pages.yml (GitHub Pages from main), mobile.yml (Android APK + iOS compile)
 ```
@@ -187,6 +187,7 @@ Any change that should be undoable calls the internal `remember()` first. `snaps
 9. Mobile pass: search icon, toast position, tap sizes, iOS input zoom, and phone layouts for Wheel, Timeline and Map.
 10. Long-name fix: names are measured and shortened or wrapped to fit (`lib/fitName.ts`), in both the tree and the fan chart.
 11. GitHub repo `techtool4u/familytree` with Actions (CI, Pages deploy). Android and iOS apps via Capacitor, with share-sheet file saving, mic/photo permissions, safe-area insets, icons and splash.
+12. Renamed from Kindred to OurFamilyTree (app ID `com.techtool4u.ourfamilytree`, `OurFamilyTree.html`). Storage keys keep the old name on purpose.
 
 ## 12. Known gaps and ideas
 

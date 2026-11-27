@@ -98,11 +98,11 @@ export function atAge(people: Person[], ix: Index, ageYears: number, excludeId?:
 
 /** A yearly calendar of family birthdays and remembrance days (.ics) people can subscribe to in any calendar app. */
 export function toICS(people: Person[]) {
-  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Kindred//Family Tree//EN', 'CALSCALE:GREGORIAN', 'X-WR-CALNAME:Family birthdays & remembrance'];
+  const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//OurFamilyTree//Family Tree//EN', 'CALSCALE:GREGORIAN', 'X-WR-CALNAME:Family birthdays & remembrance'];
   const esc = (s: string) => s.replace(/[\\,;]/g, (m) => '\\' + m).replace(/\n/g, '\\n');
   const add = (uid: string, date: string, summary: string, desc: string) => {
     const ymd = date.replace(/-/g, '');
-    lines.push('BEGIN:VEVENT', `UID:${uid}@kindred`, `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').slice(0, 15)}Z`, `DTSTART;VALUE=DATE:${ymd}`, 'RRULE:FREQ=YEARLY', `SUMMARY:${esc(summary)}`, `DESCRIPTION:${esc(desc)}`, 'TRANSP:TRANSPARENT', 'END:VEVENT');
+    lines.push('BEGIN:VEVENT', `UID:${uid}@kindred` /* stable IDs: re-importing the calendar updates events instead of duplicating */, `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').slice(0, 15)}Z`, `DTSTART;VALUE=DATE:${ymd}`, 'RRULE:FREQ=YEARLY', `SUMMARY:${esc(summary)}`, `DESCRIPTION:${esc(desc)}`, 'TRANSP:TRANSPARENT', 'END:VEVENT');
   };
   for (const p of people) {
     if (hasDay(p.birthDate)) add(`b-${p.id}`, p.birthDate!, isLiving(p) ? `🎂 ${fullName(p)}’s birthday` : `🌱 ${fullName(p)} was born on this day`, `${fullName(p)} (${lifeSpan(p)})${p.birthPlace ? ' · born in ' + p.birthPlace : ''}`);

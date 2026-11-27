@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace = "com.techtool4u.kindred"
+    namespace = "com.techtool4u.ourfamilytree"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.techtool4u.kindred"
+        applicationId "com.techtool4u.ourfamilytree"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,6 +1,6 @@
 # Family tree of Lord Rama: sources and research notes
 
-**Files:** `rama-family-tree.json` (import into Kindred via **⋯ → Import JSON or GEDCOM file**) and `rama-family-tree.ged` (GEDCOM 5.5.1, for Gramps, Ancestry, MyHeritage and similar apps). The tree has 95 people and 14 marriages. Every person carries their own source citation in their profile, under **Overview** and **Media**.
+**Files:** `rama-family-tree.json` (import into OurFamilyTree via **⋯ → Import JSON or GEDCOM file**) and `rama-family-tree.ged` (GEDCOM 5.5.1, for Gramps, Ancestry, MyHeritage and similar apps). The tree has 95 people and 14 marriages. Every person carries their own source citation in their profile, under **Overview** and **Media**.
 
 ## Main source: the Valmiki Ramayana
 
@@ -49,5 +49,5 @@ Nimi, Mithi, Janaka I, Udavasu, Nandivardhana, Suketu, Devarata, Brihadratha, Ma
 3. **Sagara's mother.** Asita had two pregnant queens, and one (Kalindi) poisoned the other. Translations disagree on which queen bore Sagara, so his mother is left blank.
 4. **Sita.** She was found in the earth, not born to Janaka. She is linked to Janaka and Sunayana as her adoptive parents and tagged *Adopted*.
 5. **Shanta.** She is included as Dasharatha and Kausalya's daughter because that is the popular tradition. Scholars (Goldman; Chatterjee) regard this as a later northern addition, so she is tagged *Disputed*.
-6. **No dates.** These are sacred and mythological figures with no historical dates, so birth and death years are left empty. Kindred's Timeline and Map views therefore stay empty for this tree. The Tree, Fan, Wheel, filters and Relationship finder all work.
+6. **No dates.** These are sacred and mythological figures with no historical dates, so birth and death years are left empty. OurFamilyTree's Timeline and Map views therefore stay empty for this tree. The Tree, Fan, Wheel, filters and Relationship finder all work.
 7. **Uttara Kanda details** (the brothers' sons and their cities) were checked through Wikipedia, which in turn cites translations such as H. P. Shastri's and the 1894 Chackravarti edition. For citation-grade work, check them against a printed critical edition: the Baroda Critical Edition, or Goldman et al., *The Rāmāyaṇa of Vālmīki* (Princeton).

@@ -1,4 +1,4 @@
-# Kindred: Family Tree (web, Android and iPhone)
+# OurFamilyTree (web, Android and iPhone)
 
 An interactive family tree built with React, TypeScript and D3. It runs in any modern browser, and the same build can be installed on a phone or desktop as a PWA. It comes loaded with a fictional five-generation, multi-country sample family (the Rossi, O'Brien, Chen and Wong lines), so every feature has something to show.
 
@@ -6,7 +6,7 @@ An interactive family tree built with React, TypeScript and D3. It runs in any m
 
 | What | How |
 |---|---|
-| **Just try it** | Double-click `Kindred.html`. It's one self-contained file and works offline. |
+| **Just try it** | Double-click `OurFamilyTree.html`. It's one self-contained file and works offline. |
 | Develop | `npm install`, then `npm run dev`, then open http://localhost:5173 |
 | Build for hosting (PWA) | `npm run build`. Deploy the `dist/` folder to any static host (Netlify, Vercel, GitHub Pages, S3). Over HTTPS, browsers offer **Install app**. |
 | Rebuild the single file | `npm run build:single` writes `dist-single/index.html` |

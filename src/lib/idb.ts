@@ -1,4 +1,5 @@
 // Tiny IndexedDB blob store for voice recordings (too large for localStorage).
+// Original database name kept on purpose: renaming it would lose saved voice recordings.
 const DB = 'kindred-media', STORE = 'blobs';
 
 function open(): Promise<IDBDatabase> {

@@ -1,7 +1,7 @@
 /**
  * Family tree of the major Hindu deities and the epic dynasties, merged with the Lord Rama tree.
  * Run: npx esbuild scripts/hindu-gods.ts --bundle --platform=node --outfile=/tmp/gods.cjs && node /tmp/gods.cjs
- * Writes data/hindu-gods-family-tree.ged (GEDCOM 5.5.1 with SOUR records) and data/hindu-gods-family-tree.json (Kindred).
+ * Writes data/hindu-gods-family-tree.ged (GEDCOM 5.5.1 with SOUR records) and data/hindu-gods-family-tree.json (OurFamilyTree).
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import type { Person, Gender, MediaItem } from '../src/types';
@@ -316,7 +316,7 @@ const wrap = (tag: string, text: string, level = 1) => {
   });
   return out;
 };
-const g: string[] = ['0 HEAD', '1 SOUR KINDRED', '2 NAME Kindred Family Tree', '1 GEDC', '2 VERS 5.5.1', '2 FORM LINEAGE-LINKED', '1 CHAR UTF-8', `1 DATE ${new Date().toUTCString().slice(5, 16).toUpperCase()}`, ...wrap('NOTE', 'Family tree of the major Hindu deities and the epic dynasties (Solar/Ikshvaku, Lunar/Kuru, Yadava), focus Krishna. Mythological genealogy: no dates. Persons named “··· … ···” are placeholders for omitted generations. See hindu-gods-family-tree-sources.md.')];
+const g: string[] = ['0 HEAD', '1 SOUR OURFAMILYTREE', '2 NAME OurFamilyTree', '1 GEDC', '2 VERS 5.5.1', '2 FORM LINEAGE-LINKED', '1 CHAR UTF-8', `1 DATE ${new Date().toUTCString().slice(5, 16).toUpperCase()}`, ...wrap('NOTE', 'Family tree of the major Hindu deities and the epic dynasties (Solar/Ikshvaku, Lunar/Kuru, Yadava), focus Krishna. Mythological genealogy: no dates. Persons named “··· … ···” are placeholders for omitted generations. See hindu-gods-family-tree-sources.md.')];
 const fams = new Map<string, { id: string; h?: string; w?: string; c: string[] }>();
 let fi = 1;
 const fam = (h?: string, w?: string) => { const k = `${h ?? ''}|${w ?? ''}`; if (!fams.has(k)) fams.set(k, { id: `F${fi++}`, h, w, c: [] }); return fams.get(k)!; };

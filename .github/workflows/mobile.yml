@@ -28,7 +28,7 @@ jobs:
         run: ./gradlew assembleDebug --no-daemon
       - uses: actions/upload-artifact@v4
         with:
-          name: Kindred-android-debug-apk
+          name: OurFamilyTree-android-debug-apk
           path: android/app/build/outputs/apk/debug/app-debug.apk
 
   ios:

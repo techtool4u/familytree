@@ -1,6 +1,6 @@
 {
-  "name": "Kindred Family Tree",
-  "short_name": "Kindred",
+  "name": "OurFamilyTree",
+  "short_name": "OurFamilyTree",
   "description": "Explore your family through tree, fan, timeline and map views.",
   "start_url": "./",
   "scope": "./",

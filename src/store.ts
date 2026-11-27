@@ -71,6 +71,7 @@ interface State {
   markAsked: (personId: string, qid: string) => void;
 }
 
+// Storage key keeps the app's original name (Kindred) so trees already saved on devices still load.
 const KEY = 'kindred-tree-v1';
 function load(): Partial<State> | null {
   try { const raw = localStorage.getItem(KEY); return raw ? JSON.parse(raw) : null; } catch { return null; }

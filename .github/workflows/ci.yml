@@ -1,7 +1,7 @@
 name: CI
 
 # Type-check, lint and build on every push and pull request.
-# The single-file app (Kindred.html) is attached to each run as a download.
+# The single-file app (OurFamilyTree.html) is attached to each run as a download.
 on:
   push:
   pull_request:
@@ -27,5 +27,5 @@ jobs:
         run: npm run build:single
       - uses: actions/upload-artifact@v4
         with:
-          name: Kindred-single-file
+          name: OurFamilyTree-single-file
           path: dist-single/index.html

@@ -2,7 +2,7 @@
 
 **Files:**
 - `hindu-gods-family-tree.ged`: GEDCOM 5.5.1 with real source (SOUR) records. It opens in Gramps, MyHeritage, Ancestry, RootsMagic and similar programs.
-- `hindu-gods-family-tree.json`: the same tree for Kindred (**⋯ → Import a tree**), with per-person source links under **Media**.
+- `hindu-gods-family-tree.json`: the same tree for OurFamilyTree (**⋯ → Import a tree**), with per-person source links under **Media**.
 
 The tree has **263 people in 162 families**, and the focus person is Krishna. It includes the full Lord Rama tree, so the Solar and Lunar dynasties connect through Vaivasvata Manu.
 

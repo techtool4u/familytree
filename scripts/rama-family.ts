@@ -1,7 +1,7 @@
 /**
  * Family tree of Lord Rama (Ikshvaku / Raghu dynasty) built from cited sources.
  * Run: npx esbuild scripts/rama-family.ts --bundle --platform=node --outfile=/tmp/rama.cjs && node /tmp/rama.cjs
- * Writes data/rama-family-tree.json (Kindred import) and data/rama-family-tree.ged (GEDCOM 5.5.1).
+ * Writes data/rama-family-tree.json (OurFamilyTree import) and data/rama-family-tree.ged (GEDCOM 5.5.1).
  */
 import { writeFileSync, mkdirSync } from 'node:fs';
 import type { Person, Gender, MediaItem } from '../src/types';
@@ -173,5 +173,5 @@ writeFileSync('data/rama-family-tree.json', JSON.stringify({
   focusId: 'rama',
   people: list,
 }, null, 2));
-writeFileSync('data/rama-family-tree.ged', toGedcom(list).replace('1 SOUR Kindred', '1 SOUR Kindred\n1 NOTE Family tree of Lord Rama compiled from the Valmiki Ramayana (Bala Kanda 70-73, Ayodhya Kanda 110) and later texts; see rama-family-tree-sources.md'));
+writeFileSync('data/rama-family-tree.ged', toGedcom(list).replace('1 SOUR OurFamilyTree', '1 SOUR OurFamilyTree\n1 NOTE Family tree of Lord Rama compiled from the Valmiki Ramayana (Bala Kanda 70-73, Ayodhya Kanda 110) and later texts; see rama-family-tree-sources.md'));
 console.log('people:', list.length, 'marriages:', marriages.length);

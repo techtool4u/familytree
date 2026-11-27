@@ -1,4 +1,4 @@
-package com.techtool4u.kindred;
+package com.techtool4u.ourfamilytree;
 
 import com.getcapacitor.BridgeActivity;
 

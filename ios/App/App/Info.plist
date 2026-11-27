@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-        <string>Kindred</string>
+        <string>OurFamilyTree</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -67,10 +67,10 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Kindred records family stories and time-capsule messages in your relatives' own voices.</string>
+	<string>OurFamilyTree records family stories and time-capsule messages in your relatives' own voices.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Kindred adds photos from your library to family members' profiles.</string>
+	<string>OurFamilyTree adds photos from your library to family members' profiles.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Kindred can take a photo to add to a family member's profile.</string>
+	<string>OurFamilyTree can take a photo to add to a family member's profile.</string>
 </dict>
 </plist>

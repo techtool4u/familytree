@@ -1,4 +1,4 @@
-# Kindred on Android and iPhone
+# OurFamilyTree on Android and iPhone
 
 One codebase, three apps. The React app is wrapped with [Capacitor](https://capacitorjs.com), so the
 same `src/` code runs as the website / PWA, an Android app (`android/`) and an iOS app (`ios/`).
@@ -6,7 +6,7 @@ same `src/` code runs as the website / PWA, an Android app (`android/`) and an i
 | | Web / PWA | Android | iPhone / iPad |
 |---|---|---|---|
 | Project | `dist/` (built) | `android/` (Android Studio) | `ios/` (Xcode) |
-| App ID | — | `com.techtool4u.kindred` | `com.techtool4u.kindred` |
+| App ID | — | `com.techtool4u.ourfamilytree` | `com.techtool4u.ourfamilytree` |
 | Built by GitHub Actions | `CI`, `Deploy to GitHub Pages` | `Mobile apps` → debug APK download | `Mobile apps` → compile check |
 
 `appId` is set in `capacitor.config.ts`. It becomes permanent once the app is in a store, so change it
@@ -15,7 +15,7 @@ before the first upload if you want a different one.
 ## Try the Android app today (no accounts needed)
 
 1. Open the repo's **Actions** tab → latest **Mobile apps** run → **Artifacts** → download
-   `Kindred-android-debug-apk`, and unzip it.
+   `OurFamilyTree-android-debug-apk`, and unzip it.
 2. Copy `app-debug.apk` to an Android phone and open it (allow "Install unknown apps" when asked).
 
 This is a test build. Data lives on the phone, separate from the browser version: use
@@ -49,7 +49,7 @@ Press ▶ in Android Studio or Xcode to run on an emulator, simulator or a plugg
 3. **Product → Archive**, then **Distribute App** to App Store Connect. Test with TestFlight first,
    then submit for review.
 
-Store listings need a **privacy policy**: Kindred keeps all data on the device, records audio only when
+Store listings need a **privacy policy**: OurFamilyTree keeps all data on the device, records audio only when
 the user taps record, and uses the internet only for map place look-ups (OpenStreetMap).
 
 Signed store builds can later be automated in GitHub Actions by adding the signing keys as repository
@@ -63,4 +63,4 @@ secrets.
 - **Microphone** (voice stories, time capsules) and **photos** ask for permission the first time.
   The permission texts are in `ios/App/App/Info.plist` and `android/app/src/main/AndroidManifest.xml`.
 - No service worker: everything is bundled inside the app, so it works offline anyway.
-- Icons and splash screens come from `assets/` (generated from the Kindred logo).
+- Icons and splash screens come from `assets/` (generated from the OurFamilyTree logo).

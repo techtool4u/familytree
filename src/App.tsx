@@ -139,7 +139,7 @@ export default function App() {
   return (
     <div className={`app ${s.filtersOpen ? 'with-filters' : ''} ${s.selectedId ? 'with-drawer' : ''}`}>
       <header className="topbar">
-        <div className="brand"><span className="logo">🌳</span><span className="brand-name">Kindred</span></div>
+        <div className="brand"><span className="logo">🌳</span><span className="brand-name">OurFamilyTree</span></div>
         <TreeSwitcher onImport={() => fileIn.current?.click()} />
         <nav className="views" aria-label="Views">
           {VIEWS.map((v, i) => (
