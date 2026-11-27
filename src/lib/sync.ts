@@ -65,7 +65,11 @@ async function attach(t: TreeDoc | undefined) {
       applyingRemote = true;
       try { useStore.setState({ trees: st().trees.map((x) => (x.cloud?.id === cid ? { ...x, name } : x)) }); } finally { applyingRemote = false; }
     })
-    .subscribe((status) => { if (status === 'CHANNEL_ERROR' || status === 'TIMED_OUT') setSync({ status: navigator.onLine ? 'error' : 'offline' }); });
+    .subscribe((status) => {
+      // catch anything that changed between the first load and live updates starting
+      if (status === 'SUBSCRIBED') refresh();
+      if (status === 'CHANNEL_ERROR' || status === 'TIMED_OUT') setSync({ status: navigator.onLine ? 'error' : 'offline' });
+    });
 }
 
 function detach() {
@@ -114,9 +118,14 @@ function onRemote(row: { id: string; data: Person; deleted: boolean; updated_by:
     applyRemote((ps) => (ps.some((p) => p.id === row.id) ? ps.map((p) => (p.id === row.id ? row.data : p)) : [...ps, row.data]));
   }
   if (row.updated_by && row.updated_by !== st().user?.id) {
-    const who = active.names.get(row.updated_by) ?? 'Someone';
     const name = fullName(row.deleted ? had! : row.data);
-    st().notify(row.deleted ? `${who} removed ${name}` : had ? `${who} updated ${name}` : `${who} added ${name}`);
+    const say = (who: string) => st().notify(row.deleted ? `${who} removed ${name}` : had ? `${who} updated ${name}` : `${who} added ${name}`);
+    const known = active.names.get(row.updated_by);
+    if (known) say(known);
+    else { // someone who joined after this tree was opened: look their name up
+      const cur = active;
+      cloud.listMembers(cur.cloudId).then((ms) => { for (const m of ms) cur.names.set(m.user_id, m.display_name || m.email?.split('@')[0] || 'Someone'); say(cur.names.get(row.updated_by!) ?? 'Someone'); }).catch(() => say('Someone'));
+    }
   }
 }
 
@@ -238,6 +247,8 @@ export function startSync() {
   });
 
   window.addEventListener('online', syncNow);
+  // safety net in case a live update was missed (e.g. a phone network blip)
+  setInterval(() => { if (document.visibilityState === 'visible' && navigator.onLine) syncNow(); }, 120_000);
   window.addEventListener('offline', () => { if (active) setSync({ status: 'offline' }); });
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') syncNow(); });
 }

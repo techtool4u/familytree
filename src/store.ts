@@ -101,6 +101,7 @@ const initialActive = initialTrees.find((t) => t.id === saved?.activeTreeId) ?? 
 const prefersDark = (() => { try { return window.matchMedia('(prefers-color-scheme: dark)').matches; } catch { return false; } })();
 
 let toastTimer: ReturnType<typeof setTimeout> | undefined;
+let blockedUntil = 0;
 
 export const useStore = create<State>((set, get) => {
   /** Save the current people list so the next change can be undone. */
@@ -109,6 +110,7 @@ export const useStore = create<State>((set, get) => {
   const blocked = () => {
     if (!get().readOnly()) return false;
     get().notify('You can view this tree but not edit it. Ask the owner to make you an editor.');
+    blockedUntil = Date.now() + 1200; // swallow the "Saved" / "Added …" message the caller shows next
     return true;
   };
   return {
@@ -250,6 +252,7 @@ export const useStore = create<State>((set, get) => {
     set({ capsules: SAMPLE_CAPSULES });
   },
   notify: (msg, opts) => {
+    if (Date.now() < blockedUntil) return;
     clearTimeout(toastTimer);
     set({ toast: msg, toastUndo: !!opts?.undo });
     toastTimer = setTimeout(() => set({ toast: null, toastUndo: false }), opts?.undo ? 6000 : 2600);

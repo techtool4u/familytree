@@ -805,3 +805,17 @@ input[type='range'] { accent-color: var(--accent); }
   .tree-switch { flex: 0 1 auto; min-width: 0; margin-right: 4px; }
   .ts-btn { max-width: 100%; }
 }
+/* top bar: let the search box give up space before anything overflows */
+@media (min-width: 901px) { .search-trigger { min-width: 0; width: 220px; flex: 0 1 auto; overflow: hidden; } .search-trigger span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } }
+@media (min-width: 901px) {
+  .views { min-width: 0; flex: 0 1 auto; overflow-x: auto; scrollbar-width: none; }
+  .views::-webkit-scrollbar { display: none; }
+  .views button { flex: none; }
+}
+@media (min-width: 901px) and (max-width: 1280px) { .views button span { display: none; } .views button { padding: 6px 9px; } }
+@media (min-width: 901px) and (max-width: 1500px) { .brand-name { display: none; } .brand { margin-right: 8px; } }
+@media (min-width: 901px) {
+  .views { flex-shrink: .02; }
+  .search-trigger { flex-shrink: 1; min-width: 36px; padding: 6px 10px; }
+}
+@media (min-width: 901px) and (max-width: 1700px) { .views button.secondary span { display: none; } .views button.secondary { padding: 6px 9px; } }

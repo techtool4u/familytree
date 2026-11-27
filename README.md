@@ -18,6 +18,19 @@ An interactive family tree built with React, TypeScript and D3. It runs in any m
 
 Your edits are saved automatically in the browser's local storage. Use **⋯ → Export tree as JSON / GEDCOM** to back them up.
 
+## Share with family
+
+Several relatives can build the same tree together, on the web and in the phone apps.
+
+1. Tap the **people icon** in the top bar and sign in with your name and email. You get a 6-digit code (or a link) by email; there are no passwords.
+2. Open the tree you want to share and tap **Share this tree online**. You become its owner, and it keeps working offline.
+3. Create an invite link **for editors** (can add and change people) or **for viewers** (can only look) and send it by WhatsApp, email or the phone's share sheet.
+4. Relatives open the link, sign in, and the tree appears for them. In the phone apps they can paste the link under **Got an invite link?**
+
+Changes show up for everyone within a second ("Ravi added Meera"). Edits made without a signal are kept on the device and sent when it reconnects. The dot on the people icon shows the state: green is up to date, amber is saving, grey is offline, red needs attention. As the owner you can switch members between *Can edit* and *Can view*, remove them, or turn an invite link off. Anyone else can leave a tree from the tree menu; the owner can delete it for everyone.
+
+Voice recordings, time capsules and "asked" questions still stay on the device that made them.
+
 ## Extra data sets
 
 - `data/rama-family-tree.json` / `.ged` is the family tree of Lord Rama (Ikshvaku dynasty) compiled from the Valmiki Ramayana. Load it with **⋯ → Import JSON or GEDCOM file**. Sources and research notes are in `data/rama-family-tree-sources.md`. To regenerate it, run `npx esbuild scripts/rama-family.ts --bundle --platform=node --outfile=/tmp/rama.cjs && node /tmp/rama.cjs`.
@@ -111,7 +124,7 @@ android/, ios/            native app projects (Capacitor), see MOBILE.md
 
 ## Ideas for a next step
 
-- Cloud sync and sharing (Supabase or Firebase) so relatives can collaborate, with roles (viewer, editor) and an approval queue.
+- Sharing next steps: change history with undo, suggestions from viewers with an approval queue, shared voice recordings and photos.
 - Publish the Android and iPhone apps to Google Play and the App Store (see [MOBILE.md](MOBILE.md)).
 - DNA match import, source citations per fact, and auto-suggested record hints.
 - Geocoding for any place name (the map currently uses the built-in gazetteer in `data/places.ts`).
