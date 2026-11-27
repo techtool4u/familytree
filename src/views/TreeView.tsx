@@ -13,6 +13,7 @@ import RelationBar from '../components/RelationBar';
 import { flagOf } from '../data/places';
 import { initials } from '../components/Avatar';
 import { ZoomIn, ZoomOut, Maximize, Crosshair, Download, Map as MapIcon, Tags, Focus, Route } from 'lucide-react';
+import { saveFile } from '../lib/native';
 
 export default function TreeView() {
   const { ix, gen, branch, matched, colorer, visible, focusId, filters } = useDerived();
@@ -180,7 +181,7 @@ export default function TreeView() {
     const data = new XMLSerializer().serializeToString(clone);
     const blob = new Blob([data], { type: 'image/svg+xml' });
     const url = URL.createObjectURL(blob);
-    const dl = (href: string, name: string) => { const a = document.createElement('a'); a.href = href; a.download = name; a.click(); };
+    const dl = (href: string, name: string) => { saveFile(name, href.startsWith('data:') ? href : blob, href.startsWith('data:') ? 'image/png' : 'image/svg+xml').catch(() => {}); };
     if (kind === 'svg') { dl(url, 'family-tree.svg'); return; }
     const img = new Image();
     img.onload = () => {

@@ -1,4 +1,4 @@
-# Kindred: Family Tree (web + installable app)
+# Kindred: Family Tree (web, Android and iPhone)
 
 An interactive family tree built with React, TypeScript and D3. It runs in any modern browser, and the same build can be installed on a phone or desktop as a PWA. It comes loaded with a fictional five-generation, multi-country sample family (the Rossi, O'Brien, Chen and Wong lines), so every feature has something to show.
 
@@ -10,6 +10,7 @@ An interactive family tree built with React, TypeScript and D3. It runs in any m
 | Develop | `npm install`, then `npm run dev`, then open http://localhost:5173 |
 | Build for hosting (PWA) | `npm run build`. Deploy the `dist/` folder to any static host (Netlify, Vercel, GitHub Pages, S3). Over HTTPS, browsers offer **Install app**. |
 | Rebuild the single file | `npm run build:single` writes `dist-single/index.html` |
+| **Android / iPhone apps** | `npm run android` or `npm run ios` opens the native project. A test Android APK is built by GitHub Actions on every push. See [MOBILE.md](MOBILE.md). |
 
 **Start your own tree:** click the tree name next to the logo, then **+ New family tree**. Enter yourself (plus, optionally, your parents and partner). The new tree opens with your profile ready. Use **Add** on any profile to add parents, children, siblings or spouses. Every tree stays saved, so you can switch between them (or rename or delete them) from the same menu. Importing a JSON or GEDCOM file also creates a new tree instead of replacing one.
 
@@ -105,11 +106,12 @@ src/
   components/             FilterPanel, ProfileDrawer, RelFinder, EditModal, CommandPalette, Avatar
   views/                  TreeView, FanView, RadialView, TimelineView, MapView, InsightsView
 public/                   PWA manifest, service worker, icons
+android/, ios/            native app projects (Capacitor), see MOBILE.md
 ```
 
 ## Ideas for a next step
 
 - Cloud sync and sharing (Supabase or Firebase) so relatives can collaborate, with roles (viewer, editor) and an approval queue.
-- Native store apps from the same codebase with Capacitor.
+- Publish the Android and iPhone apps to Google Play and the App Store (see [MOBILE.md](MOBILE.md)).
 - DNA match import, source citations per fact, and auto-suggested record hints.
 - Geocoding for any place name (the map currently uses the built-in gazetteer in `data/places.ts`).

@@ -23,6 +23,7 @@ import { activeFilterCount, parentsOf, childrenOf, siblingsOf, spousesOf, fullNa
 import type { ViewId, Person } from './types';
 import type { Place } from './data/places';
 import { Network, Sun, Moon, Search, GitFork, SlidersHorizontal, UserPlus, MoreHorizontal, CircleDot, Orbit, CalendarRange, Globe2, BarChart3, X, Download, Sparkles, Hourglass, Mic } from 'lucide-react';
+import { saveFile } from './lib/native';
 
 const MapView = lazy(() => import('./views/MapView'));
 
@@ -57,9 +58,7 @@ export default function App() {
   }, []);
 
   const download = (name: string, text: string, type = 'application/json') => {
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(new Blob([text], { type }));
-    a.download = name; a.click();
+    saveFile(name, text, type).catch(() => s.notify('Could not save the file'));
   };
   const actions = useMemo(() => [
     { label: 'Find how two people are related', run: () => s.openRelation() },

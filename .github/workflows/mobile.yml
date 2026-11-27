@@ -1,0 +1,49 @@
+name: Mobile apps
+
+# Builds the Android app (installable test APK) and checks the iOS app compiles.
+# Store-ready signed builds need your Google Play / Apple developer keys (see MOBILE.md).
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - run: npm ci
+      - name: Build web app and copy into Android project
+        run: npm run cap:sync
+      - name: Build debug APK
+        working-directory: android
+        run: ./gradlew assembleDebug --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Kindred-android-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+
+  ios:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build web app and copy into iOS project
+        run: npm run cap:sync
+      - name: Build for iOS Simulator (unsigned)
+        run: >
+          xcodebuild -project ios/App/App.xcodeproj -scheme App -configuration Debug
+          -sdk iphonesimulator -destination 'generic/platform=iOS Simulator'
+          -derivedDataPath ios/build CODE_SIGNING_ALLOWED=NO build

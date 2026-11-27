@@ -9,6 +9,7 @@ import { CapsuleToday } from '../components/CapsuleList';
 import { EchoCard, useEchoes } from '../components/EchoCards';
 import { dayIndex } from '../lib/daily';
 import { CalendarPlus, Shuffle, Hourglass, Mic, ArrowRight, Sparkles } from 'lucide-react';
+import { saveFile, isNativeApp } from '../lib/native';
 
 const greet = (h: number) => (h < 5 ? 'Good night' : h < 12 ? 'Good morning' : h < 17 ? 'Good afternoon' : 'Good evening');
 const ago = (n?: number) => (n === undefined ? '' : n === 0 ? 'This year' : n === 1 ? '1 year ago' : `${n} years ago`);
@@ -41,10 +42,9 @@ export default function TodayView() {
     if (p) { select(p.id); notify(`Meet ${fullName(p)}`); }
   };
   const downloadICS = () => {
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(new Blob([toICS(people)], { type: 'text/calendar' }));
-    a.download = 'family-birthdays.ics'; a.click();
-    notify('Calendar file downloaded — open it to add every birthday & anniversary');
+    saveFile('family-birthdays.ics', toICS(people), 'text/calendar')
+      .then(() => notify(isNativeApp() ? 'Calendar file ready — open it to add every birthday & anniversary' : 'Calendar file downloaded — open it to add every birthday & anniversary'))
+      .catch(() => notify('Could not save the calendar file'));
   };
   const col = story ? colorer.color(story.p.id) : 'var(--accent)';
   const echoes = useEchoes();

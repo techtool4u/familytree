@@ -7,6 +7,7 @@ import { StoryAudio } from '../components/StoryAudio';
 import { CapsuleSection } from '../components/CapsuleList';
 import { Mic, Send, Mail, Copy, Shuffle, Check, Search } from 'lucide-react';
 import type { Person } from '../types';
+import { openExternal } from '../lib/native';
 
 export default function StoriesView() {
   const { people, ix, colorer, focusId } = useDerived();
@@ -44,8 +45,8 @@ export default function StoriesView() {
   const send = (p: Person, qq: Question, via: 'whatsapp' | 'email' | 'copy') => {
     const msg = shareText(p, qq, focus?.given);
     if (via === 'copy') { navigator.clipboard?.writeText(msg).then(() => notify('Message copied — paste it anywhere')).catch(() => notify('Copy failed — select the text manually')); }
-    else if (via === 'whatsapp') window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, '_blank', 'noopener');
-    else window.open(`mailto:?subject=${encodeURIComponent(`A question for you, ${p.given} 🌳`)}&body=${encodeURIComponent(msg)}`, '_blank');
+    else if (via === 'whatsapp') openExternal(`https://wa.me/?text=${encodeURIComponent(msg)}`);
+    else openExternal(`mailto:?subject=${encodeURIComponent(`A question for you, ${p.given} 🌳`)}&body=${encodeURIComponent(msg)}`);
     markAsked(p.id, qq.id);
   };
 

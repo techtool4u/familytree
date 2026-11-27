@@ -19,10 +19,12 @@ The owner (Anil Chevuri) uses it for his own family, the Chevuri tree. Everythin
 
 | Command | What it does |
 |---|---|
-| `npm install` | install dependencies (Node 20+) |
+| `npm install` | install dependencies (Node 22+) |
 | `npm run dev` | dev server at http://localhost:5173 |
 | `npm run build` | type-check (`tsc -b`) + PWA build into `dist/` (deploy to Netlify, Vercel, GitHub Pages…) |
 | `npm run build:single` | one self-contained HTML file in `dist-single/index.html` |
+| `npm run cap:sync` | web build + copy into the native `android/` and `ios/` projects (Capacitor) |
+| `npm run android` / `npm run ios` | sync, then open Android Studio / Xcode |
 
 **After every change:**
 
@@ -38,6 +40,7 @@ The owner (Anil Chevuri) uses it for his own family, the Chevuri tree. Everythin
 - **zustand** for state (`src/store.ts`). The `useDerived()` hook gives computed graph data.
 - **d3**: zoom, hierarchy, arc, geo. **topojson-client** with **world-atlas** (countries-110m) for the map.
 - **lucide-react** for icons.
+- **Capacitor 8** wraps the web build as native apps (`capacitor.config.ts`, appId `com.techtool4u.kindred`, `android/`, `ios/` with Swift Package Manager). Plugins: `@capacitor/filesystem`, `@capacitor/share`. See `MOBILE.md`.
 - No CSS framework. All styles are in `src/index.css`, which uses CSS variables for light and dark themes. The mobile breakpoint is `@media (max-width: 900px)`.
 
 ## 4. Storage
@@ -93,6 +96,7 @@ src/
   lib/history.ts          world-event bands for the timeline / time machine
   lib/idb.ts              IndexedDB audio store
   lib/gedcom.ts           GEDCOM import/export
+  lib/native.ts           web/native bridge: saveFile() (download on web, share sheet in apps), openExternal(), isNativeApp()
   views/
     TodayView.tsx         home: story of the day, on this day, at your age, capsule unlocked, echo "did you know"
     TreeView.tsx          main canvas (see §8)
@@ -115,6 +119,8 @@ scripts/rama-family.ts, scripts/hindu-gods.ts   generators for the data sets
 data/                     rama-family-tree.{json,ged}, hindu-gods-family-tree.{json,ged}, *-sources.md
 public/                   PWA manifest, service worker, icons
 Kindred.html              latest single-file build (what the owner opens)
+android/, ios/            Capacitor native projects; assets/ holds icon + splash sources
+.github/workflows/        ci.yml (check + build), pages.yml (GitHub Pages from main), mobile.yml (Android APK + iOS compile)
 ```
 
 ## 7. Store (`src/store.ts`)
@@ -166,6 +172,7 @@ Any change that should be undoable calls the internal `remember()` first. `snaps
 - Keep new features filter-aware: use `matched` and `visible` from `useDerived()`.
 - Verify UI changes with Playwright screenshots on desktop (1440×900) and phone (390×844 with touch). Chromium can open `file://…/dist-single/index.html` directly. Test data can be injected into localStorage under `kindred-tree-v1` with `addInitScript`.
 - Update `README.md` (the user-facing feature guide) when features change.
+- Never create files with `<a download>` directly: use `saveFile()` from `lib/native.ts` so it also works in the native apps. Use `openExternal()` for outside links. Respect `env(safe-area-inset-*)` for anything fixed to the screen edges.
 
 ## 11. History of what was built (in order)
 
@@ -179,11 +186,12 @@ Any change that should be undoable calls the internal `remember()` first. `snaps
 8. Replaced the relationship pop-up with the docked RelationBar.
 9. Mobile pass: search icon, toast position, tap sizes, iOS input zoom, and phone layouts for Wheel, Timeline and Map.
 10. Long-name fix: names are measured and shortened or wrapped to fit (`lib/fitName.ts`), in both the tree and the fan chart.
+11. GitHub repo `techtool4u/familytree` with Actions (CI, Pages deploy). Android and iOS apps via Capacitor, with share-sheet file saving, mic/photo permissions, safe-area insets, icons and splash.
 
 ## 12. Known gaps and ideas
 
 - No cloud sync or sharing yet. Options: Supabase or Firebase, with viewer and editor roles.
-- No native store apps yet. Capacitor could wrap the PWA.
+- Native apps exist (Capacitor) but are not yet signed or published to Google Play / the App Store (see `MOBILE.md`).
 - Place lookup needs internet (Nominatim). The built-in gazetteer is small.
 - Flag emoji show as letters ("IN") on Windows, which is a Windows font limitation.
 - Possible next features: DNA match import, source citations per fact, record hints, and printing a poster-size tree.
